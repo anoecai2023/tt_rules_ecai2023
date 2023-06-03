@@ -1,0 +1,4 @@
+dataset: diabetes # adult, compas, diabetes, heloc, house
+experiment: privacy # others ...
+
+

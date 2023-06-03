@@ -1,0 +1,103 @@
+{
+  "dataset": "heloc",
+  "seed": 0,
+  "device": "cpu",
+  "data_path": "dataset/heloc/",
+  "result_path": "res/heloc_res/",
+  "rf_path": "rf/",
+  "completeness": "complete",
+  "private_train_flag": false,
+  "features_size": 330,
+  "index_c_start": 0,
+  "flag": true,
+  "rf_cv": 1,
+  "n_estimators": [
+    150
+  ],
+  "criterion": [
+    "entropy"
+  ],
+  "min_samples_split": [
+    5
+  ],
+  "min_samples_leaf": [
+    3
+  ],
+  "max_features": [
+    "sqrt"
+  ],
+  "size": 1000000,
+  "cont": "normal",
+  "clean": false,
+  "proba_threshold": 0.75,
+  "X_test_size": 0.2,
+  "epochs_max": 10,
+  "ttnet_cv": 5,
+  "epoch_scoring_scoring": "roc_auc",
+  "epoch_scoring_lower_is_better": false,
+  "lr_scheduler_monitor": "valid_loss",
+  "lr_scheduler_mode": "min",
+  "lr_scheduler_patience": 3,
+  "lr_scheduler_factor": 0.1,
+  "lr_scheduler_verbose": true,
+  "early_stopping_monitor": "valid_loss",
+  "early_stopping_patience": 50,
+  "early_stopping_threshold": 0.0001,
+  "early_stopping_threshold_mode": "rel",
+  "early_stopping_lower_is_better": true,
+  "lrs": [
+    0.1,
+    0.05,
+    0.01
+  ],
+  "optimizers": "[optim.Adam]",
+  "kernel_size": [
+    8,
+    9,
+    10
+  ],
+  "stride": [
+    1,
+    2,
+    4
+  ],
+  "padding": [
+    0
+  ],
+  "repeat": [
+    3
+  ],
+  "filter_size": [
+    5,
+    10,
+    8
+  ],
+  "embed_size": [
+    8,
+    16,
+    32
+  ],
+  "batch_size": [
+    512
+  ],
+  "dropout_value_class": [
+    0.1,
+    0
+  ],
+  "dropout_value_cnn": [
+    0.1,
+    0
+  ],
+  "family_LTT": [
+    "LR"
+  ],
+  "poly_flag": [
+    true,
+    false
+  ],
+  "weight_decay": [
+    1e-05,
+    0.0001,
+    1e-06
+  ]
+}

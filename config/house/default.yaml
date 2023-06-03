@@ -1,0 +1,83 @@
+general:
+  seed: 0
+  device: "cpu"
+  data_path: dataset/house/
+  result_path: res/house_res/
+  rf_path: rf/
+  completeness: "complete"  # which type of data do you use to train the TTnet: complete/discrete/continuous
+                            # "complete" to generate all data,
+                            # "discrete" to generate just discrete part,
+                            # "continuous" for continuous part only
+  private_train_flag: No
+  features_size: 144
+  index_c_start: 0
+
+
+train_RF:
+  flag: True # if flag is true we retrain the RF
+  cv: 1
+
+rf_grid_param:
+  # only if train_RF.flag is True
+  n_estimators: [150]
+  criterion: ["entropy"]
+  min_samples_split: [5]
+  min_samples_leaf: [3]
+  max_features: ["sqrt"]
+
+gen:
+  size: 1000000 # all data
+  cont: "normal" # how to generate the continous part of the data : normal/uniform/skewed
+                  # "normal" to generate continuous part with N(0,1),
+                 # "uniform" to use Uniform(Q1, Q3)
+                 # "skewed" to fit skewed normal
+  clean: False # filter by most probable data points
+  proba_threshold: 0.75 #0.75 means delete datapoints with predicted probability between 0.25 and 0.75
+
+train:
+  X_test_size: 0.2 # also use for RF
+  epochs_max: 500
+  epoch_scoring:
+    scoring: "roc_auc"
+    lower_is_better: False
+  lr_scheduler:
+    monitor: "valid_loss"
+    mode: "min"
+    patience: 50
+    factor: 0.1
+    verbose: True
+  early_stopping:
+    monitor: "valid_loss"
+    patience: 100
+    threshold: 0.0001
+    threshold_mode: "rel"
+    lower_is_better: True
+  cv: 5
+
+
+ttnet_grid_param:
+  lrs: [0.01]
+  weight_decay: [0.001]
+  optimizers: "[optim.Adam]"
+  kernel_size: [6]
+  stride: [2]
+  padding: [0]
+  repeat: [3]
+  filter_size: [8]
+  embed_size: [50]
+  batch_size: [128]
+  dropout_value_class: [0]
+  dropout_value_cnn: [0]
+  family_LTT: ["LR"]
+  poly_flag: [False]
+
+
+eval:
+  path_load_model: "./models/house/2023_05_24_15_20_33_904323/"
+  coef_multi: 5 # multiply LR by this term
+  nbits1: 4
+  nbits2: 0
+  val_all_possible_coef: No # Parameter to find the best quantification on train
+  coef_multi_list: [5,10,50,100]
+  nbits1_list: [0, 2, 4, 6, 8]
+  nbits2_list: [0, 2, 4, 6, 8]

@@ -1,0 +1,1818 @@
+Class 0:
+
+Position	Weight	Rule
+0	-0.0023762977216392756	0_Asian | 0_Other | 0_Caucasian & ~1_Male | 0_Caucasian & ~2_10-20 | 0_Hispanic & ~1_Male & ~2_10-20 | 1_UnknownInvalid & ~0_AfricanAmerican & ~2_10-20
+1	-0.038253653794527054	1_Male | 2_20-30 | 1_UnknownInvalid & ~0_Other | 2_10-20 & ~0_Other | 2_40-50 & ~0_Other | 1_UnknownInvalid & ~2_30-40 & ~2_50-60
+2	-0.01090291142463684	2_30-40 | 2_40-50 | 2_50-60 | 2_60-70 | 2_80-90
+3	-0.0615706741809845	2_70-80 | 2_80-90 | 3_NoInfo | 3_[100-125) & ~2_60-70 | 2_90-100 & ~3_[0-25) & ~3_[125-150)
+4	-0.00778906000778079	3_[0-25) | 3_[100-125) | 3_[125-150) | 3_[150-175) | 3_[25-50)
+5	-0.0664835125207901	3_[175-200) | 3_[25-50) | 3_[75-100) | 4_3 & ~3_[150-175) | 3_[50-75) & ~4_2 & ~4_4
+6	-0.11479420959949493	4_2 | 4_3 | 4_5 | 4_4 & ~3_[75-100) | 4_7 & ~3_[75-100)
+7	-0.037821702659130096	4_6 | 4_7 | 5_2 | 5_4 & ~4_5 | 4_8 & ~5_3 & ~5_5
+8	-0.10411009937524796	5_3 | 5_4 | 5_5 | 5_6 | 5_8
+9	0.23281395435333252	5_7 | 5_8 | 5_9 | 5_10 | 5_12
+10	-0.20571306347846985	5_11 | 5_12 | 5_13 | 5_14 | 5_16
+11	0.08458324521780014	5_15 | 5_16 | 5_17 | 5_18 | 5_20
+12	0.044795285910367966	5_19 | 5_20 | 5_22 | 5_23 | 5_25
+13	0.31610241532325745	5_24 | 5_25 | 5_28 | 6_3 & ~5_23 | 5_27 & ~6_2 & ~6_4
+14	-0.015464400872588158	6_2 | 6_3 | 6_5 | 6_4 & ~5_28 | 6_7 & ~5_28
+15	0.023146852850914	6_6 | 6_7 | 6_8 | 6_9 | 6_11
+16	0.018685130402445793	6_10 | 6_11 | 6_13 | 6_14 | 6_20
+17	0.039248254150152206	6_17 | 6_20 | 6_25 | 8_Anesthesiology & ~6_14 | 6_22 & ~8_AllergyandImmunology & ~8_Anesthesiology-Pediatric
+18	-0.016301516443490982	8_AllergyandImmunology | 8_Anesthesiology | 8_Cardiology | 8_Anesthesiology-Pediatric & ~6_25 | 8_DCPTEAM & ~6_25
+19	-0.10827451199293137	8_Cardiology-Pediatric | 8_DCPTEAM | 8_Dentistry | 8_Dermatology | 8_Endocrinology
+20	-0.09017599374055862	8_EmergencyTrauma | 8_Endocrinology | 8_Endocrinology-Metabolism | 8_FamilyGeneralPractice | 8_Gynecology
+21	0.0487658828496933	8_Gastroenterology | 8_Gynecology | 8_Hematology | 8_HematologyOncology | 8_InfectiousDiseases
+22	0.07511289417743683	8_Hospitalist | 8_InfectiousDiseases | 8_InternalMedicine | 8_Nephrology | 8_Neurophysiology
+23	0.09854695200920105	8_Neurology | 8_Neurophysiology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Obstetrics | 8_Oncology
+24	0.07128249108791351	8_ObstetricsandGynecology | 8_Oncology | 8_Ophthalmology | 8_Orthopedics | 8_Osteopath
+25	-0.12187352776527405	8_Orthopedics-Reconstructive | 8_Osteopath | 8_Otolaryngology | 8_OutreachServices | 8_Pediatrics
+26	-0.18261082470417023	8_Pathology | 8_Pediatrics | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-CriticalCare | 8_Pediatrics-Endocrinology
+27	-0.09487493336200714	8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Endocrinology | 8_Pediatrics-Hematology-Oncology | 8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Pulmonology
+28	0.04740426316857338	8_Pediatrics-Neurology | 8_Pediatrics-Pulmonology | 8_Perinatology | 8_PhysicalMedicineandRehabilitation | 8_Podiatry
+29	-0.020457159727811813	8_PhysicianNotFound | 8_Podiatry | 8_Proctology | 8_Psychiatry | 8_Psychiatry-ChildAdolescent
+30	0.028011776506900787	8_Psychiatry-Addictive | 8_Psychiatry-ChildAdolescent | 8_Psychology | 8_Pulmonology | 8_Radiology
+31	0.05148708447813988	8_Radiologist | 8_Radiology | 8_Resident | 8_Rheumatology | 8_SportsMedicine
+32	-0.02715756744146347	8_Speech | 8_SportsMedicine | 8_Surgeon | 8_Surgery-Cardiovascular | 8_Surgery-Colon&Rectal
+33	-0.04452633485198021	8_Surgery-CardiovascularThoracic | 8_Surgery-Colon&Rectal | 8_Surgery-General | 8_Surgery-Maxillofacial | 8_Surgery-Pediatric
+34	0.040192488580942154	8_Surgery-Neuro | 8_Surgery-Pediatric | 8_Surgery-Plastic | 8_Surgery-PlasticwithinHeadandNeck | 8_Surgery-Vascular
+35	0.05669672042131424	8_Surgery-Thoracic | 8_Surgery-Vascular | 8_Urology | 12_2 & ~8_Surgery-PlasticwithinHeadandNeck | 8_SurgicalSpecialty & ~12_1 & ~12_3
+36	-0.05484255030751228	12_1 | 12_2 | 12_4 | 12_3 & ~8_Urology | 12_6 & ~8_Urology
+37	-0.10011538863182068	12_5 | 12_6 | 12_7 | 12_8 | 12_10
+38	0.01434258371591568	12_9 | 12_10 | 12_11 | 12_12 | 12_14
+39	-0.023800790309906006	12_13 | 12_14 | 12_15 | 12_16 | 12_18
+40	0.0009067318751476705	12_17 | 12_18 | 12_19 | 12_20 | 12_22
+41	0.02397579327225685	12_21 | 12_22 | 12_23 | 12_24 | 12_26
+42	-0.01281268522143364	12_25 | 12_26 | 12_27 | 12_28 | 12_33
+43	-0.028611768037080765	12_29 | 12_33 | 12_34 | 12_35 | 12_37
+44	-0.012467634864151478	12_36 | 12_37 | 12_39 | 12_38 & ~13_1 | 12_42 & ~13_1
+45	0.01886104792356491	12_40 | 12_42 | 13_2 | 13_1 & ~12_39 | 13_4 & ~12_39
+46	0.13628888130187988	13_3 | 13_4 | 13_5 | 13_6 | 13_8
+47	0.06085053086280823	13_7 | 13_8 | 13_9 | 13_10 | 13_12
+48	-0.00015732865722384304	13_11 | 13_12 | 13_13 | 13_14 | 13_16
+49	0.12125082314014435	13_15 | 13_16 | 13_18 | 13_19 | 13_21
+50	0.09061944484710693	13_20 | 13_21 | 13_22 | 13_24 | 13_28
+51	-0.017936591058969498	13_25 | 13_28 | 13_29 | 13_37 | 13_46
+52	-0.018912339583039284	13_42 | 13_46 | 13_63 | 13_54 & ~14_1 | 13_76 & ~14_1
+53	-0.05300094932317734	13_64 | 13_76 | 14_2 | 14_1 & ~13_63 | 14_4 & ~13_63
+54	0.17819423973560333	14_3 | 14_4 | 14_5 | 14_6 | 14_8
+55	0.2973218858242035	14_7 | 14_8 | 14_9 | 14_10 | 14_12
+56	0.26488447189331055	14_11 | 14_12 | 14_13 | 14_14 | 14_16
+57	0.1705649346113205	14_15 | 14_16 | 14_18 | 14_17 & ~16_>300 | 14_21 & ~16_>300
+58	-0.030587617307901382	14_19 | 16_None | 16_>300 & 17_>8 | 14_21 & ~16_Norm | 14_21 & ~17_None | 16_>300 & ~14_18 & ~17_None | 17_>8 & ~14_18 & ~16_Norm
+59	0.029191739857196808	16_Norm | 17_Norm | 17_None & 18_Steady | 17_>8 & ~16_None | 18_Steady & ~16_None | 17_>8 & ~18_No & ~18_Up | 17_None & ~16_None & ~18_No & ~18_Up
+60	0.06730546057224274	18_No | 19_No | 18_Up & 19_Up & ~20_No | 18_Steady & ~17_Norm & ~19_Steady | 18_Steady & ~17_Norm & ~20_No | 18_Steady & ~19_Steady & ~20_No | 19_Up & ~17_Norm & ~20_No | 18_Up & ~17_Norm & ~19_Steady & ~20_No
+61	0.06712742149829865	19_Steady | 20_Steady | 20_No & 21_No | 19_Up & ~20_Up | 19_Up & ~21_Steady | 20_No & ~19_No & ~21_Steady | 21_No & ~19_No & ~20_Up
+62	-0.08955615758895874	20_Up | 21_Up | 21_Steady & 22_Steady | 21_No & ~20_Steady | 22_Steady & ~20_Steady | 21_No & ~22_No & ~22_Up | 21_Steady & ~20_Steady & ~22_No & ~22_Up
+63	-0.10378854721784592	22_No | 23_Steady | 22_Up & 24_Steady | 22_Steady & ~21_Up | 24_Steady & ~21_Up | 22_Steady & ~24_No & ~24_Up | 22_Up & ~21_Up & ~24_No & ~24_Up
+64	-0.01689668372273445	24_No | 25_No | 24_Up & 25_Up & ~26_Steady | 24_Steady & ~23_Steady & ~25_Steady | 24_Steady & ~23_Steady & ~26_Steady | 24_Steady & ~25_Steady & ~26_Steady | 25_Up & ~23_Steady & ~26_Steady | 24_Up & ~23_Steady & ~25_Steady & ~26_Steady
+65	0.025825677439570427	25_Steady | 27_No | 25_Up & 26_Steady | 25_Up & ~27_Steady | 25_Up & ~28_No | 26_Steady & 27_Up & ~28_No | 27_Up & ~25_No & ~28_No | 26_Steady & ~25_No & ~27_Steady & ~28_No
+66	0.08420062065124512	27_Steady | 28_Steady | 28_No & 29_No | 27_Up & ~28_Up | 27_Up & ~29_Steady | 28_No & ~27_No & ~29_Steady | 29_No & ~27_No & ~28_Up
+67	0.07872318476438522	28_Up | 29_Up | 29_Steady & 30_Steady | 29_No & ~28_Steady | 30_Steady & ~28_Steady | 29_No & ~30_No & ~30_Up | 29_Steady & ~28_Steady & ~30_No & ~30_Up
+68	-0.03779306635260582	30_No | 30_Steady & 31_Steady | 30_Up & 31_Steady | 31_Steady & ~29_Up | 31_Steady & ~32_Steady | 31_Steady & ~35_No | 30_Up & 32_Up & ~35_No | 30_Steady & ~29_Up & ~32_Steady | 30_Steady & ~29_Up & ~35_No | 30_Steady & ~32_Steady & ~35_No | 32_Up & ~29_Up & ~35_No | 30_Up & ~29_Up & ~32_Steady & ~35_No
+69	0.010162701830267906	32_Steady | 35_Steady | 32_Up & 35_No | 32_Up & 36_No | 35_No & 36_No | 32_Up & ~31_Steady & ~35_Up | 32_Up & ~31_Steady & ~36_Steady | 32_Up & ~35_Up & ~36_Steady | 35_No & ~31_Steady & ~36_Steady | 36_No & ~31_Steady & ~35_Up
+70	0.13934741914272308	35_Up | 36_Up & 38_Steady | 36_Up & ~35_Steady | 36_Up & ~37_Steady | 36_Up & ~39_Steady | 36_No & 38_Steady & ~35_Steady | 36_No & 38_Steady & ~39_Steady | 36_No & ~35_Steady & ~37_Steady | 36_No & ~35_Steady & ~39_Steady | 36_No & ~37_Steady & ~39_Steady | 36_Steady & 38_Steady & ~35_Steady & ~39_Steady | 36_Steady & 38_Steady & ~37_Steady & ~39_Steady | 36_Steady & ~35_Steady & ~37_Steady & ~39_Steady | 38_Steady & ~35_Steady & ~37_Steady & ~39_Steady
+71	0.025354618206620216	37_Steady | 38_Steady & 40_Steady | 39_Steady & 40_Steady | 40_Steady & 42_Yes | 40_Steady & ~36_Up | 40_Steady & ~41_No | 40_Steady & ~time_in_hospital_ST_ | 38_Steady & 39_Steady & 42_Yes | 38_Steady & 39_Steady & ~36_Up | 38_Steady & 39_Steady & ~41_No | 38_Steady & 39_Steady & ~time_in_hospital_ST_ | 38_Steady & 42_Yes & ~36_Up | 38_Steady & 42_Yes & ~time_in_hospital_ST_ | 38_Steady & ~36_Up & ~41_No | 38_Steady & ~36_Up & ~time_in_hospital_ST_ | 38_Steady & ~41_No & ~time_in_hospital_ST_ | 39_Steady & 42_Yes & ~36_Up & ~time_in_hospital_ST_ | 39_Steady & 42_Yes & ~41_No & ~time_in_hospital_ST_ | 39_Steady & ~36_Up & ~41_No & ~time_in_hospital_ST_ | 42_Yes & ~36_Up & ~41_No & ~time_in_hospital_ST_
+72	-7.946193250063516e-07	41_No | num_lab_procedures_ST_ | 42_Yes & time_in_hospital_ST_ & ~40_Steady | 42_Yes & time_in_hospital_ST_ & ~num_procedures_ST_ | 42_Yes & time_in_hospital_ST_ & ~number_diagnoses_ST_ | time_in_hospital_ST_ & num_medications_ST_ & ~number_diagnoses_ST_ | 42_Yes & ~40_Steady & ~num_procedures_ST_ | 42_Yes & ~40_Steady & ~number_diagnoses_ST_ | 42_Yes & ~num_procedures_ST_ & ~number_diagnoses_ST_ | num_medications_ST_ & ~40_Steady & ~number_diagnoses_ST_ | time_in_hospital_ST_ & ~40_Steady & ~num_procedures_ST_ & ~number_diagnoses_ST_
+73	0.013546664267778397	num_procedures_ST_ | num_medications_ST_ | time_in_hospital_ST_17.48 | number_diagnoses_ST_ & ~num_medications_ST_51.66 | num_procedures_ST_8.82 & ~num_lab_procedures_ST_ & ~num_lab_procedures_ST_129.36 & ~num_medications_ST_51.66
+74	-0.04247047007083893	num_lab_procedures_ST_129.36 | number_diagnoses_ST_15.9 | num_procedures_ST_8.82 & ~time_in_hospital_ST_17.48 | num_procedures_ST_8.82 & ~num_procedures_ST_-0.5 | num_medications_ST_51.66 & ~time_in_hospital_ST_17.48 & ~num_procedures_ST_-0.5 | num_lab_procedures_ST_21.86 & ~time_in_hospital_ST_17.48 & ~num_procedures_ST_-0.5
+75	0.008617683313786983	0_Other & ~1_UnknownInvalid & ~2_10-20 | ~0_AfricanAmerican & ~0_Asian & ~0_Caucasian & ~0_Hispanic & ~0_Other & ~1_UnknownInvalid | ~0_AfricanAmerican & ~0_Asian & ~0_Caucasian & ~0_Hispanic & ~0_Other & ~2_10-20
+76	-0.0032950572203844786	~0_Other & ~1_Male & ~1_UnknownInvalid & ~2_10-20
+77	-0.00132174591999501	~2_20-30 & ~2_30-40 & ~2_40-50 & ~2_50-60
+78	0.0012849353952333331	~2_60-70 & ~2_70-80 & ~2_80-90 & ~2_90-100
+79	-0.014076718129217625	~3_NoInfo & ~3_[0-25) & ~3_[100-125) & ~3_[125-150)
+80	0.01771104708313942	3_[75-100) & ~4_3 & ~4_4 | ~3_[150-175) & ~3_[175-200) & ~3_[25-50) & ~3_[50-75) & ~3_[75-100)
+81	-0.015636542811989784	~3_[75-100) & ~4_2 & ~4_3 & ~4_4
+82	-0.012289082631468773	~4_5 & ~4_6 & ~4_7 & ~4_8
+83	-0.004184846766293049	~5_2 & ~5_3 & ~5_4 & ~5_5
+84	0.012544124387204647	~5_6 & ~5_7 & ~5_8 & ~5_9
+85	0.04056283086538315	~5_10 & ~5_11 & ~5_12 & ~5_13
+86	-0.044968366622924805	~5_14 & ~5_15 & ~5_16 & ~5_17
+87	0.003095631953328848	~5_18 & ~5_19 & ~5_20 & ~5_22
+88	0.015029934234917164	5_28 & ~6_3 & ~6_4 | ~5_23 & ~5_24 & ~5_25 & ~5_27 & ~5_28
+89	0.005534167867153883	~5_28 & ~6_2 & ~6_3 & ~6_4
+90	-0.014839042909443378	~6_5 & ~6_6 & ~6_7 & ~6_8
+91	0.015588500536978245	~6_9 & ~6_10 & ~6_11 & ~6_13
+92	-0.03007989563047886	6_25 & ~8_Anesthesiology & ~8_Anesthesiology-Pediatric | ~6_14 & ~6_17 & ~6_20 & ~6_22 & ~6_25
+93	-0.0076650273986160755	~6_25 & ~8_AllergyandImmunology & ~8_Anesthesiology & ~8_Anesthesiology-Pediatric
+94	-0.02524544671177864	~8_Cardiology & ~8_Cardiology-Pediatric & ~8_DCPTEAM & ~8_Dentistry
+95	0.03580523654818535	~8_Dermatology & ~8_EmergencyTrauma & ~8_Endocrinology & ~8_Endocrinology-Metabolism
+96	-0.00540399644523859	~8_FamilyGeneralPractice & ~8_Gastroenterology & ~8_Gynecology & ~8_Hematology
+97	-0.01468073669821024	~8_HematologyOncology & ~8_Hospitalist & ~8_InfectiousDiseases & ~8_InternalMedicine
+98	0.01417503971606493	~8_Nephrology & ~8_Neurology & ~8_Neurophysiology & ~8_Obsterics&Gynecology-GynecologicOnco
+99	0.013808947056531906	~8_Obstetrics & ~8_ObstetricsandGynecology & ~8_Oncology & ~8_Ophthalmology
+100	-0.043049585074186325	~8_Orthopedics & ~8_Orthopedics-Reconstructive & ~8_Osteopath & ~8_Otolaryngology
+101	-0.019139371812343597	~8_OutreachServices & ~8_Pathology & ~8_Pediatrics & ~8_Pediatrics-AllergyandImmunology
+102	0.0011512836208567023	~8_Pediatrics-CriticalCare & ~8_Pediatrics-EmergencyMedicine & ~8_Pediatrics-Endocrinology & ~8_Pediatrics-Hematology-Oncology
+103	-0.007748695090413094	~8_Pediatrics-InfectiousDiseases & ~8_Pediatrics-Neurology & ~8_Pediatrics-Pulmonology & ~8_Perinatology
+104	0.009088987484574318	~8_PhysicalMedicineandRehabilitation & ~8_PhysicianNotFound & ~8_Podiatry & ~8_Proctology
+105	0.018297474831342697	~8_Psychiatry & ~8_Psychiatry-Addictive & ~8_Psychiatry-ChildAdolescent & ~8_Psychology
+106	-0.07041112333536148	~8_Pulmonology & ~8_Radiologist & ~8_Radiology & ~8_Resident
+107	-0.006431269459426403	~8_Rheumatology & ~8_Speech & ~8_SportsMedicine & ~8_Surgeon
+108	0.011660934425890446	~8_Surgery-Cardiovascular & ~8_Surgery-CardiovascularThoracic & ~8_Surgery-Colon&Rectal & ~8_Surgery-General
+109	0.030943162739276886	~8_Surgery-Maxillofacial & ~8_Surgery-Neuro & ~8_Surgery-Pediatric & ~8_Surgery-Plastic
+110	-0.018483130261301994	8_Urology & ~12_2 & ~12_3 | ~8_Surgery-PlasticwithinHeadandNeck & ~8_Surgery-Thoracic & ~8_Surgery-Vascular & ~8_SurgicalSpecialty & ~8_Urology
+111	-0.007710030768066645	~8_Urology & ~12_1 & ~12_2 & ~12_3
+112	-0.028243204578757286	~12_4 & ~12_5 & ~12_6 & ~12_7
+113	-0.00959607120603323	~12_8 & ~12_9 & ~12_10 & ~12_11
+114	0.019201265648007393	~12_12 & ~12_13 & ~12_14 & ~12_15
+115	0.010914046317338943	~12_16 & ~12_17 & ~12_18 & ~12_19
+116	0.029499897733330727	~12_20 & ~12_21 & ~12_22 & ~12_23
+117	-0.004492363426834345	~12_24 & ~12_25 & ~12_26 & ~12_27
+118	-0.009480725973844528	~12_28 & ~12_29 & ~12_33 & ~12_34
+119	-0.007901545614004135	~12_35 & ~12_36 & ~12_37 & ~12_38 & ~13_1 | ~12_35 & ~12_36 & ~12_37 & ~12_38 & ~12_39 & ~12_42
+120	0.027835583314299583	~12_39 & ~12_40 & ~12_42 & ~13_1
+121	-0.00881698913872242	~13_2 & ~13_3 & ~13_4 & ~13_5
+122	-0.06422454118728638	~13_6 & ~13_7 & ~13_8 & ~13_9
+123	-0.010572871193289757	~13_10 & ~13_11 & ~13_12 & ~13_13
+124	0.010849718935787678	~13_14 & ~13_15 & ~13_16 & ~13_18
+125	0.05806493014097214	~13_19 & ~13_20 & ~13_21 & ~13_22
+126	0.04769034683704376	~13_24 & ~13_25 & ~13_28 & ~13_29
+127	-0.010860787704586983	~13_37 & ~13_42 & ~13_46 & ~13_54 & ~14_1 | ~13_37 & ~13_42 & ~13_46 & ~13_54 & ~13_63 & ~13_76
+128	-0.018814869225025177	~13_63 & ~13_64 & ~13_76 & ~14_1
+129	0.024769147858023643	~14_2 & ~14_3 & ~14_4 & ~14_5
+130	0.020401248708367348	~14_6 & ~14_7 & ~14_8 & ~14_9
+131	-0.08576641231775284	~14_10 & ~14_11 & ~14_12 & ~14_13
+132	-0.011656583286821842	~14_14 & ~14_15 & ~14_16 & ~14_17 & ~16_>300 | ~14_14 & ~14_15 & ~14_16 & ~14_17 & ~14_18 & ~14_21
+133	0.015010794624686241	~14_18 & ~14_19 & ~14_21 & ~16_>300 & ~16_None | ~14_18 & ~14_19 & ~14_21 & ~16_>300 & ~17_>8 & ~17_None
+134	0.013824667781591415	17_Norm & ~16_None & ~16_Norm & ~18_Steady & ~18_Up | ~16_None & ~16_Norm & ~17_>8 & ~17_None & ~17_Norm
+135	0.0052708471193909645	~17_Norm & ~18_No & ~18_Steady & ~18_Up & ~20_No | ~17_Norm & ~18_No & ~18_Steady & ~18_Up & ~19_No & ~19_Up
+136	-0.02646781876683235	~19_No & ~19_Steady & ~19_Up & ~20_No & ~20_Steady | ~19_No & ~19_Steady & ~19_Up & ~20_No & ~21_No & ~21_Steady
+137	0.007235086988657713	21_Up & ~20_Steady & ~20_Up & ~22_Steady & ~22_Up | ~20_Steady & ~20_Up & ~21_No & ~21_Steady & ~21_Up
+138	-0.05293751135468483	~21_Up & ~22_No & ~22_Steady & ~22_Up & ~23_Steady | ~21_Up & ~22_No & ~22_Steady & ~22_Up & ~24_Steady & ~24_Up
+139	0.00904719065874815	~23_Steady & ~24_No & ~24_Steady & ~24_Up & ~26_Steady | ~23_Steady & ~24_No & ~24_Steady & ~24_Up & ~25_No & ~25_Up
+140	-0.009868311695754528	~25_No & ~25_Steady & ~25_Up & ~26_Steady & ~28_No | ~25_No & ~25_Steady & ~25_Up & ~26_Steady & ~27_No & ~27_Up
+141	0.03954269737005234	~27_No & ~27_Steady & ~27_Up & ~28_No & ~28_Steady | ~27_No & ~27_Steady & ~27_Up & ~28_No & ~29_No & ~29_Steady
+142	-0.00996111799031496	29_Up & ~28_Steady & ~28_Up & ~30_Steady & ~30_Up | ~28_Steady & ~28_Up & ~29_No & ~29_Steady & ~29_Up
+143	0.0028124998789280653	~29_Up & ~30_No & ~30_Steady & ~30_Up & ~31_Steady & ~32_Up | ~29_Up & ~30_No & ~30_Steady & ~30_Up & ~31_Steady & ~35_No | ~29_Up & ~30_No & ~30_Steady & ~30_Up & ~32_Up & ~35_No
+144	0.010338199324905872	~31_Steady & ~32_Steady & ~32_Up & ~35_No & ~35_Steady | ~31_Steady & ~32_Steady & ~32_Up & ~35_No & ~36_No & ~36_Steady
+145	-0.002439402509480715	36_Up & ~35_Steady & ~35_Up & ~38_Steady & ~39_Steady | ~35_Steady & ~35_Up & ~36_No & ~36_Steady & ~36_Up & ~38_Steady | ~35_Steady & ~35_Up & ~36_No & ~36_Steady & ~36_Up & ~39_Steady
+146	0.002159630646929145	~36_Up & ~37_Steady & ~38_Steady & ~39_Steady & ~40_Steady & ~42_Yes | ~36_Up & ~37_Steady & ~38_Steady & ~39_Steady & ~40_Steady & ~time_in_hospital_ST_ | ~36_Up & ~37_Steady & ~38_Steady & ~39_Steady & ~42_Yes & ~time_in_hospital_ST_
+147	-0.009433894418179989	~40_Steady & ~41_No & ~42_Yes & ~time_in_hospital_ST_ & ~number_diagnoses_ST_ | ~40_Steady & ~41_No & ~42_Yes & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_ & ~num_medications_ST_
+148	-0.008620142936706543	time_in_hospital_ST_17.48 & ~num_procedures_ST_8.82 & ~num_medications_ST_51.66 | ~num_lab_procedures_ST_ & ~num_procedures_ST_ & ~num_medications_ST_ & ~number_diagnoses_ST_ & ~time_in_hospital_ST_17.48 & ~num_procedures_ST_8.82 | ~num_lab_procedures_ST_ & ~num_procedures_ST_ & ~num_medications_ST_ & ~number_diagnoses_ST_ & ~time_in_hospital_ST_17.48 & ~num_medications_ST_51.66
+149	-0.0025405380874872208	~time_in_hospital_ST_17.48 & ~num_lab_procedures_ST_129.36 & ~num_procedures_ST_8.82 & ~num_medications_ST_51.66 & ~num_procedures_ST_-0.5 | ~time_in_hospital_ST_17.48 & ~num_lab_procedures_ST_129.36 & ~num_procedures_ST_8.82 & ~num_medications_ST_51.66 & ~number_diagnoses_ST_15.9 & ~num_lab_procedures_ST_21.86
+150	-0.008682350628077984	0_Asian | 0_Caucasian | 0_AfricanAmerican & ~1_Male | 2_10-20 & ~0_Other | 2_10-20 & ~1_Male | 1_UnknownInvalid & ~0_Hispanic & ~0_Other
+151	0.07068571448326111	2_40-50 | 2_50-60 | 0_Other & 1_Male | 1_Male & ~2_20-30 | 0_Other & 1_UnknownInvalid & ~2_20-30 | 1_UnknownInvalid & ~2_10-20 & ~2_20-30 | 0_Other & ~2_10-20 & ~2_20-30 & ~2_30-40
+152	0.08503851294517517	2_20-30 | 2_30-40 | 2_40-50 | 2_80-90 | 2_90-100
+153	-0.06918440014123917	3_[125-150) | 2_70-80 & ~3_NoInfo | 2_80-90 & ~3_NoInfo | 3_[100-125) & ~2_90-100 | 2_60-70 & ~3_NoInfo & ~3_[0-25)
+154	0.09662424772977829	3_NoInfo | 3_[0-25) | 3_[100-125) | 3_[25-50) | 3_[50-75)
+155	-2.4644063159939833e-05	3_[175-200) | 3_[25-50) | 4_4 | 3_[150-175) & ~4_2 | 4_3 & ~3_[50-75) & ~3_[75-100)
+156	-0.006943747866898775	4_2 | 4_3 | 4_7 | 4_8 | 3_[75-100) & ~4_4 & ~4_5 & ~4_6
+157	0.04285959154367447	5_5 | 4_6 & ~5_2 | 4_7 & ~5_2 | 5_4 & ~4_8 | 4_5 & ~5_2 & ~5_3
+158	0.11199130117893219	5_2 | 5_3 | 5_4 | 5_8 | 5_9
+159	-0.07759903371334076	5_6 | 5_7 | 5_8 | 5_12 | 5_13
+160	-0.34691572189331055	5_10 | 5_11 | 5_12 | 5_16 | 5_17
+161	0.6049436330795288	5_14 | 5_15 | 5_16 | 5_20 | 5_22
+162	-0.14091698825359344	5_18 | 5_19 | 5_20 | 5_25 | 5_27
+163	-0.20471113920211792	5_24 | 5_25 | 6_4 | 5_23 & ~6_2 | 6_3 & ~5_27 & ~5_28
+164	-0.10785973072052002	6_2 | 6_3 | 6_7 | 6_8 | 5_28 & ~6_4 & ~6_5 & ~6_6
+165	0.019801201298832893	6_5 | 6_6 | 6_7 | 6_11 | 6_13
+166	0.03603186830878258	6_9 | 6_10 | 6_11 | 6_20 | 6_22
+167	0.035107407718896866	6_17 | 6_20 | 8_Anesthesiology-Pediatric | 6_14 & ~8_AllergyandImmunology | 8_Anesthesiology & ~6_22 & ~6_25
+168	0.014715087600052357	8_AllergyandImmunology | 8_Anesthesiology | 8_DCPTEAM | 8_Dentistry | 6_25 & ~8_Anesthesiology-Pediatric & ~8_Cardiology & ~8_Cardiology-Pediatric
+169	-0.14477404952049255	8_Cardiology | 8_Cardiology-Pediatric | 8_DCPTEAM | 8_Endocrinology | 8_Endocrinology-Metabolism
+170	0.012093224562704563	8_Dermatology | 8_EmergencyTrauma | 8_Endocrinology | 8_Gynecology | 8_Hematology
+171	-0.13205066323280334	8_FamilyGeneralPractice | 8_Gastroenterology | 8_Gynecology | 8_InfectiousDiseases | 8_InternalMedicine
+172	0.05284196883440018	8_HematologyOncology | 8_Hospitalist | 8_InfectiousDiseases | 8_Neurophysiology | 8_Obsterics&Gynecology-GynecologicOnco
+173	0.17161782085895538	8_Nephrology | 8_Neurology | 8_Neurophysiology | 8_Oncology | 8_Ophthalmology
+174	-0.1078496053814888	8_Obstetrics | 8_ObstetricsandGynecology | 8_Oncology | 8_Osteopath | 8_Otolaryngology
+175	0.04005936533212662	8_Orthopedics | 8_Orthopedics-Reconstructive | 8_Osteopath | 8_Pediatrics | 8_Pediatrics-AllergyandImmunology
+176	-0.15571661293506622	8_OutreachServices | 8_Pathology | 8_Pediatrics | 8_Pediatrics-Endocrinology | 8_Pediatrics-Hematology-Oncology
+177	-0.1115652322769165	8_Pediatrics-CriticalCare | 8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Endocrinology | 8_Pediatrics-Pulmonology | 8_Perinatology
+178	-0.03401048481464386	8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Neurology | 8_Pediatrics-Pulmonology | 8_Podiatry | 8_Proctology
+179	0.025652671232819557	8_PhysicalMedicineandRehabilitation | 8_PhysicianNotFound | 8_Podiatry | 8_Psychiatry-ChildAdolescent | 8_Psychology
+180	0.09452936053276062	8_Psychiatry | 8_Psychiatry-Addictive | 8_Psychiatry-ChildAdolescent | 8_Radiology | 8_Resident
+181	-0.008836355991661549	8_Pulmonology | 8_Radiologist | 8_Radiology | 8_SportsMedicine | 8_Surgeon
+182	0.039954110980033875	8_Rheumatology | 8_Speech | 8_SportsMedicine | 8_Surgery-Colon&Rectal | 8_Surgery-General
+183	-0.006065763533115387	8_Surgery-Cardiovascular | 8_Surgery-CardiovascularThoracic | 8_Surgery-Colon&Rectal | 8_Surgery-Pediatric | 8_Surgery-Plastic
+184	0.0013545473339036107	8_Surgery-Maxillofacial | 8_Surgery-Neuro | 8_Surgery-Pediatric | 8_Surgery-Vascular | 8_SurgicalSpecialty
+185	-0.02516166865825653	8_Surgery-Thoracic | 8_Surgery-Vascular | 12_3 | 8_Surgery-PlasticwithinHeadandNeck & ~12_1 | 12_2 & ~8_SurgicalSpecialty & ~8_Urology
+186	-0.03198898211121559	12_1 | 12_2 | 12_6 | 12_7 | 8_Urology & ~12_3 & ~12_4 & ~12_5
+187	-0.006167558021843433	12_4 | 12_5 | 12_6 | 12_10 | 12_11
+188	-0.11356819421052933	12_8 | 12_9 | 12_10 | 12_14 | 12_15
+189	0.1004863977432251	12_12 | 12_13 | 12_14 | 12_18 | 12_19
+190	0.01827823370695114	12_16 | 12_17 | 12_18 | 12_22 | 12_23
+191	-0.021803580224514008	12_20 | 12_21 | 12_22 | 12_26 | 12_27
+192	-0.028765343129634857	12_24 | 12_25 | 12_26 | 12_33 | 12_34
+193	-0.023087337613105774	12_28 | 12_29 | 12_33 | 12_37 | 12_38
+194	0.04446450248360634	12_35 | 12_36 | 12_37 | 12_42 | 13_1
+195	0.12936589121818542	13_4 | 13_5 | 12_40 & ~13_2 | 12_42 & ~13_1 & ~13_2 | 12_39 & ~13_1 & ~13_2 & ~13_3
+196	0.07805706560611725	13_2 | 13_3 | 13_4 | 13_8 | 13_9
+197	0.06718175113201141	13_6 | 13_7 | 13_8 | 13_12 | 13_13
+198	0.05988672748208046	13_10 | 13_11 | 13_12 | 13_16 | 13_18
+199	0.10451433807611465	13_14 | 13_15 | 13_16 | 13_21 | 13_22
+200	0.0840880274772644	13_19 | 13_20 | 13_21 | 13_28 | 13_29
+201	-0.029255347326397896	13_24 | 13_25 | 13_28 | 13_46 | 13_54
+202	0.03282128646969795	13_37 | 13_42 | 13_46 | 13_76 | 14_1
+203	0.16353781521320343	14_4 | 14_5 | 13_64 & ~14_2 | 13_76 & ~14_1 & ~14_2 | 13_63 & ~14_1 & ~14_2 & ~14_3
+204	0.22644181549549103	14_2 | 14_3 | 14_4 | 14_8 | 14_9
+205	0.29675406217575073	14_6 | 14_7 | 14_8 | 14_12 | 14_13
+206	0.35136595368385315	14_10 | 14_11 | 14_12 | 14_16 | 14_17
+207	0.12242582440376282	14_14 | 14_15 | 14_16 | 14_21 | 16_>300
+208	0.027668116614222527	17_None | 14_19 & 17_>8 | 14_19 & ~16_None | 14_18 & 17_>8 & ~16_None | 14_21 & 17_>8 & ~16_None | 14_21 & ~16_>300 & ~16_None | 14_18 & ~16_>300 & ~16_None & ~16_Norm | 17_>8 & ~16_>300 & ~16_None & ~16_Norm
+209	0.02742544189095497	17_>8 | 18_Up | 16_Norm & 18_Steady | 16_None & 18_Steady & ~17_Norm | 16_Norm & ~17_None & ~17_Norm | 16_Norm & ~17_Norm & ~18_No | 18_Steady & ~17_None & ~17_Norm | 16_None & ~17_None & ~17_Norm & ~18_No
+210	0.055525586009025574	17_Norm & 18_No | 17_Norm & 19_Up | 18_No & ~19_No | 18_Steady & ~19_No | 19_Up & ~18_Up | 20_No & ~18_Up | 20_No & ~19_No | 17_Norm & ~18_Up & ~19_No & ~19_Steady
+211	-0.011839060112833977	21_Steady | 19_Steady & 21_No | 19_Steady & ~20_Steady | 19_No & 21_No & ~20_Steady | 19_Up & 21_No & ~20_Steady | 19_Up & ~20_No & ~20_Steady | 19_No & ~20_No & ~20_Steady & ~20_Up | 21_No & ~20_No & ~20_Steady & ~20_Up
+212	0.07175744324922562	21_No | 22_Up | 20_Up & 22_Steady | 20_Steady & 22_Steady & ~21_Up | 20_Up & ~21_Steady & ~21_Up | 20_Up & ~21_Up & ~22_No | 22_Steady & ~21_Steady & ~21_Up | 20_Steady & ~21_Steady & ~21_Up & ~22_No
+213	-0.07824365049600601	22_No & 24_Steady | 22_No & ~23_Steady | 22_Steady & ~23_Steady | 24_Up & ~22_Up | 24_Up & ~23_Steady | 21_Up & 22_Steady & 24_Steady | 21_Up & 22_No & ~24_No | 21_Up & 24_Steady & ~23_Steady | 24_Steady & ~22_Up & ~23_Steady | 21_Up & ~22_Up & ~23_Steady & ~24_No
+214	-0.11890310049057007	23_Steady & 24_No | 23_Steady & 25_Up | 24_No & ~25_No | 24_Steady & ~25_No | 25_Up & ~24_Up | 26_Steady & ~24_Up | 26_Steady & ~25_No | 23_Steady & ~24_Up & ~25_No & ~25_Steady
+215	0.016264915466308594	25_No & 27_Up | 25_Steady & 28_No | 25_Up & 27_Up | 25_Up & 28_No | 27_Up & ~26_Steady | 28_No & ~26_Steady | 28_No & ~27_No | 25_Steady & ~26_Steady & ~27_No | 25_Steady & ~27_No & ~27_Steady | 25_Up & ~26_Steady & ~27_No | 25_No & ~26_Steady & ~27_No & ~27_Steady
+216	-0.07501090317964554	29_Steady | 27_Steady & 29_No | 27_Steady & ~28_Steady | 27_No & 29_No & ~28_Steady | 27_Up & 29_No & ~28_Steady | 27_Up & ~28_No & ~28_Steady | 27_No & ~28_No & ~28_Steady & ~28_Up | 29_No & ~28_No & ~28_Steady & ~28_Up
+217	0.11307547986507416	29_No | 30_Up | 28_Up & 30_Steady | 28_Steady & 30_Steady & ~29_Up | 28_Up & ~29_Steady & ~29_Up | 28_Up & ~29_Up & ~30_No | 30_Steady & ~29_Steady & ~29_Up | 28_Steady & ~29_Steady & ~29_Up & ~30_No
+218	-0.03293464705348015	30_No & 32_Up | 30_No & 35_No | 30_Steady & 35_No | 30_No & ~31_Steady | 30_Steady & ~31_Steady | 35_No & ~31_Steady | 29_Up & 30_Steady & 32_Up | 29_Up & 32_Up & 35_No | 29_Up & 30_No & ~32_Steady | 29_Up & 32_Up & ~31_Steady | 29_Up & 35_No & ~30_Up | 32_Up & ~30_Up & ~31_Steady | 35_No & ~30_Up & ~32_Steady | 29_Up & ~30_Up & ~31_Steady & ~32_Steady
+219	-0.044228922575712204	36_Steady | 31_Steady & 32_Steady | 32_Steady & 36_No | 32_Steady & ~35_Steady | 31_Steady & 32_Up & 36_No | 31_Steady & 32_Up & ~35_Steady | 31_Steady & 36_No & ~35_Steady | 32_Up & 36_No & ~35_Steady | 32_Up & ~35_No & ~35_Steady | 31_Steady & ~35_No & ~35_Steady & ~35_Up | 36_No & ~35_No & ~35_Steady & ~35_Up
+220	-0.02378670684993267	36_No | 35_Steady & 39_Steady | 35_Up & 39_Steady | 38_Steady & 39_Steady | 39_Steady & ~36_Up | 39_Steady & ~37_Steady | 35_Up & 38_Steady & ~36_Up | 35_Up & 38_Steady & ~37_Steady | 35_Up & ~36_Steady & ~36_Up | 35_Up & ~36_Up & ~37_Steady | 35_Steady & 38_Steady & ~36_Steady & ~36_Up | 35_Steady & 38_Steady & ~36_Up & ~37_Steady | 35_Steady & ~36_Steady & ~36_Up & ~37_Steady | 38_Steady & ~36_Steady & ~36_Up & ~37_Steady
+221	-0.023946115747094154	37_Steady & time_in_hospital_ST_ | time_in_hospital_ST_ & ~40_Steady | 36_Up & 38_Steady & time_in_hospital_ST_ | 38_Steady & 42_Yes & time_in_hospital_ST_ | 36_Up & 37_Steady & ~40_Steady | 36_Up & time_in_hospital_ST_ & ~39_Steady | 37_Steady & 38_Steady & ~40_Steady | 37_Steady & 42_Yes & ~40_Steady | 38_Steady & time_in_hospital_ST_ & ~39_Steady | 38_Steady & time_in_hospital_ST_ & ~41_No | 42_Yes & time_in_hospital_ST_ & ~39_Steady | 36_Up & 37_Steady & 38_Steady & 42_Yes | 37_Steady & ~39_Steady & ~40_Steady | 37_Steady & ~40_Steady & ~41_No | 38_Steady & ~39_Steady & ~40_Steady | time_in_hospital_ST_ & ~39_Steady & ~41_No | 36_Up & 37_Steady & 38_Steady & ~39_Steady | 36_Up & 37_Steady & 38_Steady & ~41_No | 36_Up & 37_Steady & 42_Yes & ~39_Steady | 36_Up & 38_Steady & 42_Yes & ~40_Steady | 36_Up & 42_Yes & time_in_hospital_ST_ & ~41_No | 37_Steady & 38_Steady & 42_Yes & ~39_Steady | 37_Steady & 38_Steady & 42_Yes & ~41_No | 36_Up & 37_Steady & ~39_Steady & ~41_No | 36_Up & 38_Steady & ~40_Steady & ~41_No | 36_Up & 42_Yes & ~39_Steady & ~40_Steady | 36_Up & 42_Yes & ~40_Steady & ~41_No | 37_Steady & 38_Steady & ~39_Steady & ~41_No | 37_Steady & 42_Yes & ~39_Steady & ~41_No | 38_Steady & 42_Yes & ~40_Steady & ~41_No | 36_Up & ~39_Steady & ~40_Steady & ~41_No | 42_Yes & ~39_Steady & ~40_Steady & ~41_No | 36_Up & 38_Steady & 42_Yes & ~39_Steady & ~41_No
+222	-7.946193250063516e-07	40_Steady & num_medications_ST_ | 41_No & number_diagnoses_ST_ | 42_Yes & num_medications_ST_ | 42_Yes & number_diagnoses_ST_ | num_medications_ST_ & ~time_in_hospital_ST_ | number_diagnoses_ST_ & ~time_in_hospital_ST_ | number_diagnoses_ST_ & ~num_lab_procedures_ST_ | 40_Steady & 41_No & 42_Yes | 40_Steady & 41_No & ~time_in_hospital_ST_ | 40_Steady & 41_No & ~num_lab_procedures_ST_ | 41_No & 42_Yes & ~time_in_hospital_ST_ | 41_No & 42_Yes & ~num_lab_procedures_ST_ | 41_No & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_ | 41_No & ~num_lab_procedures_ST_ & ~num_procedures_ST_ | 42_Yes & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_ | 40_Steady & 42_Yes & ~num_lab_procedures_ST_ & ~num_procedures_ST_ | 40_Steady & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_ & ~num_procedures_ST_
+223	0.0263548344373703	num_lab_procedures_ST_ | num_procedures_ST_ | num_medications_ST_ | num_medications_ST_51.66 | num_procedures_ST_8.82 & ~number_diagnoses_ST_ & ~time_in_hospital_ST_17.48 & ~num_lab_procedures_ST_129.36
+224	-0.03938111662864685	num_procedures_ST_8.82 | num_lab_procedures_ST_21.86 | num_procedures_ST_-0.5 | num_lab_procedures_ST_129.36 & ~number_diagnoses_ST_15.9 | time_in_hospital_ST_17.48 & ~num_medications_ST_51.66 & ~number_diagnoses_ST_15.9 & ~time_in_hospital_ST_1.17
+225	-0.19934532046318054	0_Hispanic | 0_Other | 1_Male | 0_Asian & ~1_UnknownInvalid & ~2_10-20
+226	-0.004070999566465616	2_10-20 | 2_20-30 | 2_30-40 | 1_Male & ~0_Other & ~2_40-50 & ~2_50-60
+227	0.1512242704629898	2_30-40 | 2_50-60 | 2_60-70 | 2_70-80
+228	0.01896766386926174	2_90-100 | 3_NoInfo | 3_[0-25) | 2_70-80 & ~3_[100-125) & ~3_[125-150)
+229	0.004439082928001881	3_[0-25) | 3_[125-150) | 3_[150-175) | 3_[175-200)
+230	0.06974155455827713	3_[50-75) | 3_[75-100) | 4_2 | 3_[175-200) & ~4_3 & ~4_4
+231	0.013805639930069447	4_4 | 4_5 | 4_6 | 4_2 & ~3_[75-100)
+232	-0.27525943517684937	4_8 | 5_2 | 5_3 | 4_6 & ~5_4 & ~5_5
+233	0.33664819598197937	5_3 | 5_5 | 5_6 | 5_7
+234	-0.24526028335094452	5_7 | 5_9 | 5_10 | 5_11
+235	0.06602584570646286	5_11 | 5_13 | 5_14 | 5_15
+236	0.08621081709861755	5_15 | 5_17 | 5_18 | 5_19
+237	-0.06766944378614426	5_19 | 5_22 | 5_23 | 5_24
+238	0.0845189243555069	5_27 | 5_28 | 6_2 | 5_24 & ~6_3 & ~6_4
+239	-0.10207352042198181	6_4 | 6_5 | 6_6 | 6_2 & ~5_28
+240	0.027841124683618546	6_6 | 6_8 | 6_9 | 6_10
+241	-0.12459360063076019	6_10 | 6_13 | 6_14 | 6_17
+242	-0.06503540277481079	6_22 | 6_25 | 8_AllergyandImmunology | 6_17 & ~8_Anesthesiology & ~8_Anesthesiology-Pediatric
+243	0.04714803770184517	8_Anesthesiology-Pediatric | 8_Cardiology | 8_Cardiology-Pediatric | 8_AllergyandImmunology & ~6_25
+244	0.06986260414123535	8_Cardiology-Pediatric | 8_Dentistry | 8_Dermatology | 8_EmergencyTrauma
+245	-0.014824283309280872	8_EmergencyTrauma | 8_Endocrinology-Metabolism | 8_FamilyGeneralPractice | 8_Gastroenterology
+246	0.0779506042599678	8_Gastroenterology | 8_Hematology | 8_HematologyOncology | 8_Hospitalist
+247	-0.1615854948759079	8_Hospitalist | 8_InternalMedicine | 8_Nephrology | 8_Neurology
+248	-0.23875093460083008	8_Neurology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Obstetrics | 8_ObstetricsandGynecology
+249	-0.08940230309963226	8_ObstetricsandGynecology | 8_Ophthalmology | 8_Orthopedics | 8_Orthopedics-Reconstructive
+250	-0.07780079543590546	8_Orthopedics-Reconstructive | 8_Otolaryngology | 8_OutreachServices | 8_Pathology
+251	-0.027900872752070427	8_Pathology | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-CriticalCare | 8_Pediatrics-EmergencyMedicine
+252	-0.01680712401866913	8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Hematology-Oncology | 8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Neurology
+253	0.022686047479510307	8_Pediatrics-Neurology | 8_Perinatology | 8_PhysicalMedicineandRehabilitation | 8_PhysicianNotFound
+254	-0.009707551449537277	8_PhysicianNotFound | 8_Proctology | 8_Psychiatry | 8_Psychiatry-Addictive
+255	-0.11831739544868469	8_Psychiatry-Addictive | 8_Psychology | 8_Pulmonology | 8_Radiologist
+256	-0.03223318234086037	8_Radiologist | 8_Resident | 8_Rheumatology | 8_Speech
+257	-0.05979499593377113	8_Speech | 8_Surgeon | 8_Surgery-Cardiovascular | 8_Surgery-CardiovascularThoracic
+258	-0.058122724294662476	8_Surgery-CardiovascularThoracic | 8_Surgery-General | 8_Surgery-Maxillofacial | 8_Surgery-Neuro
+259	0.019086088985204697	8_Surgery-Neuro | 8_Surgery-Plastic | 8_Surgery-PlasticwithinHeadandNeck | 8_Surgery-Thoracic
+260	-0.07720484584569931	8_SurgicalSpecialty | 8_Urology | 12_1 | 8_Surgery-Thoracic & ~12_2 & ~12_3
+261	0.004850336350500584	12_3 | 12_4 | 12_5 | 12_1 & ~8_Urology
+262	-0.04579523950815201	12_5 | 12_7 | 12_8 | 12_9
+263	0.01654493249952793	12_9 | 12_11 | 12_12 | 12_13
+264	-0.055386465042829514	12_13 | 12_15 | 12_16 | 12_17
+265	-0.08023709803819656	12_17 | 12_19 | 12_20 | 12_21
+266	-0.021630337461829185	12_21 | 12_23 | 12_24 | 12_25
+267	-0.023648545145988464	12_25 | 12_27 | 12_28 | 12_29
+268	-0.04168693721294403	12_29 | 12_34 | 12_35 | 12_36
+269	0.02515002153813839	12_38 | 12_39 | 12_40 | 12_36 & ~13_1
+270	-0.08633693307638168	13_1 | 13_2 | 13_3 | 12_40 & ~13_4 & ~13_5
+271	-0.0712362602353096	13_3 | 13_5 | 13_6 | 13_7
+272	0.02215905301272869	13_7 | 13_9 | 13_10 | 13_11
+273	-0.033333323895931244	13_11 | 13_13 | 13_14 | 13_15
+274	0.08370653539896011	13_15 | 13_18 | 13_19 | 13_20
+275	0.008346491493284702	13_20 | 13_22 | 13_24 | 13_25
+276	-0.05460284650325775	13_25 | 13_29 | 13_37 | 13_42
+277	0.024174602702260017	13_54 | 13_63 | 13_64 | 13_42 & ~14_1
+278	-0.0773293673992157	14_1 | 14_2 | 14_3 | 13_64 & ~14_4 & ~14_5
+279	0.09786929190158844	14_3 | 14_5 | 14_6 | 14_7
+280	0.19193007051944733	14_7 | 14_9 | 14_10 | 14_11
+281	0.397289901971817	14_11 | 14_13 | 14_14 | 14_15
+282	0.23661963641643524	14_17 | 14_18 | 14_19 | 14_15 & ~16_>300
+283	-0.1403091549873352	16_>300 | 16_Norm | 16_None & ~14_18 | 14_19 & ~17_>8 & ~17_None | 16_None & ~17_>8 & ~17_None
+284	-0.12283238768577576	17_None | 18_No | 17_Norm & ~16_None | 17_Norm & ~18_Steady & ~18_Up | 16_Norm & ~17_>8 & ~18_Steady & ~18_Up
+285	0.04263271018862724	18_Up | 18_No & 19_No | 19_No & ~17_Norm | 19_No & ~20_No | 19_Steady & ~17_Norm | 19_Steady & ~18_Steady | 19_Steady & ~20_No | 18_No & ~17_Norm & ~19_Up & ~20_No
+286	-0.09360283613204956	20_No | 20_Up | 20_Steady & ~19_No | 19_Steady & ~21_No & ~21_Steady | 20_Steady & ~21_No & ~21_Steady
+287	0.012765990570187569	21_Steady | 22_No | 21_Up & ~20_Steady | 21_Up & ~22_Steady & ~22_Up | 20_Up & ~21_No & ~22_Steady & ~22_Up
+288	0.003984051290899515	22_Up | 24_No | 22_No & 23_Steady | 23_Steady & ~21_Up | 23_Steady & ~24_Steady & ~24_Up | 22_No & ~21_Up & ~24_Steady & ~24_Up
+289	0.050893694162368774	24_Up | 24_No & 25_No | 25_No & ~23_Steady | 25_No & ~26_Steady | 25_Steady & ~23_Steady | 25_Steady & ~24_Steady | 25_Steady & ~26_Steady | 24_No & ~23_Steady & ~25_Up & ~26_Steady
+290	0.0393858402967453	26_Steady | 27_Steady | 27_No & ~25_No | 27_No & ~28_No | 25_Steady & ~27_Up & ~28_No
+291	0.09414593130350113	28_No | 28_Up | 28_Steady & ~27_No | 27_Steady & ~29_No & ~29_Steady | 28_Steady & ~29_No & ~29_Steady
+292	0.01026501040905714	29_Steady | 30_No | 29_Up & ~28_Steady | 29_Up & ~30_Steady & ~30_Up | 28_Up & ~29_No & ~30_Steady & ~30_Up
+293	-0.04953908547759056	30_Up | 30_No & 31_Steady | 31_Steady & 32_Steady | 32_Steady & ~29_Up | 32_Steady & ~30_Steady | 32_Steady & ~35_No | 31_Steady & ~29_Up & ~30_Steady | 31_Steady & ~29_Up & ~32_Up | 31_Steady & ~29_Up & ~35_No | 31_Steady & ~32_Up & ~35_No | 30_No & ~29_Up & ~32_Up & ~35_No
+294	-0.08253616839647293	35_No | 32_Steady & 35_Steady | 35_Steady & ~31_Steady | 35_Up & ~31_Steady | 35_Up & ~32_Up | 35_Steady & ~36_No & ~36_Steady | 35_Up & ~36_No & ~36_Steady | 32_Steady & ~31_Steady & ~36_No & ~36_Steady
+295	-0.07378040254116058	36_Steady | 36_Up & 37_Steady | 36_Up & ~35_Steady | 37_Steady & ~35_Steady | 36_Up & ~38_Steady & ~39_Steady | 37_Steady & ~36_No & ~38_Steady | 37_Steady & ~36_No & ~39_Steady | 37_Steady & ~38_Steady & ~39_Steady | 35_Up & ~36_No & ~38_Steady & ~39_Steady
+296	-0.01438597496598959	39_Steady | 37_Steady & 41_No | 40_Steady & 41_No | 41_No & ~36_Up | 37_Steady & 40_Steady & ~36_Up | 37_Steady & 40_Steady & ~38_Steady | 37_Steady & 40_Steady & ~42_Yes | 37_Steady & 40_Steady & ~time_in_hospital_ST_ | 40_Steady & ~36_Up & ~38_Steady | 40_Steady & ~36_Up & ~42_Yes | 40_Steady & ~36_Up & ~time_in_hospital_ST_ | 40_Steady & ~42_Yes & ~time_in_hospital_ST_ | 41_No & ~38_Steady & ~42_Yes | 41_No & ~38_Steady & ~time_in_hospital_ST_ | 41_No & ~42_Yes & ~time_in_hospital_ST_ | 37_Steady & ~36_Up & ~38_Steady & ~42_Yes & ~time_in_hospital_ST_
+297	-0.024767406284809113	time_in_hospital_ST_ | 41_No & num_lab_procedures_ST_ | 41_No & num_procedures_ST_ | num_lab_procedures_ST_ & ~40_Steady | num_lab_procedures_ST_ & ~number_diagnoses_ST_ | num_procedures_ST_ & ~40_Steady | num_procedures_ST_ & ~42_Yes | num_procedures_ST_ & ~number_diagnoses_ST_ | 41_No & ~40_Steady & ~42_Yes & ~num_medications_ST_ & ~number_diagnoses_ST_
+298	0.03692842647433281	number_diagnoses_ST_ | time_in_hospital_ST_17.48 | num_lab_procedures_ST_129.36 | num_procedures_ST_ & ~num_procedures_ST_8.82 & ~num_medications_ST_51.66
+299	-0.0822470560669899	num_medications_ST_51.66 | time_in_hospital_ST_1.17 | number_diagnoses_ST_15.9 & ~time_in_hospital_ST_17.48 | number_diagnoses_ST_15.9 & ~num_procedures_ST_-0.5 | num_lab_procedures_ST_129.36 & ~num_procedures_ST_8.82 & ~num_lab_procedures_ST_21.86 & ~num_procedures_ST_-0.5
+300	0.026151902973651886	0_AfricanAmerican | 0_Caucasian | 0_Hispanic | 2_10-20 & ~0_Other
+301	-0.12943018972873688	1_UnknownInvalid | 2_10-20 | 2_50-60 | 0_Other & ~2_20-30
+302	-0.0023303013294935226	2_20-30 | 2_40-50 | 2_50-60 | 2_90-100
+303	0.07710422575473785	2_80-90 | 2_90-100 | 3_[125-150) | 2_60-70 & ~3_NoInfo
+304	-0.1455090194940567	3_NoInfo | 3_[100-125) | 3_[125-150) | 3_[50-75)
+305	-0.07890649139881134	3_[150-175) | 3_[25-50) | 3_[50-75) | 4_4 & ~3_[75-100)
+306	0.022780779749155045	4_3 | 4_4 | 4_8 | 3_[75-100) & ~4_5
+307	-0.034880589693784714	4_7 | 4_8 | 5_5 | 4_5 & ~5_2
+308	0.2715858519077301	5_2 | 5_4 | 5_5 | 5_9
+309	-0.14311903715133667	5_6 | 5_8 | 5_9 | 5_13
+310	0.20997871458530426	5_10 | 5_12 | 5_13 | 5_17
+311	0.21694469451904297	5_14 | 5_16 | 5_17 | 5_22
+312	0.2545417845249176	5_18 | 5_20 | 5_22 | 5_27
+313	-0.09262248873710632	5_23 | 5_25 | 5_27 | 6_4 & ~5_28
+314	0.4221097230911255	6_3 | 6_4 | 6_8 | 5_28 & ~6_5
+315	-0.07331312447786331	6_5 | 6_7 | 6_8 | 6_13
+316	-0.06535541266202927	6_9 | 6_11 | 6_13 | 6_22
+317	0.05704868212342262	6_14 | 6_20 | 6_22 | 8_Anesthesiology-Pediatric & ~6_25
+318	-0.026932379230856895	8_Anesthesiology | 8_Anesthesiology-Pediatric | 8_Dentistry | 6_25 & ~8_Cardiology
+319	-0.0523553341627121	8_Cardiology | 8_DCPTEAM | 8_Dentistry | 8_Endocrinology-Metabolism
+320	0.09601328521966934	8_Dermatology | 8_Endocrinology | 8_Endocrinology-Metabolism | 8_Hematology
+321	0.13105104863643646	8_FamilyGeneralPractice | 8_Gynecology | 8_Hematology | 8_InternalMedicine
+322	0.09485401213169098	8_HematologyOncology | 8_InfectiousDiseases | 8_InternalMedicine | 8_Obsterics&Gynecology-GynecologicOnco
+323	0.0419696569442749	8_Nephrology | 8_Neurophysiology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Ophthalmology
+324	0.018855465576052666	8_Obstetrics | 8_Oncology | 8_Ophthalmology | 8_Otolaryngology
+325	-0.10362454503774643	8_Orthopedics | 8_Osteopath | 8_Otolaryngology | 8_Pediatrics-AllergyandImmunology
+326	0.023857466876506805	8_OutreachServices | 8_Pediatrics | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-Hematology-Oncology
+327	-0.10560181736946106	8_Pediatrics-CriticalCare | 8_Pediatrics-Endocrinology | 8_Pediatrics-Hematology-Oncology | 8_Perinatology
+328	0.02526155300438404	8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Pulmonology | 8_Perinatology | 8_Proctology
+329	0.0006660619983449578	8_PhysicalMedicineandRehabilitation | 8_Podiatry | 8_Proctology | 8_Psychology
+330	0.003792900126427412	8_Psychiatry | 8_Psychiatry-ChildAdolescent | 8_Psychology | 8_Resident
+331	0.08768700063228607	8_Pulmonology | 8_Radiology | 8_Resident | 8_Surgeon
+332	0.04080991819500923	8_Rheumatology | 8_SportsMedicine | 8_Surgeon | 8_Surgery-General
+333	0.07295146584510803	8_Surgery-Cardiovascular | 8_Surgery-Colon&Rectal | 8_Surgery-General | 8_Surgery-Plastic
+334	0.03458918631076813	8_Surgery-Maxillofacial | 8_Surgery-Pediatric | 8_Surgery-Plastic | 8_SurgicalSpecialty
+335	0.006565631367266178	8_Surgery-PlasticwithinHeadandNeck | 8_Surgery-Vascular | 8_SurgicalSpecialty | 12_3 & ~8_Urology
+336	-0.06813164800405502	12_2 | 12_3 | 12_7 | 8_Urology & ~12_4
+337	0.07710713893175125	12_4 | 12_6 | 12_7 | 12_11
+338	-0.22283361852169037	12_8 | 12_10 | 12_11 | 12_15
+339	0.07232972234487534	12_12 | 12_14 | 12_15 | 12_19
+340	-0.015137874521315098	12_16 | 12_18 | 12_19 | 12_23
+341	0.07265589386224747	12_20 | 12_22 | 12_23 | 12_27
+342	-0.01305141020566225	12_24 | 12_26 | 12_27 | 12_34
+343	-0.012192217633128166	12_28 | 12_33 | 12_34 | 12_38
+344	0.03404075279831886	12_35 | 12_37 | 12_38 | 13_1 & ~12_39
+345	0.05226334556937218	12_42 | 13_1 | 13_5 | 12_39 & ~13_2
+346	0.14261429011821747	13_2 | 13_4 | 13_5 | 13_9
+347	0.1404484361410141	13_6 | 13_8 | 13_9 | 13_13
+348	0.08356943726539612	13_10 | 13_12 | 13_13 | 13_18
+349	0.12457528710365295	13_14 | 13_16 | 13_18 | 13_22
+350	0.03963933512568474	13_19 | 13_21 | 13_22 | 13_29
+351	-0.01893644966185093	13_24 | 13_28 | 13_29 | 13_54
+352	-0.006446226965636015	13_37 | 13_46 | 13_54 | 14_1 & ~13_63
+353	0.26248788833618164	13_76 | 14_1 | 14_5 | 13_63 & ~14_2
+354	0.25600355863571167	14_2 | 14_4 | 14_5 | 14_9
+355	0.27651458978652954	14_6 | 14_8 | 14_9 | 14_13
+356	0.1380498856306076	14_10 | 14_12 | 14_13 | 14_17
+357	0.0003725973947439343	14_14 | 14_16 | 14_17 | 16_>300 & ~14_18
+358	0.029811134561896324	14_21 | 16_>300 | 14_18 & 17_>8 | 14_18 & 17_None | 14_18 & ~16_None | 17_None & ~16_None
+359	-0.05984165519475937	17_>8 | 17_None | 16_None & 18_Steady | 16_None & 18_Up | 16_None & ~17_Norm | 18_Up & ~17_Norm
+360	-0.17772912979125977	18_Steady | 18_Up | 17_Norm & 20_No | 17_Norm & ~19_No | 20_No & ~19_No
+361	-0.07818853855133057	19_Up | 20_No | 19_No & 21_No | 19_No & 21_Steady | 19_No & ~20_Steady | 21_Steady & ~20_Steady
+362	0.014091141521930695	21_No | 21_Steady | 20_Steady & 22_Steady | 20_Steady & 22_Up | 20_Steady & ~21_Up | 22_Up & ~21_Up
+363	-0.04600173979997635	22_Steady | 22_Up | 21_Up & 24_Up | 21_Up & ~23_Steady | 24_Up & ~23_Steady | 21_Up & 24_Steady & ~22_No
+364	0.009160168468952179	24_Steady | 24_Up | 23_Steady & 26_Steady | 23_Steady & ~25_No | 26_Steady & ~25_No
+365	0.025721795856952667	25_Up | 25_No & 28_No | 26_Steady & 28_No | 25_No & ~27_No | 26_Steady & ~25_Steady | 26_Steady & ~27_No | 28_No & ~27_No
+366	-0.07133151590824127	27_Up | 28_No | 27_No & 29_No | 27_No & 29_Steady | 27_No & ~28_Steady | 29_Steady & ~28_Steady
+367	-0.04958077520132065	29_No | 29_Steady | 28_Steady & 30_Steady | 28_Steady & 30_Up | 28_Steady & ~29_Up | 30_Up & ~29_Up
+368	-0.037103548645973206	30_Steady | 30_Up | 29_Up & 35_No | 29_Up & ~31_Steady | 35_No & ~31_Steady | 29_Up & 32_Up & ~30_No
+369	-0.008214382454752922	32_Up | 35_No | 31_Steady & 36_Steady | 31_Steady & ~35_Steady | 36_Steady & ~35_Steady | 31_Steady & 36_No & ~32_Steady
+370	-0.007846896536648273	36_No | 36_Steady | 35_Steady & 38_Steady | 35_Steady & 39_Steady | 35_Steady & ~36_Up | 39_Steady & ~36_Up
+371	-0.060973718762397766	38_Steady | 36_Up & 39_Steady | 36_Up & time_in_hospital_ST_ | 39_Steady & 42_Yes | 39_Steady & time_in_hospital_ST_ | 36_Up & ~40_Steady | 39_Steady & ~37_Steady | 39_Steady & ~40_Steady | time_in_hospital_ST_ & ~40_Steady | 36_Up & 42_Yes & ~37_Steady
+372	0.1190011203289032	42_Yes | 40_Steady & time_in_hospital_ST_ | 40_Steady & number_diagnoses_ST_ | time_in_hospital_ST_ & number_diagnoses_ST_ | 40_Steady & ~num_lab_procedures_ST_ | time_in_hospital_ST_ & ~41_No | time_in_hospital_ST_ & ~num_lab_procedures_ST_ | number_diagnoses_ST_ & ~num_lab_procedures_ST_
+373	-0.02561330981552601	num_lab_procedures_ST_ | num_medications_ST_ | number_diagnoses_ST_ | num_medications_ST_51.66 & ~time_in_hospital_ST_17.48
+374	-0.03975837305188179	num_procedures_ST_8.82 | num_medications_ST_51.66 | time_in_hospital_ST_17.48 & num_procedures_ST_-0.5 | time_in_hospital_ST_17.48 & ~number_diagnoses_ST_15.9 | num_procedures_ST_-0.5 & ~number_diagnoses_ST_15.9
+375	0.07667458057403564	0_Asian | 0_Hispanic | 0_Other
+376	0.03453795984387398	2_10-20 | 2_20-30 | 1_Male & ~0_Other | 1_Male & ~2_30-40 & ~2_40-50 & ~2_50-60
+377	-0.07091689854860306	2_30-40 | 2_50-60 | 2_60-70
+378	0.029853524640202522	2_70-80 | 2_90-100 | 3_NoInfo
+379	0.06718110293149948	3_[0-25) | 3_[125-150) | 3_[150-175)
+380	0.011130783706903458	3_[175-200) | 3_[50-75) | 3_[75-100)
+381	-0.08823181688785553	4_2 | 4_4 | 4_5
+382	0.24941901862621307	4_6 | 4_8 | 5_2
+383	0.20060671865940094	5_3 | 5_5 | 5_6
+384	0.1319608837366104	5_7 | 5_9 | 5_10
+385	-0.27909645438194275	5_11 | 5_13 | 5_14
+386	0.13642333447933197	5_15 | 5_17 | 5_18
+387	0.02371641993522644	5_19 | 5_22 | 5_23
+388	0.2541666626930237	5_24 | 5_27 | 5_28
+389	-0.09906981140375137	6_2 | 6_4 | 6_5
+390	0.056802898645401	6_6 | 6_8 | 6_9
+391	-0.05432112514972687	6_10 | 6_13 | 6_14
+392	-0.09924279898405075	6_17 | 6_22 | 6_25
+393	0.005022415891289711	8_AllergyandImmunology | 8_Anesthesiology-Pediatric | 8_Cardiology
+394	0.05431031063199043	8_Cardiology-Pediatric | 8_Dentistry | 8_Dermatology
+395	0.06611378490924835	8_EmergencyTrauma | 8_Endocrinology-Metabolism | 8_FamilyGeneralPractice
+396	0.1766757369041443	8_Gastroenterology | 8_Hematology | 8_HematologyOncology
+397	-0.06363625824451447	8_Hospitalist | 8_InternalMedicine | 8_Nephrology
+398	-0.0677461326122284	8_Neurology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Obstetrics
+399	-0.13500459492206573	8_ObstetricsandGynecology | 8_Ophthalmology | 8_Orthopedics
+400	-0.05177947133779526	8_Orthopedics-Reconstructive | 8_Otolaryngology | 8_OutreachServices
+401	-0.025677062571048737	8_Pathology | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-CriticalCare
+402	0.03263187035918236	8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Hematology-Oncology | 8_Pediatrics-InfectiousDiseases
+403	0.011293293908238411	8_Pediatrics-Neurology | 8_Perinatology | 8_PhysicalMedicineandRehabilitation
+404	0.004980206023901701	8_PhysicianNotFound | 8_Proctology | 8_Psychiatry
+405	-0.0480831004679203	8_Psychiatry-Addictive | 8_Psychology | 8_Pulmonology
+406	-0.02616237848997116	8_Radiologist | 8_Resident | 8_Rheumatology
+407	-0.02447890304028988	8_Speech | 8_Surgeon | 8_Surgery-Cardiovascular
+408	-0.020237410441040993	8_Surgery-CardiovascularThoracic | 8_Surgery-General | 8_Surgery-Maxillofacial
+409	0.03939688205718994	8_Surgery-Neuro | 8_Surgery-Plastic | 8_Surgery-PlasticwithinHeadandNeck
+410	0.0019823252223432064	8_Surgery-Thoracic | 8_SurgicalSpecialty | 8_Urology
+411	0.04590965434908867	12_1 | 12_3 | 12_4
+412	-0.04997420310974121	12_5 | 12_7 | 12_8
+413	0.0024638711474835873	12_9 | 12_11 | 12_12
+414	-0.04205954074859619	12_13 | 12_15 | 12_16
+415	-0.03554984927177429	12_17 | 12_19 | 12_20
+416	-0.012899652123451233	12_21 | 12_23 | 12_24
+417	-0.008746166713535786	12_25 | 12_27 | 12_28
+418	-0.026615381240844727	12_29 | 12_34 | 12_35
+419	-0.02017104998230934	12_36 | 12_38 | 12_39
+420	0.00820168573409319	12_40 | 13_1 | 13_2
+421	-0.0656798705458641	13_3 | 13_5 | 13_6
+422	0.07182015478610992	13_7 | 13_9 | 13_10
+423	-0.03389522805809975	13_11 | 13_13 | 13_14
+424	0.045340683311223984	13_15 | 13_18 | 13_19
+425	0.033570047467947006	13_20 | 13_22 | 13_24
+426	-0.05460284650325775	13_25 | 13_29 | 13_37
+427	-0.013705563731491566	13_42 | 13_54 | 13_63
+428	0.022200467064976692	13_64 | 14_1 | 14_2
+429	0.15438193082809448	14_3 | 14_5 | 14_6
+430	-0.05084512010216713	14_7 | 14_9 | 14_10
+431	0.20675310492515564	14_11 | 14_13 | 14_14
+432	0.21819238364696503	14_15 | 14_17 | 14_18
+433	0.022795764729380608	14_19 | 16_>300 & ~14_18 | 16_>300 & ~17_None | 16_None & ~14_18 | 16_None & ~17_None
+434	0.1265738606452942	16_Norm | 17_None & ~16_None | 17_None & ~18_Up | 17_Norm & ~16_None | 17_Norm & ~18_Up
+435	-0.09132178127765656	18_No & 19_No | 18_Up & 19_No | 18_No & ~17_Norm | 18_Up & ~17_Norm | 18_Up & ~20_No | 19_No & ~17_Norm | 19_No & ~20_No | 18_No & ~19_Steady & ~19_Up & ~20_No
+436	0.01984523795545101	19_Steady | 20_No & ~19_No | 20_No & ~21_Steady | 20_Steady & ~19_No | 20_Steady & ~21_Steady
+437	-0.0704747885465622	20_Up | 21_Steady & ~20_Steady | 21_Steady & ~22_Up | 21_Up & ~20_Steady | 21_Up & ~22_Up
+438	-0.0058233896270394325	22_No & 23_Steady | 22_Up & 23_Steady | 22_No & ~21_Up | 22_Up & ~21_Up | 22_Up & ~24_Up | 23_Steady & ~21_Up | 23_Steady & ~24_Up | 22_No & ~24_No & ~24_Steady & ~24_Up
+439	0.10208860039710999	24_No & 25_No | 24_Up & 25_No | 24_No & ~23_Steady | 24_Up & ~23_Steady | 24_Up & ~26_Steady | 25_No & ~23_Steady | 25_No & ~26_Steady | 24_No & ~25_Steady & ~25_Up & ~26_Steady
+440	0.07647911459207535	25_Steady | 26_Steady & 27_No | 26_Steady & ~25_No | 26_Steady & ~28_No | 27_No & ~25_No | 27_No & ~28_No
+441	0.0369592122733593	27_Steady | 28_No & ~27_No | 28_No & ~29_Steady | 28_Steady & ~27_No | 28_Steady & ~29_Steady
+442	-0.06427973508834839	28_Up | 29_Steady & ~28_Steady | 29_Steady & ~30_Up | 29_Up & ~28_Steady | 29_Up & ~30_Up
+443	-0.04639831557869911	30_No & 31_Steady | 30_Up & 31_Steady | 30_No & ~29_Up | 30_Up & ~29_Up | 30_Up & ~35_No | 31_Steady & ~29_Up | 31_Steady & ~35_No | 30_No & ~32_Steady & ~32_Up & ~35_No
+444	-0.07622531801462173	32_Steady & 35_No | 32_Steady & 35_Steady | 32_Steady & ~31_Steady | 35_No & ~31_Steady | 35_No & ~36_Steady | 35_Steady & ~31_Steady | 35_Steady & ~36_Steady | 32_Steady & ~35_Up & ~36_No & ~36_Steady
+445	-0.03732776269316673	35_Up & ~37_Steady | 35_Up & ~38_Steady | 35_Up & ~39_Steady | 36_Steady & ~35_Steady | 36_Steady & ~39_Steady | 36_Up & ~35_Steady | 36_Up & ~39_Steady
+446	-0.024146685376763344	37_Steady & 39_Steady | 37_Steady & 40_Steady | 39_Steady & 40_Steady | 39_Steady & ~36_Up | 39_Steady & ~time_in_hospital_ST_ | 40_Steady & ~36_Up | 40_Steady & ~time_in_hospital_ST_ | 37_Steady & ~36_Up & ~41_No | 37_Steady & ~36_Up & ~42_Yes | 37_Steady & ~36_Up & ~time_in_hospital_ST_ | 37_Steady & ~41_No & ~42_Yes & ~time_in_hospital_ST_
+447	0.016280271112918854	41_No & time_in_hospital_ST_ | 41_No & num_lab_procedures_ST_ | time_in_hospital_ST_ & num_lab_procedures_ST_ | 41_No & ~40_Steady | time_in_hospital_ST_ & ~40_Steady | time_in_hospital_ST_ & ~number_diagnoses_ST_ | num_lab_procedures_ST_ & ~40_Steady | num_lab_procedures_ST_ & ~number_diagnoses_ST_ | 41_No & ~num_procedures_ST_ & ~num_medications_ST_ & ~number_diagnoses_ST_
+448	-0.10788632929325104	num_procedures_ST_ | number_diagnoses_ST_ | time_in_hospital_ST_17.48
+449	-0.08963477611541748	num_lab_procedures_ST_129.36 | num_medications_ST_51.66 & ~time_in_hospital_ST_17.48 | num_medications_ST_51.66 & ~num_procedures_ST_-0.5 | number_diagnoses_ST_15.9 & ~time_in_hospital_ST_17.48 | number_diagnoses_ST_15.9 & ~num_procedures_ST_-0.5
+450	0.033560290932655334	0_AfricanAmerican | 0_Asian | 0_Hispanic | 0_Other | 0_Caucasian & 1_UnknownInvalid | 0_Caucasian & 2_10-20
+451	0.1908586323261261	0_Other | 1_Male | 2_10-20 | 2_20-30 | 1_UnknownInvalid & 2_40-50 | 1_UnknownInvalid & 2_50-60
+452	0.08917351067066193	2_20-30 | 2_30-40 | 2_50-60 | 2_60-70
+453	-0.01295644324272871	2_60-70 | 2_70-80 | 2_90-100 | 3_NoInfo | 2_80-90 & 3_[100-125) | 2_80-90 & 3_[125-150)
+454	-0.06208934262394905	3_NoInfo | 3_[0-25) | 3_[125-150) | 3_[150-175)
+455	-0.023411603644490242	3_[150-175) | 3_[175-200) | 3_[50-75) | 3_[75-100) | 3_[25-50) & 4_3 | 3_[25-50) & 4_4
+456	-0.03824452683329582	3_[75-100) | 4_2 | 4_4 | 4_5
+457	0.07996182888746262	4_5 | 4_6 | 4_8 | 5_2 | 4_7 & 5_4 | 4_7 & 5_5
+458	0.085780069231987	5_2 | 5_3 | 5_5 | 5_6
+459	-0.17431075870990753	5_6 | 5_7 | 5_9 | 5_10
+460	-0.18843218684196472	5_10 | 5_11 | 5_13 | 5_14
+461	-0.0005882215918973088	5_14 | 5_15 | 5_17 | 5_18
+462	-0.11811474710702896	5_18 | 5_19 | 5_22 | 5_23
+463	0.06501583009958267	5_23 | 5_24 | 5_27 | 5_28 | 5_25 & 6_3 | 5_25 & 6_4
+464	0.09223464876413345	5_28 | 6_2 | 6_4 | 6_5
+465	0.04321342706680298	6_5 | 6_6 | 6_8 | 6_9
+466	-0.07770224660634995	6_9 | 6_10 | 6_13 | 6_14
+467	0.028610022738575935	6_14 | 6_17 | 6_22 | 6_25 | 6_20 & 8_Anesthesiology | 6_20 & 8_Anesthesiology-Pediatric
+468	0.0035907092969864607	6_25 | 8_AllergyandImmunology | 8_Anesthesiology-Pediatric | 8_Cardiology
+469	-0.003330169478431344	8_Cardiology | 8_Cardiology-Pediatric | 8_Dentistry | 8_Dermatology
+470	-0.04750540107488632	8_Dermatology | 8_EmergencyTrauma | 8_Endocrinology-Metabolism | 8_FamilyGeneralPractice
+471	0.10095179826021194	8_FamilyGeneralPractice | 8_Gastroenterology | 8_Hematology | 8_HematologyOncology
+472	0.07027415931224823	8_HematologyOncology | 8_Hospitalist | 8_InternalMedicine | 8_Nephrology
+473	-8.872281614458188e-05	8_Nephrology | 8_Neurology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Obstetrics
+474	0.10389398783445358	8_Obstetrics | 8_ObstetricsandGynecology | 8_Ophthalmology | 8_Orthopedics
+475	0.01699632592499256	8_Orthopedics | 8_Orthopedics-Reconstructive | 8_Otolaryngology | 8_OutreachServices
+476	-0.06846591830253601	8_OutreachServices | 8_Pathology | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-CriticalCare
+477	-0.04655582830309868	8_Pediatrics-CriticalCare | 8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Hematology-Oncology | 8_Pediatrics-InfectiousDiseases
+478	0.026735950261354446	8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Neurology | 8_Perinatology | 8_PhysicalMedicineandRehabilitation
+479	0.030717451125383377	8_PhysicalMedicineandRehabilitation | 8_PhysicianNotFound | 8_Proctology | 8_Psychiatry
+480	-0.02800496481359005	8_Psychiatry | 8_Psychiatry-Addictive | 8_Psychology | 8_Pulmonology
+481	0.04979996755719185	8_Pulmonology | 8_Radiologist | 8_Resident | 8_Rheumatology
+482	0.0014252659166231751	8_Rheumatology | 8_Speech | 8_Surgeon | 8_Surgery-Cardiovascular
+483	-0.03167233243584633	8_Surgery-Cardiovascular | 8_Surgery-CardiovascularThoracic | 8_Surgery-General | 8_Surgery-Maxillofacial
+484	0.025878483429551125	8_Surgery-Maxillofacial | 8_Surgery-Neuro | 8_Surgery-Plastic | 8_Surgery-PlasticwithinHeadandNeck
+485	0.04943432658910751	8_Surgery-PlasticwithinHeadandNeck | 8_Surgery-Thoracic | 8_SurgicalSpecialty | 8_Urology | 8_Surgery-Vascular & 12_2 | 8_Surgery-Vascular & 12_3
+486	-0.015620468184351921	8_Urology | 12_1 | 12_3 | 12_4
+487	0.061606694012880325	12_4 | 12_5 | 12_7 | 12_8
+488	-0.08619026839733124	12_8 | 12_9 | 12_11 | 12_12
+489	0.03270970657467842	12_12 | 12_13 | 12_15 | 12_16
+490	-0.08247340470552444	12_16 | 12_17 | 12_19 | 12_20
+491	-0.023584144189953804	12_20 | 12_21 | 12_23 | 12_24
+492	-0.020880792289972305	12_24 | 12_25 | 12_27 | 12_28
+493	-0.031212806701660156	12_28 | 12_29 | 12_34 | 12_35
+494	-0.03014056384563446	12_35 | 12_36 | 12_38 | 12_39 | 12_37 & 13_1
+495	0.012088356539607048	12_39 | 12_40 | 13_1 | 13_2 | 12_42 & 13_4 | 12_42 & 13_5
+496	0.03964297100901604	13_2 | 13_3 | 13_5 | 13_6
+497	0.11855112761259079	13_6 | 13_7 | 13_9 | 13_10
+498	-0.000631737697403878	13_10 | 13_11 | 13_13 | 13_14
+499	0.0643581748008728	13_14 | 13_15 | 13_18 | 13_19
+500	0.05878203734755516	13_19 | 13_20 | 13_22 | 13_24
+501	-0.04918808117508888	13_24 | 13_25 | 13_29 | 13_37
+502	-0.02390863560140133	13_37 | 13_42 | 13_54 | 13_63 | 13_46 & 14_1
+503	0.019160432741045952	13_63 | 13_64 | 14_1 | 14_2 | 13_76 & 14_4 | 13_76 & 14_5
+504	0.06098715215921402	14_2 | 14_3 | 14_5 | 14_6
+505	0.16633673012256622	14_6 | 14_7 | 14_9 | 14_10
+506	0.3088994026184082	14_10 | 14_11 | 14_13 | 14_14
+507	0.1345384418964386	14_14 | 14_15 | 14_17 | 14_18 | 14_16 & 16_>300
+508	-0.005404532887041569	14_18 | 14_19 | 16_>300 | 16_None | 14_21 & 17_None | 14_21 & 17_>8 & ~16_Norm
+509	0.034280337393283844	16_None | 16_Norm | 17_None | 17_Norm | 17_>8 & 18_Steady | 17_>8 & 18_Up
+510	-0.025324221700429916	17_Norm | 18_No | 18_Up | 19_No | 18_Steady & 19_Up | 18_Steady & 20_No
+511	-7.946193250063516e-07	19_No | 19_Steady | 20_No | 20_Steady | 19_Up & 21_Steady | 19_Up & 21_No & ~20_Up
+512	-0.06375294178724289	20_Steady | 20_Up | 21_Steady | 21_Up | 21_No & 22_Steady | 21_No & 22_Up
+513	-0.036793846637010574	21_Up | 22_No | 22_Up | 23_Steady | 22_Steady & 24_Steady | 22_Steady & 24_Up
+514	0.131055548787117	23_Steady | 24_No | 24_Up | 25_No | 24_Steady & 25_Up | 24_Steady & 26_Steady
+515	0.10227843374013901	25_No | 25_Steady | 26_Steady | 27_No | 25_Up & 27_Up | 25_Up & 28_No
+516	0.0032809057738631964	27_No | 27_Steady | 28_No | 28_Steady | 27_Up & 29_Steady | 27_Up & 29_No & ~28_Up
+517	-0.031194351613521576	28_Steady | 28_Up | 29_Steady | 29_Up | 29_No & 30_Steady | 29_No & 30_Up
+518	0.006214511580765247	29_Up | 30_No | 30_Up | 31_Steady | 30_Steady & 32_Up | 30_Steady & 35_No
+519	-0.034357983618974686	31_Steady | 32_Steady | 35_No | 35_Steady | 32_Up & 36_Steady | 32_Up & 36_No & ~35_Up
+520	0.10646963119506836	35_Steady | 35_Up | 36_Steady | 36_Up | 36_No & 39_Steady | 36_No & 38_Steady & ~37_Steady
+521	-0.05320381745696068	36_Up | 37_Steady | 39_Steady | 40_Steady | 38_Steady & time_in_hospital_ST_ | 38_Steady & 42_Yes & ~41_No
+522	0.10235662013292313	40_Steady | 41_No | time_in_hospital_ST_ | num_lab_procedures_ST_ | 42_Yes & num_medications_ST_ | 42_Yes & number_diagnoses_ST_
+523	-0.047782011330127716	num_lab_procedures_ST_ | num_procedures_ST_ | number_diagnoses_ST_ | time_in_hospital_ST_17.48 | num_medications_ST_ & num_procedures_ST_8.82 | num_medications_ST_ & num_medications_ST_51.66
+524	0.10777446627616882	time_in_hospital_ST_17.48 | num_lab_procedures_ST_129.36 | num_medications_ST_51.66 | number_diagnoses_ST_15.9 | num_procedures_ST_8.82 & num_procedures_ST_-0.5
+525	0.025235647335648537	0_Asian | 0_Caucasian | 1_UnknownInvalid & 2_10-20 & ~0_Hispanic
+526	-0.0009021129226312041	1_Male | 1_UnknownInvalid & ~0_Other & ~2_10-20 | 1_UnknownInvalid & ~2_10-20 & ~2_20-30
+527	-0.04541127383708954	2_30-40 | 2_40-50
+528	0.00413841288536787	2_70-80 | 2_80-90
+529	0.060354527086019516	3_[0-25) | 3_[100-125)
+530	-0.016796346753835678	3_[175-200) | 3_[25-50)
+531	0.13184702396392822	4_2 | 4_3
+532	-0.04978898912668228	4_6 | 4_7
+533	-0.07194942235946655	5_3 | 5_4
+534	0.11077786982059479	5_7 | 5_8
+535	-0.24995113909244537	5_11 | 5_12
+536	0.07782547175884247	5_15 | 5_16
+537	-0.06411806493997574	5_19 | 5_20
+538	0.023601125925779343	5_24 | 5_25
+539	-0.0008948614122346044	6_2 | 6_3
+540	0.07411301881074905	6_6 | 6_7
+541	0.08824972808361053	6_10 | 6_11
+542	0.028234446421265602	6_17 | 6_20
+543	0.05598237365484238	8_AllergyandImmunology | 8_Anesthesiology
+544	0.024635074660182	8_Cardiology-Pediatric | 8_DCPTEAM
+545	-0.12003234773874283	8_EmergencyTrauma | 8_Endocrinology
+546	-0.012546159327030182	8_Gastroenterology | 8_Gynecology
+547	0.030848709866404533	8_Hospitalist | 8_InfectiousDiseases
+548	-0.07081794738769531	8_Neurology | 8_Neurophysiology
+549	0.008833152242004871	8_ObstetricsandGynecology | 8_Oncology
+550	-0.016700461506843567	8_Orthopedics-Reconstructive | 8_Osteopath
+551	-0.0819772332906723	8_Pathology | 8_Pediatrics
+552	-0.15287438035011292	8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Endocrinology
+553	-0.016654137521982193	8_Pediatrics-Neurology | 8_Pediatrics-Pulmonology
+554	-0.04670017957687378	8_PhysicianNotFound | 8_Podiatry
+555	0.03790820762515068	8_Psychiatry-Addictive | 8_Psychiatry-ChildAdolescent
+556	0.0036517323460429907	8_Radiologist | 8_Radiology
+557	-0.06346292793750763	8_Speech | 8_SportsMedicine
+558	-0.016485542058944702	8_Surgery-CardiovascularThoracic | 8_Surgery-Colon&Rectal
+559	-0.0839494839310646	8_Surgery-Neuro | 8_Surgery-Pediatric
+560	0.011448655277490616	8_Surgery-Thoracic | 8_Surgery-Vascular
+561	0.15004897117614746	12_1 | 12_2
+562	-0.039805978536605835	12_5 | 12_6
+563	0.0016380028100684285	12_9 | 12_10
+564	0.03361238166689873	12_13 | 12_14
+565	-0.015784194692969322	12_17 | 12_18
+566	-0.008065077476203442	12_21 | 12_22
+567	-0.015163740143179893	12_25 | 12_26
+568	-0.01534343883395195	12_29 | 12_33
+569	0.053729940205812454	12_36 | 12_37 | 12_42 & 13_1
+570	-0.06023706495761871	12_40 | 12_42 & ~13_1
+571	0.09787990152835846	13_3 | 13_4
+572	-0.025686955079436302	13_7 | 13_8
+573	-0.028448449447751045	13_11 | 13_12
+574	0.08197685331106186	13_15 | 13_16
+575	0.08902686834335327	13_20 | 13_21
+576	0.012988024391233921	13_25 | 13_28
+577	0.02456357143819332	13_42 | 13_46 | 13_76 & 14_1
+578	-0.06742241233587265	13_64 | 13_76 & ~14_1
+579	-0.041349899023771286	14_3 | 14_4
+580	0.2486390620470047	14_7 | 14_8
+581	0.299567312002182	14_11 | 14_12
+582	0.04196077957749367	14_15 | 14_16 | 14_21 & 16_>300
+583	0.009638984687626362	14_19 | 14_21 & ~16_>300
+584	0.02829083241522312	16_Norm | 17_>8
+585	-0.0469164215028286	18_No | 18_Steady & 20_No | 18_Steady & ~17_Norm | 18_Steady & ~19_No | 19_Up & 20_No & ~18_Up
+586	0.1382509469985962	19_Steady | 19_Up & ~20_No
+587	0.04919573664665222	20_Up | 21_No
+588	0.017726436257362366	22_No | 22_Steady & 24_Steady | 22_Steady & 24_Up | 22_Steady & ~23_Steady | 22_Steady & ~21_Up & ~24_No
+589	-0.12053082138299942	24_No | 24_Steady & 26_Steady | 24_Steady & ~23_Steady | 24_Steady & ~25_No | 25_Up & 26_Steady & ~24_Up
+590	0.027482323348522186	25_Steady | 25_Up & ~26_Steady | 27_Up & 28_No & ~26_Steady
+591	-0.06478558480739594	27_Steady | 27_Up & ~28_No
+592	-0.0015431378269568086	28_Up | 29_No
+593	-0.030267413705587387	30_No | 30_Steady & 32_Up | 30_Steady & 35_No | 30_Steady & ~31_Steady | 30_Steady & ~29_Up & ~32_Steady | 32_Up & 35_No & ~29_Up & ~30_Up | 32_Up & 35_No & ~30_Up & ~31_Steady
+594	-0.051618579775094986	32_Steady | 32_Up & 36_No & ~35_No | 32_Up & 36_Steady & ~35_No | 32_Up & ~31_Steady & ~35_No | 32_Up & ~35_No & ~35_Steady
+595	-0.037130337208509445	35_Up | 36_No | 38_Steady & 39_Steady & ~35_Steady & ~36_Steady & ~36_Up | 38_Steady & 39_Steady & ~35_Steady & ~36_Steady & ~37_Steady | 38_Steady & 39_Steady & ~36_Steady & ~36_Up & ~37_Steady
+596	-0.017644500359892845	37_Steady | 38_Steady & 42_Yes & ~39_Steady | 38_Steady & time_in_hospital_ST_ & ~39_Steady | 38_Steady & ~39_Steady & ~40_Steady | 38_Steady & ~36_Up & ~39_Steady & ~41_No | 42_Yes & time_in_hospital_ST_ & ~36_Up & ~39_Steady & ~40_Steady | 42_Yes & time_in_hospital_ST_ & ~36_Up & ~39_Steady & ~41_No | 42_Yes & time_in_hospital_ST_ & ~39_Steady & ~40_Steady & ~41_No
+597	-7.946193250063516e-07	41_No | 42_Yes & number_diagnoses_ST_ & ~time_in_hospital_ST_ | num_medications_ST_ & number_diagnoses_ST_ & ~time_in_hospital_ST_ | 42_Yes & ~40_Steady & ~time_in_hospital_ST_ | 42_Yes & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_
+598	0.05004901811480522	num_procedures_ST_ | num_medications_ST_ | num_procedures_ST_8.82 & num_medications_ST_51.66 & ~number_diagnoses_ST_
+599	0.002550979843363166	num_lab_procedures_ST_129.36 | num_procedures_ST_8.82 | num_lab_procedures_ST_21.86 & num_procedures_ST_-0.5
+
+
+
+Class 1:
+
+Position	Weight	Rule
+0	0.04133084788918495	0_Asian | 0_Other | 0_Caucasian & ~1_Male | 0_Caucasian & ~2_10-20 | 0_Hispanic & ~1_Male & ~2_10-20 | 1_UnknownInvalid & ~0_AfricanAmerican & ~2_10-20
+1	0.0024835849180817604	1_Male | 2_20-30 | 1_UnknownInvalid & ~0_Other | 2_10-20 & ~0_Other | 2_40-50 & ~0_Other | 1_UnknownInvalid & ~2_30-40 & ~2_50-60
+2	0.039694491773843765	2_30-40 | 2_40-50 | 2_50-60 | 2_60-70 | 2_80-90
+3	0.07333490997552872	2_70-80 | 2_80-90 | 3_NoInfo | 3_[100-125) & ~2_60-70 | 2_90-100 & ~3_[0-25) & ~3_[125-150)
+4	0.07057695090770721	3_[0-25) | 3_[100-125) | 3_[125-150) | 3_[150-175) | 3_[25-50)
+5	0.05324524641036987	3_[175-200) | 3_[25-50) | 3_[75-100) | 4_3 & ~3_[150-175) | 3_[50-75) & ~4_2 & ~4_4
+6	0.022395318374037743	4_2 | 4_3 | 4_5 | 4_4 & ~3_[75-100) | 4_7 & ~3_[75-100)
+7	0.027369635179638863	4_6 | 4_7 | 5_2 | 5_4 & ~4_5 | 4_8 & ~5_3 & ~5_5
+8	0.10643506050109863	5_3 | 5_4 | 5_5 | 5_6 | 5_8
+9	-0.005651288200169802	5_7 | 5_8 | 5_9 | 5_10 | 5_12
+10	-0.28151729702949524	5_11 | 5_12 | 5_13 | 5_14 | 5_16
+11	0.03615701571106911	5_15 | 5_16 | 5_17 | 5_18 | 5_20
+12	-0.0028412966057658195	5_19 | 5_20 | 5_22 | 5_23 | 5_25
+13	-0.09619144350290298	5_24 | 5_25 | 5_28 | 6_3 & ~5_23 | 5_27 & ~6_2 & ~6_4
+14	0.016111750155687332	6_2 | 6_3 | 6_5 | 6_4 & ~5_28 | 6_7 & ~5_28
+15	-0.0802181139588356	6_6 | 6_7 | 6_8 | 6_9 | 6_11
+16	0.03384512662887573	6_10 | 6_11 | 6_13 | 6_14 | 6_20
+17	0.01572772115468979	6_17 | 6_20 | 6_25 | 8_Anesthesiology & ~6_14 | 6_22 & ~8_AllergyandImmunology & ~8_Anesthesiology-Pediatric
+18	-0.027564257383346558	8_AllergyandImmunology | 8_Anesthesiology | 8_Cardiology | 8_Anesthesiology-Pediatric & ~6_25 | 8_DCPTEAM & ~6_25
+19	0.07975808531045914	8_Cardiology-Pediatric | 8_DCPTEAM | 8_Dentistry | 8_Dermatology | 8_Endocrinology
+20	0.0007641256670467556	8_EmergencyTrauma | 8_Endocrinology | 8_Endocrinology-Metabolism | 8_FamilyGeneralPractice | 8_Gynecology
+21	-0.018107229843735695	8_Gastroenterology | 8_Gynecology | 8_Hematology | 8_HematologyOncology | 8_InfectiousDiseases
+22	0.039621502161026	8_Hospitalist | 8_InfectiousDiseases | 8_InternalMedicine | 8_Nephrology | 8_Neurophysiology
+23	-0.07830386608839035	8_Neurology | 8_Neurophysiology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Obstetrics | 8_Oncology
+24	-0.01724393479526043	8_ObstetricsandGynecology | 8_Oncology | 8_Ophthalmology | 8_Orthopedics | 8_Osteopath
+25	0.008974907919764519	8_Orthopedics-Reconstructive | 8_Osteopath | 8_Otolaryngology | 8_OutreachServices | 8_Pediatrics
+26	0.036101292818784714	8_Pathology | 8_Pediatrics | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-CriticalCare | 8_Pediatrics-Endocrinology
+27	-0.05086119845509529	8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Endocrinology | 8_Pediatrics-Hematology-Oncology | 8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Pulmonology
+28	0.00021398114040493965	8_Pediatrics-Neurology | 8_Pediatrics-Pulmonology | 8_Perinatology | 8_PhysicalMedicineandRehabilitation | 8_Podiatry
+29	0.014667549170553684	8_PhysicianNotFound | 8_Podiatry | 8_Proctology | 8_Psychiatry | 8_Psychiatry-ChildAdolescent
+30	0.01731920801103115	8_Psychiatry-Addictive | 8_Psychiatry-ChildAdolescent | 8_Psychology | 8_Pulmonology | 8_Radiology
+31	0.019545258954167366	8_Radiologist | 8_Radiology | 8_Resident | 8_Rheumatology | 8_SportsMedicine
+32	-0.03126798942685127	8_Speech | 8_SportsMedicine | 8_Surgeon | 8_Surgery-Cardiovascular | 8_Surgery-Colon&Rectal
+33	-0.002307138405740261	8_Surgery-CardiovascularThoracic | 8_Surgery-Colon&Rectal | 8_Surgery-General | 8_Surgery-Maxillofacial | 8_Surgery-Pediatric
+34	-0.009167899377644062	8_Surgery-Neuro | 8_Surgery-Pediatric | 8_Surgery-Plastic | 8_Surgery-PlasticwithinHeadandNeck | 8_Surgery-Vascular
+35	-0.039617445319890976	8_Surgery-Thoracic | 8_Surgery-Vascular | 8_Urology | 12_2 & ~8_Surgery-PlasticwithinHeadandNeck | 8_SurgicalSpecialty & ~12_1 & ~12_3
+36	0.03283517807722092	12_1 | 12_2 | 12_4 | 12_3 & ~8_Urology | 12_6 & ~8_Urology
+37	0.09503316134214401	12_5 | 12_6 | 12_7 | 12_8 | 12_10
+38	0.10433650761842728	12_9 | 12_10 | 12_11 | 12_12 | 12_14
+39	0.06647592037916183	12_13 | 12_14 | 12_15 | 12_16 | 12_18
+40	0.05468831583857536	12_17 | 12_18 | 12_19 | 12_20 | 12_22
+41	0.03225000575184822	12_21 | 12_22 | 12_23 | 12_24 | 12_26
+42	0.05249059200286865	12_25 | 12_26 | 12_27 | 12_28 | 12_33
+43	0.013123308308422565	12_29 | 12_33 | 12_34 | 12_35 | 12_37
+44	0.014227322302758694	12_36 | 12_37 | 12_39 | 12_38 & ~13_1 | 12_42 & ~13_1
+45	0.013932356610894203	12_40 | 12_42 | 13_2 | 13_1 & ~12_39 | 13_4 & ~12_39
+46	0.030985863879323006	13_3 | 13_4 | 13_5 | 13_6 | 13_8
+47	0.05207817628979683	13_7 | 13_8 | 13_9 | 13_10 | 13_12
+48	0.038918446749448776	13_11 | 13_12 | 13_13 | 13_14 | 13_16
+49	-0.0003087705990765244	13_15 | 13_16 | 13_18 | 13_19 | 13_21
+50	-0.003767045447602868	13_20 | 13_21 | 13_22 | 13_24 | 13_28
+51	-0.0055549233220517635	13_25 | 13_28 | 13_29 | 13_37 | 13_46
+52	0.03546900674700737	13_42 | 13_46 | 13_63 | 13_54 & ~14_1 | 13_76 & ~14_1
+53	0.03984111547470093	13_64 | 13_76 | 14_2 | 14_1 & ~13_63 | 14_4 & ~13_63
+54	0.07544921338558197	14_3 | 14_4 | 14_5 | 14_6 | 14_8
+55	0.036704178899526596	14_7 | 14_8 | 14_9 | 14_10 | 14_12
+56	0.006316762883216143	14_11 | 14_12 | 14_13 | 14_14 | 14_16
+57	-0.03391973301768303	14_15 | 14_16 | 14_18 | 14_17 & ~16_>300 | 14_21 & ~16_>300
+58	0.027516145259141922	14_19 | 16_None | 16_>300 & 17_>8 | 14_21 & ~16_Norm | 14_21 & ~17_None | 16_>300 & ~14_18 & ~17_None | 17_>8 & ~14_18 & ~16_Norm
+59	-0.05019126087427139	16_Norm | 17_Norm | 17_None & 18_Steady | 17_>8 & ~16_None | 18_Steady & ~16_None | 17_>8 & ~18_No & ~18_Up | 17_None & ~16_None & ~18_No & ~18_Up
+60	0.08746753633022308	18_No | 19_No | 18_Up & 19_Up & ~20_No | 18_Steady & ~17_Norm & ~19_Steady | 18_Steady & ~17_Norm & ~20_No | 18_Steady & ~19_Steady & ~20_No | 19_Up & ~17_Norm & ~20_No | 18_Up & ~17_Norm & ~19_Steady & ~20_No
+61	-0.06970186531543732	19_Steady | 20_Steady | 20_No & 21_No | 19_Up & ~20_Up | 19_Up & ~21_Steady | 20_No & ~19_No & ~21_Steady | 21_No & ~19_No & ~20_Up
+62	0.06404712051153183	20_Up | 21_Up | 21_Steady & 22_Steady | 21_No & ~20_Steady | 22_Steady & ~20_Steady | 21_No & ~22_No & ~22_Up | 21_Steady & ~20_Steady & ~22_No & ~22_Up
+63	0.05775804817676544	22_No | 23_Steady | 22_Up & 24_Steady | 22_Steady & ~21_Up | 24_Steady & ~21_Up | 22_Steady & ~24_No & ~24_Up | 22_Up & ~21_Up & ~24_No & ~24_Up
+64	0.01599530130624771	24_No | 25_No | 24_Up & 25_Up & ~26_Steady | 24_Steady & ~23_Steady & ~25_Steady | 24_Steady & ~23_Steady & ~26_Steady | 24_Steady & ~25_Steady & ~26_Steady | 25_Up & ~23_Steady & ~26_Steady | 24_Up & ~23_Steady & ~25_Steady & ~26_Steady
+65	-0.07671549916267395	25_Steady | 27_No | 25_Up & 26_Steady | 25_Up & ~27_Steady | 25_Up & ~28_No | 26_Steady & 27_Up & ~28_No | 27_Up & ~25_No & ~28_No | 26_Steady & ~25_No & ~27_Steady & ~28_No
+66	0.02443654090166092	27_Steady | 28_Steady | 28_No & 29_No | 27_Up & ~28_Up | 27_Up & ~29_Steady | 28_No & ~27_No & ~29_Steady | 29_No & ~27_No & ~28_Up
+67	-0.10217282921075821	28_Up | 29_Up | 29_Steady & 30_Steady | 29_No & ~28_Steady | 30_Steady & ~28_Steady | 29_No & ~30_No & ~30_Up | 29_Steady & ~28_Steady & ~30_No & ~30_Up
+68	-0.014930730685591698	30_No | 30_Steady & 31_Steady | 30_Up & 31_Steady | 31_Steady & ~29_Up | 31_Steady & ~32_Steady | 31_Steady & ~35_No | 30_Up & 32_Up & ~35_No | 30_Steady & ~29_Up & ~32_Steady | 30_Steady & ~29_Up & ~35_No | 30_Steady & ~32_Steady & ~35_No | 32_Up & ~29_Up & ~35_No | 30_Up & ~29_Up & ~32_Steady & ~35_No
+69	-0.03699130192399025	32_Steady | 35_Steady | 32_Up & 35_No | 32_Up & 36_No | 35_No & 36_No | 32_Up & ~31_Steady & ~35_Up | 32_Up & ~31_Steady & ~36_Steady | 32_Up & ~35_Up & ~36_Steady | 35_No & ~31_Steady & ~36_Steady | 36_No & ~31_Steady & ~35_Up
+70	0.03433171287178993	35_Up | 36_Up & 38_Steady | 36_Up & ~35_Steady | 36_Up & ~37_Steady | 36_Up & ~39_Steady | 36_No & 38_Steady & ~35_Steady | 36_No & 38_Steady & ~39_Steady | 36_No & ~35_Steady & ~37_Steady | 36_No & ~35_Steady & ~39_Steady | 36_No & ~37_Steady & ~39_Steady | 36_Steady & 38_Steady & ~35_Steady & ~39_Steady | 36_Steady & 38_Steady & ~37_Steady & ~39_Steady | 36_Steady & ~35_Steady & ~37_Steady & ~39_Steady | 38_Steady & ~35_Steady & ~37_Steady & ~39_Steady
+71	0.020954983308911324	37_Steady | 38_Steady & 40_Steady | 39_Steady & 40_Steady | 40_Steady & 42_Yes | 40_Steady & ~36_Up | 40_Steady & ~41_No | 40_Steady & ~time_in_hospital_ST_ | 38_Steady & 39_Steady & 42_Yes | 38_Steady & 39_Steady & ~36_Up | 38_Steady & 39_Steady & ~41_No | 38_Steady & 39_Steady & ~time_in_hospital_ST_ | 38_Steady & 42_Yes & ~36_Up | 38_Steady & 42_Yes & ~time_in_hospital_ST_ | 38_Steady & ~36_Up & ~41_No | 38_Steady & ~36_Up & ~time_in_hospital_ST_ | 38_Steady & ~41_No & ~time_in_hospital_ST_ | 39_Steady & 42_Yes & ~36_Up & ~time_in_hospital_ST_ | 39_Steady & 42_Yes & ~41_No & ~time_in_hospital_ST_ | 39_Steady & ~36_Up & ~41_No & ~time_in_hospital_ST_ | 42_Yes & ~36_Up & ~41_No & ~time_in_hospital_ST_
+72	1.4002996806539159e-07	41_No | num_lab_procedures_ST_ | 42_Yes & time_in_hospital_ST_ & ~40_Steady | 42_Yes & time_in_hospital_ST_ & ~num_procedures_ST_ | 42_Yes & time_in_hospital_ST_ & ~number_diagnoses_ST_ | time_in_hospital_ST_ & num_medications_ST_ & ~number_diagnoses_ST_ | 42_Yes & ~40_Steady & ~num_procedures_ST_ | 42_Yes & ~40_Steady & ~number_diagnoses_ST_ | 42_Yes & ~num_procedures_ST_ & ~number_diagnoses_ST_ | num_medications_ST_ & ~40_Steady & ~number_diagnoses_ST_ | time_in_hospital_ST_ & ~40_Steady & ~num_procedures_ST_ & ~number_diagnoses_ST_
+73	-0.025297803804278374	num_procedures_ST_ | num_medications_ST_ | time_in_hospital_ST_17.48 | number_diagnoses_ST_ & ~num_medications_ST_51.66 | num_procedures_ST_8.82 & ~num_lab_procedures_ST_ & ~num_lab_procedures_ST_129.36 & ~num_medications_ST_51.66
+74	-0.02015497162938118	num_lab_procedures_ST_129.36 | number_diagnoses_ST_15.9 | num_procedures_ST_8.82 & ~time_in_hospital_ST_17.48 | num_procedures_ST_8.82 & ~num_procedures_ST_-0.5 | num_medications_ST_51.66 & ~time_in_hospital_ST_17.48 & ~num_procedures_ST_-0.5 | num_lab_procedures_ST_21.86 & ~time_in_hospital_ST_17.48 & ~num_procedures_ST_-0.5
+75	0.011277792043983936	0_Other & ~1_UnknownInvalid & ~2_10-20 | ~0_AfricanAmerican & ~0_Asian & ~0_Caucasian & ~0_Hispanic & ~0_Other & ~1_UnknownInvalid | ~0_AfricanAmerican & ~0_Asian & ~0_Caucasian & ~0_Hispanic & ~0_Other & ~2_10-20
+76	-0.005106654483824968	~0_Other & ~1_Male & ~1_UnknownInvalid & ~2_10-20
+77	-0.00992426648736	~2_20-30 & ~2_30-40 & ~2_40-50 & ~2_50-60
+78	-0.0040250117890536785	~2_60-70 & ~2_70-80 & ~2_80-90 & ~2_90-100
+79	0.026259219273924828	~3_NoInfo & ~3_[0-25) & ~3_[100-125) & ~3_[125-150)
+80	-0.028049258515238762	3_[75-100) & ~4_3 & ~4_4 | ~3_[150-175) & ~3_[175-200) & ~3_[25-50) & ~3_[50-75) & ~3_[75-100)
+81	-0.00721800746396184	~3_[75-100) & ~4_2 & ~4_3 & ~4_4
+82	-0.00028028947417624295	~4_5 & ~4_6 & ~4_7 & ~4_8
+83	-0.00659553986042738	~5_2 & ~5_3 & ~5_4 & ~5_5
+84	-0.0032938371878117323	~5_6 & ~5_7 & ~5_8 & ~5_9
+85	-0.0011936143273487687	~5_10 & ~5_11 & ~5_12 & ~5_13
+86	0.0028274324722588062	~5_14 & ~5_15 & ~5_16 & ~5_17
+87	-0.00989887397736311	~5_18 & ~5_19 & ~5_20 & ~5_22
+88	-0.02272186242043972	5_28 & ~6_3 & ~6_4 | ~5_23 & ~5_24 & ~5_25 & ~5_27 & ~5_28
+89	-0.0059254225343465805	~5_28 & ~6_2 & ~6_3 & ~6_4
+90	-0.009416299872100353	~6_5 & ~6_6 & ~6_7 & ~6_8
+91	0.0016754218377172947	~6_9 & ~6_10 & ~6_11 & ~6_13
+92	0.01874982751905918	6_25 & ~8_Anesthesiology & ~8_Anesthesiology-Pediatric | ~6_14 & ~6_17 & ~6_20 & ~6_22 & ~6_25
+93	0.007474420126527548	~6_25 & ~8_AllergyandImmunology & ~8_Anesthesiology & ~8_Anesthesiology-Pediatric
+94	0.009672679007053375	~8_Cardiology & ~8_Cardiology-Pediatric & ~8_DCPTEAM & ~8_Dentistry
+95	-0.021081717684864998	~8_Dermatology & ~8_EmergencyTrauma & ~8_Endocrinology & ~8_Endocrinology-Metabolism
+96	-0.011348923668265343	~8_FamilyGeneralPractice & ~8_Gastroenterology & ~8_Gynecology & ~8_Hematology
+97	-0.020914331078529358	~8_HematologyOncology & ~8_Hospitalist & ~8_InfectiousDiseases & ~8_InternalMedicine
+98	0.019373469054698944	~8_Nephrology & ~8_Neurology & ~8_Neurophysiology & ~8_Obsterics&Gynecology-GynecologicOnco
+99	-0.01233222521841526	~8_Obstetrics & ~8_ObstetricsandGynecology & ~8_Oncology & ~8_Ophthalmology
+100	0.033020686358213425	~8_Orthopedics & ~8_Orthopedics-Reconstructive & ~8_Osteopath & ~8_Otolaryngology
+101	-0.03867092356085777	~8_OutreachServices & ~8_Pathology & ~8_Pediatrics & ~8_Pediatrics-AllergyandImmunology
+102	-0.01934623345732689	~8_Pediatrics-CriticalCare & ~8_Pediatrics-EmergencyMedicine & ~8_Pediatrics-Endocrinology & ~8_Pediatrics-Hematology-Oncology
+103	0.007181552238762379	~8_Pediatrics-InfectiousDiseases & ~8_Pediatrics-Neurology & ~8_Pediatrics-Pulmonology & ~8_Perinatology
+104	-0.0321296788752079	~8_PhysicalMedicineandRehabilitation & ~8_PhysicianNotFound & ~8_Podiatry & ~8_Proctology
+105	-0.0038303479086607695	~8_Psychiatry & ~8_Psychiatry-Addictive & ~8_Psychiatry-ChildAdolescent & ~8_Psychology
+106	0.02736489474773407	~8_Pulmonology & ~8_Radiologist & ~8_Radiology & ~8_Resident
+107	0.026951899752020836	~8_Rheumatology & ~8_Speech & ~8_SportsMedicine & ~8_Surgeon
+108	-0.01476219017058611	~8_Surgery-Cardiovascular & ~8_Surgery-CardiovascularThoracic & ~8_Surgery-Colon&Rectal & ~8_Surgery-General
+109	-0.04215420410037041	~8_Surgery-Maxillofacial & ~8_Surgery-Neuro & ~8_Surgery-Pediatric & ~8_Surgery-Plastic
+110	0.018619783222675323	8_Urology & ~12_2 & ~12_3 | ~8_Surgery-PlasticwithinHeadandNeck & ~8_Surgery-Thoracic & ~8_Surgery-Vascular & ~8_SurgicalSpecialty & ~8_Urology
+111	-0.00028765082242898643	~8_Urology & ~12_1 & ~12_2 & ~12_3
+112	-0.012222245335578918	~12_4 & ~12_5 & ~12_6 & ~12_7
+113	-0.009727170690894127	~12_8 & ~12_9 & ~12_10 & ~12_11
+114	0.016646556556224823	~12_12 & ~12_13 & ~12_14 & ~12_15
+115	-0.009010455571115017	~12_16 & ~12_17 & ~12_18 & ~12_19
+116	0.013500547036528587	~12_20 & ~12_21 & ~12_22 & ~12_23
+117	0.01135135069489479	~12_24 & ~12_25 & ~12_26 & ~12_27
+118	0.0081979064270854	~12_28 & ~12_29 & ~12_33 & ~12_34
+119	0.005625178571790457	~12_35 & ~12_36 & ~12_37 & ~12_38 & ~13_1 | ~12_35 & ~12_36 & ~12_37 & ~12_38 & ~12_39 & ~12_42
+120	-0.021571336314082146	~12_39 & ~12_40 & ~12_42 & ~13_1
+121	0.021164612844586372	~13_2 & ~13_3 & ~13_4 & ~13_5
+122	0.0018715020269155502	~13_6 & ~13_7 & ~13_8 & ~13_9
+123	0.002646900713443756	~13_10 & ~13_11 & ~13_12 & ~13_13
+124	-0.01346958614885807	~13_14 & ~13_15 & ~13_16 & ~13_18
+125	-0.0120733343064785	~13_19 & ~13_20 & ~13_21 & ~13_22
+126	-0.0007030754932202399	~13_24 & ~13_25 & ~13_28 & ~13_29
+127	-0.0015146963996812701	~13_37 & ~13_42 & ~13_46 & ~13_54 & ~14_1 | ~13_37 & ~13_42 & ~13_46 & ~13_54 & ~13_63 & ~13_76
+128	0.0008800445939414203	~13_63 & ~13_64 & ~13_76 & ~14_1
+129	0.0008244923665188253	~14_2 & ~14_3 & ~14_4 & ~14_5
+130	0.01991504617035389	~14_6 & ~14_7 & ~14_8 & ~14_9
+131	0.0323447659611702	~14_10 & ~14_11 & ~14_12 & ~14_13
+132	0.0038319756276905537	~14_14 & ~14_15 & ~14_16 & ~14_17 & ~16_>300 | ~14_14 & ~14_15 & ~14_16 & ~14_17 & ~14_18 & ~14_21
+133	-0.005594294518232346	~14_18 & ~14_19 & ~14_21 & ~16_>300 & ~16_None | ~14_18 & ~14_19 & ~14_21 & ~16_>300 & ~17_>8 & ~17_None
+134	-0.008369620889425278	17_Norm & ~16_None & ~16_Norm & ~18_Steady & ~18_Up | ~16_None & ~16_Norm & ~17_>8 & ~17_None & ~17_Norm
+135	-0.00585817638784647	~17_Norm & ~18_No & ~18_Steady & ~18_Up & ~20_No | ~17_Norm & ~18_No & ~18_Steady & ~18_Up & ~19_No & ~19_Up
+136	-0.003697688225656748	~19_No & ~19_Steady & ~19_Up & ~20_No & ~20_Steady | ~19_No & ~19_Steady & ~19_Up & ~20_No & ~21_No & ~21_Steady
+137	0.013138273730874062	21_Up & ~20_Steady & ~20_Up & ~22_Steady & ~22_Up | ~20_Steady & ~20_Up & ~21_No & ~21_Steady & ~21_Up
+138	-0.0010023951763287187	~21_Up & ~22_No & ~22_Steady & ~22_Up & ~23_Steady | ~21_Up & ~22_No & ~22_Steady & ~22_Up & ~24_Steady & ~24_Up
+139	0.0110573535785079	~23_Steady & ~24_No & ~24_Steady & ~24_Up & ~26_Steady | ~23_Steady & ~24_No & ~24_Steady & ~24_Up & ~25_No & ~25_Up
+140	0.0023521045222878456	~25_No & ~25_Steady & ~25_Up & ~26_Steady & ~28_No | ~25_No & ~25_Steady & ~25_Up & ~26_Steady & ~27_No & ~27_Up
+141	-0.013036311604082584	~27_No & ~27_Steady & ~27_Up & ~28_No & ~28_Steady | ~27_No & ~27_Steady & ~27_Up & ~28_No & ~29_No & ~29_Steady
+142	-0.00776744494214654	29_Up & ~28_Steady & ~28_Up & ~30_Steady & ~30_Up | ~28_Steady & ~28_Up & ~29_No & ~29_Steady & ~29_Up
+143	-0.007273675873875618	~29_Up & ~30_No & ~30_Steady & ~30_Up & ~31_Steady & ~32_Up | ~29_Up & ~30_No & ~30_Steady & ~30_Up & ~31_Steady & ~35_No | ~29_Up & ~30_No & ~30_Steady & ~30_Up & ~32_Up & ~35_No
+144	-0.012941546738147736	~31_Steady & ~32_Steady & ~32_Up & ~35_No & ~35_Steady | ~31_Steady & ~32_Steady & ~32_Up & ~35_No & ~36_No & ~36_Steady
+145	-0.0035594988148659468	36_Up & ~35_Steady & ~35_Up & ~38_Steady & ~39_Steady | ~35_Steady & ~35_Up & ~36_No & ~36_Steady & ~36_Up & ~38_Steady | ~35_Steady & ~35_Up & ~36_No & ~36_Steady & ~36_Up & ~39_Steady
+146	0.01074196770787239	~36_Up & ~37_Steady & ~38_Steady & ~39_Steady & ~40_Steady & ~42_Yes | ~36_Up & ~37_Steady & ~38_Steady & ~39_Steady & ~40_Steady & ~time_in_hospital_ST_ | ~36_Up & ~37_Steady & ~38_Steady & ~39_Steady & ~42_Yes & ~time_in_hospital_ST_
+147	-0.0021211463026702404	~40_Steady & ~41_No & ~42_Yes & ~time_in_hospital_ST_ & ~number_diagnoses_ST_ | ~40_Steady & ~41_No & ~42_Yes & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_ & ~num_medications_ST_
+148	0.0016043654177337885	time_in_hospital_ST_17.48 & ~num_procedures_ST_8.82 & ~num_medications_ST_51.66 | ~num_lab_procedures_ST_ & ~num_procedures_ST_ & ~num_medications_ST_ & ~number_diagnoses_ST_ & ~time_in_hospital_ST_17.48 & ~num_procedures_ST_8.82 | ~num_lab_procedures_ST_ & ~num_procedures_ST_ & ~num_medications_ST_ & ~number_diagnoses_ST_ & ~time_in_hospital_ST_17.48 & ~num_medications_ST_51.66
+149	-0.005042988806962967	~time_in_hospital_ST_17.48 & ~num_lab_procedures_ST_129.36 & ~num_procedures_ST_8.82 & ~num_medications_ST_51.66 & ~num_procedures_ST_-0.5 | ~time_in_hospital_ST_17.48 & ~num_lab_procedures_ST_129.36 & ~num_procedures_ST_8.82 & ~num_medications_ST_51.66 & ~number_diagnoses_ST_15.9 & ~num_lab_procedures_ST_21.86
+150	-0.014137815684080124	0_Asian | 0_Caucasian | 0_AfricanAmerican & ~1_Male | 2_10-20 & ~0_Other | 2_10-20 & ~1_Male | 1_UnknownInvalid & ~0_Hispanic & ~0_Other
+151	0.04585409536957741	2_40-50 | 2_50-60 | 0_Other & 1_Male | 1_Male & ~2_20-30 | 0_Other & 1_UnknownInvalid & ~2_20-30 | 1_UnknownInvalid & ~2_10-20 & ~2_20-30 | 0_Other & ~2_10-20 & ~2_20-30 & ~2_30-40
+152	-0.0657055601477623	2_20-30 | 2_30-40 | 2_40-50 | 2_80-90 | 2_90-100
+153	0.059584956616163254	3_[125-150) | 2_70-80 & ~3_NoInfo | 2_80-90 & ~3_NoInfo | 3_[100-125) & ~2_90-100 | 2_60-70 & ~3_NoInfo & ~3_[0-25)
+154	-0.062017831951379776	3_NoInfo | 3_[0-25) | 3_[100-125) | 3_[25-50) | 3_[50-75)
+155	0.029973704367876053	3_[175-200) | 3_[25-50) | 4_4 | 3_[150-175) & ~4_2 | 4_3 & ~3_[50-75) & ~3_[75-100)
+156	-0.10840849578380585	4_2 | 4_3 | 4_7 | 4_8 | 3_[75-100) & ~4_4 & ~4_5 & ~4_6
+157	-0.047087475657463074	5_5 | 4_6 & ~5_2 | 4_7 & ~5_2 | 5_4 & ~4_8 | 4_5 & ~5_2 & ~5_3
+158	-0.17816288769245148	5_2 | 5_3 | 5_4 | 5_8 | 5_9
+159	0.09357200562953949	5_6 | 5_7 | 5_8 | 5_12 | 5_13
+160	-0.10839936137199402	5_10 | 5_11 | 5_12 | 5_16 | 5_17
+161	-0.1930941790342331	5_14 | 5_15 | 5_16 | 5_20 | 5_22
+162	-0.03922538459300995	5_18 | 5_19 | 5_20 | 5_25 | 5_27
+163	0.028952021151781082	5_24 | 5_25 | 6_4 | 5_23 & ~6_2 | 6_3 & ~5_27 & ~5_28
+164	0.14014948904514313	6_2 | 6_3 | 6_7 | 6_8 | 5_28 & ~6_4 & ~6_5 & ~6_6
+165	-0.02969086728990078	6_5 | 6_6 | 6_7 | 6_11 | 6_13
+166	0.015690362080931664	6_9 | 6_10 | 6_11 | 6_20 | 6_22
+167	0.026053739711642265	6_17 | 6_20 | 8_Anesthesiology-Pediatric | 6_14 & ~8_AllergyandImmunology | 8_Anesthesiology & ~6_22 & ~6_25
+168	-0.017275748774409294	8_AllergyandImmunology | 8_Anesthesiology | 8_DCPTEAM | 8_Dentistry | 6_25 & ~8_Anesthesiology-Pediatric & ~8_Cardiology & ~8_Cardiology-Pediatric
+169	0.02476591058075428	8_Cardiology | 8_Cardiology-Pediatric | 8_DCPTEAM | 8_Endocrinology | 8_Endocrinology-Metabolism
+170	-0.036466557532548904	8_Dermatology | 8_EmergencyTrauma | 8_Endocrinology | 8_Gynecology | 8_Hematology
+171	0.052760351449251175	8_FamilyGeneralPractice | 8_Gastroenterology | 8_Gynecology | 8_InfectiousDiseases | 8_InternalMedicine
+172	-0.07521714270114899	8_HematologyOncology | 8_Hospitalist | 8_InfectiousDiseases | 8_Neurophysiology | 8_Obsterics&Gynecology-GynecologicOnco
+173	0.020177727565169334	8_Nephrology | 8_Neurology | 8_Neurophysiology | 8_Oncology | 8_Ophthalmology
+174	-0.015721511095762253	8_Obstetrics | 8_ObstetricsandGynecology | 8_Oncology | 8_Osteopath | 8_Otolaryngology
+175	-0.011596829630434513	8_Orthopedics | 8_Orthopedics-Reconstructive | 8_Osteopath | 8_Pediatrics | 8_Pediatrics-AllergyandImmunology
+176	-0.01878008060157299	8_OutreachServices | 8_Pathology | 8_Pediatrics | 8_Pediatrics-Endocrinology | 8_Pediatrics-Hematology-Oncology
+177	-0.009699366055428982	8_Pediatrics-CriticalCare | 8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Endocrinology | 8_Pediatrics-Pulmonology | 8_Perinatology
+178	0.08179400861263275	8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Neurology | 8_Pediatrics-Pulmonology | 8_Podiatry | 8_Proctology
+179	0.017240848392248154	8_PhysicalMedicineandRehabilitation | 8_PhysicianNotFound | 8_Podiatry | 8_Psychiatry-ChildAdolescent | 8_Psychology
+180	-0.02435750886797905	8_Psychiatry | 8_Psychiatry-Addictive | 8_Psychiatry-ChildAdolescent | 8_Radiology | 8_Resident
+181	-0.026449961587786674	8_Pulmonology | 8_Radiologist | 8_Radiology | 8_SportsMedicine | 8_Surgeon
+182	0.04747768118977547	8_Rheumatology | 8_Speech | 8_SportsMedicine | 8_Surgery-Colon&Rectal | 8_Surgery-General
+183	-0.016654672101140022	8_Surgery-Cardiovascular | 8_Surgery-CardiovascularThoracic | 8_Surgery-Colon&Rectal | 8_Surgery-Pediatric | 8_Surgery-Plastic
+184	-0.022678006440401077	8_Surgery-Maxillofacial | 8_Surgery-Neuro | 8_Surgery-Pediatric | 8_Surgery-Vascular | 8_SurgicalSpecialty
+185	0.08402885496616364	8_Surgery-Thoracic | 8_Surgery-Vascular | 12_3 | 8_Surgery-PlasticwithinHeadandNeck & ~12_1 | 12_2 & ~8_SurgicalSpecialty & ~8_Urology
+186	0.07553242146968842	12_1 | 12_2 | 12_6 | 12_7 | 8_Urology & ~12_3 & ~12_4 & ~12_5
+187	0.05203521251678467	12_4 | 12_5 | 12_6 | 12_10 | 12_11
+188	0.05404999852180481	12_8 | 12_9 | 12_10 | 12_14 | 12_15
+189	0.03275767341256142	12_12 | 12_13 | 12_14 | 12_18 | 12_19
+190	0.030917301774024963	12_16 | 12_17 | 12_18 | 12_22 | 12_23
+191	0.07959529757499695	12_20 | 12_21 | 12_22 | 12_26 | 12_27
+192	0.03879254311323166	12_24 | 12_25 | 12_26 | 12_33 | 12_34
+193	0.01858486980199814	12_28 | 12_29 | 12_33 | 12_37 | 12_38
+194	0.018075667321681976	12_35 | 12_36 | 12_37 | 12_42 | 13_1
+195	0.028565026819705963	13_4 | 13_5 | 12_40 & ~13_2 | 12_42 & ~13_1 & ~13_2 | 12_39 & ~13_1 & ~13_2 & ~13_3
+196	0.01867702230811119	13_2 | 13_3 | 13_4 | 13_8 | 13_9
+197	0.06347832828760147	13_6 | 13_7 | 13_8 | 13_12 | 13_13
+198	0.05631774291396141	13_10 | 13_11 | 13_12 | 13_16 | 13_18
+199	0.017938273027539253	13_14 | 13_15 | 13_16 | 13_21 | 13_22
+200	-0.012543505989015102	13_19 | 13_20 | 13_21 | 13_28 | 13_29
+201	0.018848100677132607	13_24 | 13_25 | 13_28 | 13_46 | 13_54
+202	0.034494154155254364	13_37 | 13_42 | 13_46 | 13_76 | 14_1
+203	0.01899523288011551	14_4 | 14_5 | 13_64 & ~14_2 | 13_76 & ~14_1 & ~14_2 | 13_63 & ~14_1 & ~14_2 & ~14_3
+204	0.06162862107157707	14_2 | 14_3 | 14_4 | 14_8 | 14_9
+205	0.02416667714715004	14_6 | 14_7 | 14_8 | 14_12 | 14_13
+206	-0.026846157386898994	14_10 | 14_11 | 14_12 | 14_16 | 14_17
+207	0.015358282253146172	14_14 | 14_15 | 14_16 | 14_21 | 16_>300
+208	-0.06841369718313217	17_None | 14_19 & 17_>8 | 14_19 & ~16_None | 14_18 & 17_>8 & ~16_None | 14_21 & 17_>8 & ~16_None | 14_21 & ~16_>300 & ~16_None | 14_18 & ~16_>300 & ~16_None & ~16_Norm | 17_>8 & ~16_>300 & ~16_None & ~16_Norm
+209	0.05254290625452995	17_>8 | 18_Up | 16_Norm & 18_Steady | 16_None & 18_Steady & ~17_Norm | 16_Norm & ~17_None & ~17_Norm | 16_Norm & ~17_Norm & ~18_No | 18_Steady & ~17_None & ~17_Norm | 16_None & ~17_None & ~17_Norm & ~18_No
+210	-0.05411871150135994	17_Norm & 18_No | 17_Norm & 19_Up | 18_No & ~19_No | 18_Steady & ~19_No | 19_Up & ~18_Up | 20_No & ~18_Up | 20_No & ~19_No | 17_Norm & ~18_Up & ~19_No & ~19_Steady
+211	-0.01677415333688259	21_Steady | 19_Steady & 21_No | 19_Steady & ~20_Steady | 19_No & 21_No & ~20_Steady | 19_Up & 21_No & ~20_Steady | 19_Up & ~20_No & ~20_Steady | 19_No & ~20_No & ~20_Steady & ~20_Up | 21_No & ~20_No & ~20_Steady & ~20_Up
+212	-0.046528127044439316	21_No | 22_Up | 20_Up & 22_Steady | 20_Steady & 22_Steady & ~21_Up | 20_Up & ~21_Steady & ~21_Up | 20_Up & ~21_Up & ~22_No | 22_Steady & ~21_Steady & ~21_Up | 20_Steady & ~21_Steady & ~21_Up & ~22_No
+213	0.06100241467356682	22_No & 24_Steady | 22_No & ~23_Steady | 22_Steady & ~23_Steady | 24_Up & ~22_Up | 24_Up & ~23_Steady | 21_Up & 22_Steady & 24_Steady | 21_Up & 22_No & ~24_No | 21_Up & 24_Steady & ~23_Steady | 24_Steady & ~22_Up & ~23_Steady | 21_Up & ~22_Up & ~23_Steady & ~24_No
+214	0.09960667043924332	23_Steady & 24_No | 23_Steady & 25_Up | 24_No & ~25_No | 24_Steady & ~25_No | 25_Up & ~24_Up | 26_Steady & ~24_Up | 26_Steady & ~25_No | 23_Steady & ~24_Up & ~25_No & ~25_Steady
+215	0.04970287159085274	25_No & 27_Up | 25_Steady & 28_No | 25_Up & 27_Up | 25_Up & 28_No | 27_Up & ~26_Steady | 28_No & ~26_Steady | 28_No & ~27_No | 25_Steady & ~26_Steady & ~27_No | 25_Steady & ~27_No & ~27_Steady | 25_Up & ~26_Steady & ~27_No | 25_No & ~26_Steady & ~27_No & ~27_Steady
+216	-0.030090365558862686	29_Steady | 27_Steady & 29_No | 27_Steady & ~28_Steady | 27_No & 29_No & ~28_Steady | 27_Up & 29_No & ~28_Steady | 27_Up & ~28_No & ~28_Steady | 27_No & ~28_No & ~28_Steady & ~28_Up | 29_No & ~28_No & ~28_Steady & ~28_Up
+217	-0.16995356976985931	29_No | 30_Up | 28_Up & 30_Steady | 28_Steady & 30_Steady & ~29_Up | 28_Up & ~29_Steady & ~29_Up | 28_Up & ~29_Up & ~30_No | 30_Steady & ~29_Steady & ~29_Up | 28_Steady & ~29_Steady & ~29_Up & ~30_No
+218	-0.002050806302577257	30_No & 32_Up | 30_No & 35_No | 30_Steady & 35_No | 30_No & ~31_Steady | 30_Steady & ~31_Steady | 35_No & ~31_Steady | 29_Up & 30_Steady & 32_Up | 29_Up & 32_Up & 35_No | 29_Up & 30_No & ~32_Steady | 29_Up & 32_Up & ~31_Steady | 29_Up & 35_No & ~30_Up | 32_Up & ~30_Up & ~31_Steady | 35_No & ~30_Up & ~32_Steady | 29_Up & ~30_Up & ~31_Steady & ~32_Steady
+219	0.09046017378568649	36_Steady | 31_Steady & 32_Steady | 32_Steady & 36_No | 32_Steady & ~35_Steady | 31_Steady & 32_Up & 36_No | 31_Steady & 32_Up & ~35_Steady | 31_Steady & 36_No & ~35_Steady | 32_Up & 36_No & ~35_Steady | 32_Up & ~35_No & ~35_Steady | 31_Steady & ~35_No & ~35_Steady & ~35_Up | 36_No & ~35_No & ~35_Steady & ~35_Up
+220	0.0368347205221653	36_No | 35_Steady & 39_Steady | 35_Up & 39_Steady | 38_Steady & 39_Steady | 39_Steady & ~36_Up | 39_Steady & ~37_Steady | 35_Up & 38_Steady & ~36_Up | 35_Up & 38_Steady & ~37_Steady | 35_Up & ~36_Steady & ~36_Up | 35_Up & ~36_Up & ~37_Steady | 35_Steady & 38_Steady & ~36_Steady & ~36_Up | 35_Steady & 38_Steady & ~36_Up & ~37_Steady | 35_Steady & ~36_Steady & ~36_Up & ~37_Steady | 38_Steady & ~36_Steady & ~36_Up & ~37_Steady
+221	-0.0043101925402879715	37_Steady & time_in_hospital_ST_ | time_in_hospital_ST_ & ~40_Steady | 36_Up & 38_Steady & time_in_hospital_ST_ | 38_Steady & 42_Yes & time_in_hospital_ST_ | 36_Up & 37_Steady & ~40_Steady | 36_Up & time_in_hospital_ST_ & ~39_Steady | 37_Steady & 38_Steady & ~40_Steady | 37_Steady & 42_Yes & ~40_Steady | 38_Steady & time_in_hospital_ST_ & ~39_Steady | 38_Steady & time_in_hospital_ST_ & ~41_No | 42_Yes & time_in_hospital_ST_ & ~39_Steady | 36_Up & 37_Steady & 38_Steady & 42_Yes | 37_Steady & ~39_Steady & ~40_Steady | 37_Steady & ~40_Steady & ~41_No | 38_Steady & ~39_Steady & ~40_Steady | time_in_hospital_ST_ & ~39_Steady & ~41_No | 36_Up & 37_Steady & 38_Steady & ~39_Steady | 36_Up & 37_Steady & 38_Steady & ~41_No | 36_Up & 37_Steady & 42_Yes & ~39_Steady | 36_Up & 38_Steady & 42_Yes & ~40_Steady | 36_Up & 42_Yes & time_in_hospital_ST_ & ~41_No | 37_Steady & 38_Steady & 42_Yes & ~39_Steady | 37_Steady & 38_Steady & 42_Yes & ~41_No | 36_Up & 37_Steady & ~39_Steady & ~41_No | 36_Up & 38_Steady & ~40_Steady & ~41_No | 36_Up & 42_Yes & ~39_Steady & ~40_Steady | 36_Up & 42_Yes & ~40_Steady & ~41_No | 37_Steady & 38_Steady & ~39_Steady & ~41_No | 37_Steady & 42_Yes & ~39_Steady & ~41_No | 38_Steady & 42_Yes & ~40_Steady & ~41_No | 36_Up & ~39_Steady & ~40_Steady & ~41_No | 42_Yes & ~39_Steady & ~40_Steady & ~41_No | 36_Up & 38_Steady & 42_Yes & ~39_Steady & ~41_No
+222	1.4002996806539159e-07	40_Steady & num_medications_ST_ | 41_No & number_diagnoses_ST_ | 42_Yes & num_medications_ST_ | 42_Yes & number_diagnoses_ST_ | num_medications_ST_ & ~time_in_hospital_ST_ | number_diagnoses_ST_ & ~time_in_hospital_ST_ | number_diagnoses_ST_ & ~num_lab_procedures_ST_ | 40_Steady & 41_No & 42_Yes | 40_Steady & 41_No & ~time_in_hospital_ST_ | 40_Steady & 41_No & ~num_lab_procedures_ST_ | 41_No & 42_Yes & ~time_in_hospital_ST_ | 41_No & 42_Yes & ~num_lab_procedures_ST_ | 41_No & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_ | 41_No & ~num_lab_procedures_ST_ & ~num_procedures_ST_ | 42_Yes & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_ | 40_Steady & 42_Yes & ~num_lab_procedures_ST_ & ~num_procedures_ST_ | 40_Steady & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_ & ~num_procedures_ST_
+223	-0.07934959977865219	num_lab_procedures_ST_ | num_procedures_ST_ | num_medications_ST_ | num_medications_ST_51.66 | num_procedures_ST_8.82 & ~number_diagnoses_ST_ & ~time_in_hospital_ST_17.48 & ~num_lab_procedures_ST_129.36
+224	0.03694766387343407	num_procedures_ST_8.82 | num_lab_procedures_ST_21.86 | num_procedures_ST_-0.5 | num_lab_procedures_ST_129.36 & ~number_diagnoses_ST_15.9 | time_in_hospital_ST_17.48 & ~num_medications_ST_51.66 & ~number_diagnoses_ST_15.9 & ~time_in_hospital_ST_1.17
+225	0.0008145116735249758	0_Hispanic | 0_Other | 1_Male | 0_Asian & ~1_UnknownInvalid & ~2_10-20
+226	-0.03891092166304588	2_10-20 | 2_20-30 | 2_30-40 | 1_Male & ~0_Other & ~2_40-50 & ~2_50-60
+227	-0.025060731917619705	2_30-40 | 2_50-60 | 2_60-70 | 2_70-80
+228	-0.012596160173416138	2_90-100 | 3_NoInfo | 3_[0-25) | 2_70-80 & ~3_[100-125) & ~3_[125-150)
+229	0.04470760375261307	3_[0-25) | 3_[125-150) | 3_[150-175) | 3_[175-200)
+230	-0.015011264011263847	3_[50-75) | 3_[75-100) | 4_2 | 3_[175-200) & ~4_3 & ~4_4
+231	0.20222128927707672	4_4 | 4_5 | 4_6 | 4_2 & ~3_[75-100)
+232	0.1259482204914093	4_8 | 5_2 | 5_3 | 4_6 & ~5_4 & ~5_5
+233	-0.06380031257867813	5_3 | 5_5 | 5_6 | 5_7
+234	-0.20345743000507355	5_7 | 5_9 | 5_10 | 5_11
+235	-0.32983845472335815	5_11 | 5_13 | 5_14 | 5_15
+236	-0.018273210152983665	5_15 | 5_17 | 5_18 | 5_19
+237	-0.015141038224101067	5_19 | 5_22 | 5_23 | 5_24
+238	-0.06158249080181122	5_27 | 5_28 | 6_2 | 5_24 & ~6_3 & ~6_4
+239	-0.08055608719587326	6_4 | 6_5 | 6_6 | 6_2 & ~5_28
+240	-0.07334858179092407	6_6 | 6_8 | 6_9 | 6_10
+241	-0.04785977676510811	6_10 | 6_13 | 6_14 | 6_17
+242	-0.06563644856214523	6_22 | 6_25 | 8_AllergyandImmunology | 6_17 & ~8_Anesthesiology & ~8_Anesthesiology-Pediatric
+243	0.0014763891231268644	8_Anesthesiology-Pediatric | 8_Cardiology | 8_Cardiology-Pediatric | 8_AllergyandImmunology & ~6_25
+244	0.023606229573488235	8_Cardiology-Pediatric | 8_Dentistry | 8_Dermatology | 8_EmergencyTrauma
+245	0.06560502201318741	8_EmergencyTrauma | 8_Endocrinology-Metabolism | 8_FamilyGeneralPractice | 8_Gastroenterology
+246	0.0010359145235270262	8_Gastroenterology | 8_Hematology | 8_HematologyOncology | 8_Hospitalist
+247	0.02056781016290188	8_Hospitalist | 8_InternalMedicine | 8_Nephrology | 8_Neurology
+248	-0.06285693496465683	8_Neurology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Obstetrics | 8_ObstetricsandGynecology
+249	-0.09061755985021591	8_ObstetricsandGynecology | 8_Ophthalmology | 8_Orthopedics | 8_Orthopedics-Reconstructive
+250	0.01070459932088852	8_Orthopedics-Reconstructive | 8_Otolaryngology | 8_OutreachServices | 8_Pathology
+251	0.10749368369579315	8_Pathology | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-CriticalCare | 8_Pediatrics-EmergencyMedicine
+252	-0.00753064127638936	8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Hematology-Oncology | 8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Neurology
+253	-0.033287882804870605	8_Pediatrics-Neurology | 8_Perinatology | 8_PhysicalMedicineandRehabilitation | 8_PhysicianNotFound
+254	-0.026557674631476402	8_PhysicianNotFound | 8_Proctology | 8_Psychiatry | 8_Psychiatry-Addictive
+255	0.01628093235194683	8_Psychiatry-Addictive | 8_Psychology | 8_Pulmonology | 8_Radiologist
+256	-0.005325996316969395	8_Radiologist | 8_Resident | 8_Rheumatology | 8_Speech
+257	-0.08667673170566559	8_Speech | 8_Surgeon | 8_Surgery-Cardiovascular | 8_Surgery-CardiovascularThoracic
+258	-0.08957489579916	8_Surgery-CardiovascularThoracic | 8_Surgery-General | 8_Surgery-Maxillofacial | 8_Surgery-Neuro
+259	-0.06245158985257149	8_Surgery-Neuro | 8_Surgery-Plastic | 8_Surgery-PlasticwithinHeadandNeck | 8_Surgery-Thoracic
+260	-0.017777813598513603	8_SurgicalSpecialty | 8_Urology | 12_1 | 8_Surgery-Thoracic & ~12_2 & ~12_3
+261	0.01486678421497345	12_3 | 12_4 | 12_5 | 12_1 & ~8_Urology
+262	-0.017659800127148628	12_5 | 12_7 | 12_8 | 12_9
+263	-0.034533265978097916	12_9 | 12_11 | 12_12 | 12_13
+264	0.011315245181322098	12_13 | 12_15 | 12_16 | 12_17
+265	0.02244723029434681	12_17 | 12_19 | 12_20 | 12_21
+266	0.00969947874546051	12_21 | 12_23 | 12_24 | 12_25
+267	0.029249517247080803	12_25 | 12_27 | 12_28 | 12_29
+268	0.007703928276896477	12_29 | 12_34 | 12_35 | 12_36
+269	0.005279162898659706	12_38 | 12_39 | 12_40 | 12_36 & ~13_1
+270	0.033508896827697754	13_1 | 13_2 | 13_3 | 12_40 & ~13_4 & ~13_5
+271	0.08084914833307266	13_3 | 13_5 | 13_6 | 13_7
+272	0.10527116060256958	13_7 | 13_9 | 13_10 | 13_11
+273	0.06767331808805466	13_11 | 13_13 | 13_14 | 13_15
+274	-0.009733285754919052	13_15 | 13_18 | 13_19 | 13_20
+275	-0.00649659987539053	13_20 | 13_22 | 13_24 | 13_25
+276	-0.007524025160819292	13_25 | 13_29 | 13_37 | 13_42
+277	0.011853309348225594	13_54 | 13_63 | 13_64 | 13_42 & ~14_1
+278	0.015286928042769432	14_1 | 14_2 | 14_3 | 13_64 & ~14_4 & ~14_5
+279	0.016780178993940353	14_3 | 14_5 | 14_6 | 14_7
+280	0.020668761804699898	14_7 | 14_9 | 14_10 | 14_11
+281	0.006448792759329081	14_11 | 14_13 | 14_14 | 14_15
+282	-0.018851403146982193	14_17 | 14_18 | 14_19 | 14_15 & ~16_>300
+283	0.017182111740112305	16_>300 | 16_Norm | 16_None & ~14_18 | 14_19 & ~17_>8 & ~17_None | 16_None & ~17_>8 & ~17_None
+284	0.0645308792591095	17_None | 18_No | 17_Norm & ~16_None | 17_Norm & ~18_Steady & ~18_Up | 16_Norm & ~17_>8 & ~18_Steady & ~18_Up
+285	0.008713140152394772	18_Up | 18_No & 19_No | 19_No & ~17_Norm | 19_No & ~20_No | 19_Steady & ~17_Norm | 19_Steady & ~18_Steady | 19_Steady & ~20_No | 18_No & ~17_Norm & ~19_Up & ~20_No
+286	0.0019475034205242991	20_No | 20_Up | 20_Steady & ~19_No | 19_Steady & ~21_No & ~21_Steady | 20_Steady & ~21_No & ~21_Steady
+287	0.03759751096367836	21_Steady | 22_No | 21_Up & ~20_Steady | 21_Up & ~22_Steady & ~22_Up | 20_Up & ~21_No & ~22_Steady & ~22_Up
+288	-0.017041875049471855	22_Up | 24_No | 22_No & 23_Steady | 23_Steady & ~21_Up | 23_Steady & ~24_Steady & ~24_Up | 22_No & ~21_Up & ~24_Steady & ~24_Up
+289	0.008930040523409843	24_Up | 24_No & 25_No | 25_No & ~23_Steady | 25_No & ~26_Steady | 25_Steady & ~23_Steady | 25_Steady & ~24_Steady | 25_Steady & ~26_Steady | 24_No & ~23_Steady & ~25_Up & ~26_Steady
+290	-0.04488316923379898	26_Steady | 27_Steady | 27_No & ~25_No | 27_No & ~28_No | 25_Steady & ~27_Up & ~28_No
+291	-0.03464621677994728	28_No | 28_Up | 28_Steady & ~27_No | 27_Steady & ~29_No & ~29_Steady | 28_Steady & ~29_No & ~29_Steady
+292	-0.04022502526640892	29_Steady | 30_No | 29_Up & ~28_Steady | 29_Up & ~30_Steady & ~30_Up | 28_Up & ~29_No & ~30_Steady & ~30_Up
+293	-0.0004609645693562925	30_Up | 30_No & 31_Steady | 31_Steady & 32_Steady | 32_Steady & ~29_Up | 32_Steady & ~30_Steady | 32_Steady & ~35_No | 31_Steady & ~29_Up & ~30_Steady | 31_Steady & ~29_Up & ~32_Up | 31_Steady & ~29_Up & ~35_No | 31_Steady & ~32_Up & ~35_No | 30_No & ~29_Up & ~32_Up & ~35_No
+294	0.03560347482562065	35_No | 32_Steady & 35_Steady | 35_Steady & ~31_Steady | 35_Up & ~31_Steady | 35_Up & ~32_Up | 35_Steady & ~36_No & ~36_Steady | 35_Up & ~36_No & ~36_Steady | 32_Steady & ~31_Steady & ~36_No & ~36_Steady
+295	0.05235690250992775	36_Steady | 36_Up & 37_Steady | 36_Up & ~35_Steady | 37_Steady & ~35_Steady | 36_Up & ~38_Steady & ~39_Steady | 37_Steady & ~36_No & ~38_Steady | 37_Steady & ~36_No & ~39_Steady | 37_Steady & ~38_Steady & ~39_Steady | 35_Up & ~36_No & ~38_Steady & ~39_Steady
+296	0.02290778048336506	39_Steady | 37_Steady & 41_No | 40_Steady & 41_No | 41_No & ~36_Up | 37_Steady & 40_Steady & ~36_Up | 37_Steady & 40_Steady & ~38_Steady | 37_Steady & 40_Steady & ~42_Yes | 37_Steady & 40_Steady & ~time_in_hospital_ST_ | 40_Steady & ~36_Up & ~38_Steady | 40_Steady & ~36_Up & ~42_Yes | 40_Steady & ~36_Up & ~time_in_hospital_ST_ | 40_Steady & ~42_Yes & ~time_in_hospital_ST_ | 41_No & ~38_Steady & ~42_Yes | 41_No & ~38_Steady & ~time_in_hospital_ST_ | 41_No & ~42_Yes & ~time_in_hospital_ST_ | 37_Steady & ~36_Up & ~38_Steady & ~42_Yes & ~time_in_hospital_ST_
+297	-0.014420994557440281	time_in_hospital_ST_ | 41_No & num_lab_procedures_ST_ | 41_No & num_procedures_ST_ | num_lab_procedures_ST_ & ~40_Steady | num_lab_procedures_ST_ & ~number_diagnoses_ST_ | num_procedures_ST_ & ~40_Steady | num_procedures_ST_ & ~42_Yes | num_procedures_ST_ & ~number_diagnoses_ST_ | 41_No & ~40_Steady & ~42_Yes & ~num_medications_ST_ & ~number_diagnoses_ST_
+298	-0.00435830419883132	number_diagnoses_ST_ | time_in_hospital_ST_17.48 | num_lab_procedures_ST_129.36 | num_procedures_ST_ & ~num_procedures_ST_8.82 & ~num_medications_ST_51.66
+299	-0.008637982420623302	num_medications_ST_51.66 | time_in_hospital_ST_1.17 | number_diagnoses_ST_15.9 & ~time_in_hospital_ST_17.48 | number_diagnoses_ST_15.9 & ~num_procedures_ST_-0.5 | num_lab_procedures_ST_129.36 & ~num_procedures_ST_8.82 & ~num_lab_procedures_ST_21.86 & ~num_procedures_ST_-0.5
+300	0.15586313605308533	0_AfricanAmerican | 0_Caucasian | 0_Hispanic | 2_10-20 & ~0_Other
+301	0.05040919780731201	1_UnknownInvalid | 2_10-20 | 2_50-60 | 0_Other & ~2_20-30
+302	-0.0954958125948906	2_20-30 | 2_40-50 | 2_50-60 | 2_90-100
+303	-0.009334246627986431	2_80-90 | 2_90-100 | 3_[125-150) | 2_60-70 & ~3_NoInfo
+304	-0.06821607053279877	3_NoInfo | 3_[100-125) | 3_[125-150) | 3_[50-75)
+305	-0.02270105853676796	3_[150-175) | 3_[25-50) | 3_[50-75) | 4_4 & ~3_[75-100)
+306	0.050145335495471954	4_3 | 4_4 | 4_8 | 3_[75-100) & ~4_5
+307	-0.043588701635599136	4_7 | 4_8 | 5_5 | 4_5 & ~5_2
+308	-0.041150420904159546	5_2 | 5_4 | 5_5 | 5_9
+309	-0.001285061240196228	5_6 | 5_8 | 5_9 | 5_13
+310	0.06588316708803177	5_10 | 5_12 | 5_13 | 5_17
+311	-0.15068188309669495	5_14 | 5_16 | 5_17 | 5_22
+312	-0.08408519625663757	5_18 | 5_20 | 5_22 | 5_27
+313	-0.03386683389544487	5_23 | 5_25 | 5_27 | 6_4 & ~5_28
+314	-0.1636473685503006	6_3 | 6_4 | 6_8 | 5_28 & ~6_5
+315	0.05683190003037453	6_5 | 6_7 | 6_8 | 6_13
+316	-0.08099421858787537	6_9 | 6_11 | 6_13 | 6_22
+317	0.05636294558644295	6_14 | 6_20 | 6_22 | 8_Anesthesiology-Pediatric & ~6_25
+318	0.004846059717237949	8_Anesthesiology | 8_Anesthesiology-Pediatric | 8_Dentistry | 6_25 & ~8_Cardiology
+319	-0.009754149243235588	8_Cardiology | 8_DCPTEAM | 8_Dentistry | 8_Endocrinology-Metabolism
+320	0.0034646098501980305	8_Dermatology | 8_Endocrinology | 8_Endocrinology-Metabolism | 8_Hematology
+321	-0.07496484369039536	8_FamilyGeneralPractice | 8_Gynecology | 8_Hematology | 8_InternalMedicine
+322	-0.08888283371925354	8_HematologyOncology | 8_InfectiousDiseases | 8_InternalMedicine | 8_Obsterics&Gynecology-GynecologicOnco
+323	0.03244718164205551	8_Nephrology | 8_Neurophysiology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Ophthalmology
+324	-0.018672185018658638	8_Obstetrics | 8_Oncology | 8_Ophthalmology | 8_Otolaryngology
+325	0.08346512913703918	8_Orthopedics | 8_Osteopath | 8_Otolaryngology | 8_Pediatrics-AllergyandImmunology
+326	0.013984997756779194	8_OutreachServices | 8_Pediatrics | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-Hematology-Oncology
+327	-0.07193626463413239	8_Pediatrics-CriticalCare | 8_Pediatrics-Endocrinology | 8_Pediatrics-Hematology-Oncology | 8_Perinatology
+328	0.04311644658446312	8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Pulmonology | 8_Perinatology | 8_Proctology
+329	0.0029180285055190325	8_PhysicalMedicineandRehabilitation | 8_Podiatry | 8_Proctology | 8_Psychology
+330	-0.014737341552972794	8_Psychiatry | 8_Psychiatry-ChildAdolescent | 8_Psychology | 8_Resident
+331	-0.029883911833167076	8_Pulmonology | 8_Radiology | 8_Resident | 8_Surgeon
+332	-0.01119294110685587	8_Rheumatology | 8_SportsMedicine | 8_Surgeon | 8_Surgery-General
+333	0.028826093301177025	8_Surgery-Cardiovascular | 8_Surgery-Colon&Rectal | 8_Surgery-General | 8_Surgery-Plastic
+334	-0.019543305039405823	8_Surgery-Maxillofacial | 8_Surgery-Pediatric | 8_Surgery-Plastic | 8_SurgicalSpecialty
+335	0.06769140064716339	8_Surgery-PlasticwithinHeadandNeck | 8_Surgery-Vascular | 8_SurgicalSpecialty | 12_3 & ~8_Urology
+336	0.004149796906858683	12_2 | 12_3 | 12_7 | 8_Urology & ~12_4
+337	0.037607062608003616	12_4 | 12_6 | 12_7 | 12_11
+338	0.11741457134485245	12_8 | 12_10 | 12_11 | 12_15
+339	0.10086651891469955	12_12 | 12_14 | 12_15 | 12_19
+340	0.04527243226766586	12_16 | 12_18 | 12_19 | 12_23
+341	0.055564701557159424	12_20 | 12_22 | 12_23 | 12_27
+342	0.036966752260923386	12_24 | 12_26 | 12_27 | 12_34
+343	0.02910023368895054	12_28 | 12_33 | 12_34 | 12_38
+344	0.00355278211645782	12_35 | 12_37 | 12_38 | 13_1 & ~12_39
+345	0.02355041913688183	12_42 | 13_1 | 13_5 | 12_39 & ~13_2
+346	0.012446084059774876	13_2 | 13_4 | 13_5 | 13_9
+347	0.023292699828743935	13_6 | 13_8 | 13_9 | 13_13
+348	0.045122548937797546	13_10 | 13_12 | 13_13 | 13_18
+349	0.008259056136012077	13_14 | 13_16 | 13_18 | 13_22
+350	0.02952408976852894	13_19 | 13_21 | 13_22 | 13_29
+351	0.03240006044507027	13_24 | 13_28 | 13_29 | 13_54
+352	0.01867058500647545	13_37 | 13_46 | 13_54 | 14_1 & ~13_63
+353	0.007753669284284115	13_76 | 14_1 | 14_5 | 13_63 & ~14_2
+354	0.03990146890282631	14_2 | 14_4 | 14_5 | 14_9
+355	0.08297887444496155	14_6 | 14_8 | 14_9 | 14_13
+356	0.005245531443506479	14_10 | 14_12 | 14_13 | 14_17
+357	0.04677955433726311	14_14 | 14_16 | 14_17 | 16_>300 & ~14_18
+358	0.014835317619144917	14_21 | 16_>300 | 14_18 & 17_>8 | 14_18 & 17_None | 14_18 & ~16_None | 17_None & ~16_None
+359	0.018850797787308693	17_>8 | 17_None | 16_None & 18_Steady | 16_None & 18_Up | 16_None & ~17_Norm | 18_Up & ~17_Norm
+360	-0.026661278679966927	18_Steady | 18_Up | 17_Norm & 20_No | 17_Norm & ~19_No | 20_No & ~19_No
+361	0.0322682149708271	19_Up | 20_No | 19_No & 21_No | 19_No & 21_Steady | 19_No & ~20_Steady | 21_Steady & ~20_Steady
+362	-0.024000700563192368	21_No | 21_Steady | 20_Steady & 22_Steady | 20_Steady & 22_Up | 20_Steady & ~21_Up | 22_Up & ~21_Up
+363	0.0042931092903018	22_Steady | 22_Up | 21_Up & 24_Up | 21_Up & ~23_Steady | 24_Up & ~23_Steady | 21_Up & 24_Steady & ~22_No
+364	0.00033366799470968544	24_Steady | 24_Up | 23_Steady & 26_Steady | 23_Steady & ~25_No | 26_Steady & ~25_No
+365	-0.005227654241025448	25_Up | 25_No & 28_No | 26_Steady & 28_No | 25_No & ~27_No | 26_Steady & ~25_Steady | 26_Steady & ~27_No | 28_No & ~27_No
+366	-0.01974034495651722	27_Up | 28_No | 27_No & 29_No | 27_No & 29_Steady | 27_No & ~28_Steady | 29_Steady & ~28_Steady
+367	0.013966253958642483	29_No | 29_Steady | 28_Steady & 30_Steady | 28_Steady & 30_Up | 28_Steady & ~29_Up | 30_Up & ~29_Up
+368	0.020298238843679428	30_Steady | 30_Up | 29_Up & 35_No | 29_Up & ~31_Steady | 35_No & ~31_Steady | 29_Up & 32_Up & ~30_No
+369	0.007571577560156584	32_Up | 35_No | 31_Steady & 36_Steady | 31_Steady & ~35_Steady | 36_Steady & ~35_Steady | 31_Steady & 36_No & ~32_Steady
+370	0.03099178522825241	36_No | 36_Steady | 35_Steady & 38_Steady | 35_Steady & 39_Steady | 35_Steady & ~36_Up | 39_Steady & ~36_Up
+371	-0.009513228200376034	38_Steady | 36_Up & 39_Steady | 36_Up & time_in_hospital_ST_ | 39_Steady & 42_Yes | 39_Steady & time_in_hospital_ST_ | 36_Up & ~40_Steady | 39_Steady & ~37_Steady | 39_Steady & ~40_Steady | time_in_hospital_ST_ & ~40_Steady | 36_Up & 42_Yes & ~37_Steady
+372	0.05361146852374077	42_Yes | 40_Steady & time_in_hospital_ST_ | 40_Steady & number_diagnoses_ST_ | time_in_hospital_ST_ & number_diagnoses_ST_ | 40_Steady & ~num_lab_procedures_ST_ | time_in_hospital_ST_ & ~41_No | time_in_hospital_ST_ & ~num_lab_procedures_ST_ | number_diagnoses_ST_ & ~num_lab_procedures_ST_
+373	0.021067647263407707	num_lab_procedures_ST_ | num_medications_ST_ | number_diagnoses_ST_ | num_medications_ST_51.66 & ~time_in_hospital_ST_17.48
+374	0.06267451494932175	num_procedures_ST_8.82 | num_medications_ST_51.66 | time_in_hospital_ST_17.48 & num_procedures_ST_-0.5 | time_in_hospital_ST_17.48 & ~number_diagnoses_ST_15.9 | num_procedures_ST_-0.5 & ~number_diagnoses_ST_15.9
+375	-0.11200717836618423	0_Asian | 0_Hispanic | 0_Other
+376	-0.014672104269266129	2_10-20 | 2_20-30 | 1_Male & ~0_Other | 1_Male & ~2_30-40 & ~2_40-50 & ~2_50-60
+377	-0.059084635227918625	2_30-40 | 2_50-60 | 2_60-70
+378	0.0226595476269722	2_70-80 | 2_90-100 | 3_NoInfo
+379	0.055483005940914154	3_[0-25) | 3_[125-150) | 3_[150-175)
+380	0.05682187154889107	3_[175-200) | 3_[50-75) | 3_[75-100)
+381	0.009880180470645428	4_2 | 4_4 | 4_5
+382	-0.060073453933000565	4_6 | 4_8 | 5_2
+383	-0.11612896621227264	5_3 | 5_5 | 5_6
+384	-0.01848434843122959	5_7 | 5_9 | 5_10
+385	-0.31845423579216003	5_11 | 5_13 | 5_14
+386	0.01127974409610033	5_15 | 5_17 | 5_18
+387	-0.006224711425602436	5_19 | 5_22 | 5_23
+388	-0.13046450912952423	5_24 | 5_27 | 5_28
+389	-0.04394575580954552	6_2 | 6_4 | 6_5
+390	-0.0679435208439827	6_6 | 6_8 | 6_9
+391	-0.022960035130381584	6_10 | 6_13 | 6_14
+392	-0.05245792865753174	6_17 | 6_22 | 6_25
+393	-0.009469473734498024	8_AllergyandImmunology | 8_Anesthesiology-Pediatric | 8_Cardiology
+394	0.06828027963638306	8_Cardiology-Pediatric | 8_Dentistry | 8_Dermatology
+395	-0.02293413318693638	8_EmergencyTrauma | 8_Endocrinology-Metabolism | 8_FamilyGeneralPractice
+396	0.009976329281926155	8_Gastroenterology | 8_Hematology | 8_HematologyOncology
+397	0.014834059402346611	8_Hospitalist | 8_InternalMedicine | 8_Nephrology
+398	-0.03572050482034683	8_Neurology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Obstetrics
+399	-0.01198911014944315	8_ObstetricsandGynecology | 8_Ophthalmology | 8_Orthopedics
+400	-0.03929977864027023	8_Orthopedics-Reconstructive | 8_Otolaryngology | 8_OutreachServices
+401	0.10457833856344223	8_Pathology | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-CriticalCare
+402	-0.010285270400345325	8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Hematology-Oncology | 8_Pediatrics-InfectiousDiseases
+403	-0.04729221761226654	8_Pediatrics-Neurology | 8_Perinatology | 8_PhysicalMedicineandRehabilitation
+404	-0.021735386922955513	8_PhysicianNotFound | 8_Proctology | 8_Psychiatry
+405	0.019532999023795128	8_Psychiatry-Addictive | 8_Psychology | 8_Pulmonology
+406	0.00038945459527894855	8_Radiologist | 8_Resident | 8_Rheumatology
+407	-0.0618659146130085	8_Speech | 8_Surgeon | 8_Surgery-Cardiovascular
+408	-0.020311251282691956	8_Surgery-CardiovascularThoracic | 8_Surgery-General | 8_Surgery-Maxillofacial
+409	-0.07213485240936279	8_Surgery-Neuro | 8_Surgery-Plastic | 8_Surgery-PlasticwithinHeadandNeck
+410	-0.08706963062286377	8_Surgery-Thoracic | 8_SurgicalSpecialty | 8_Urology
+411	-0.018559783697128296	12_1 | 12_3 | 12_4
+412	0.028823215514421463	12_5 | 12_7 | 12_8
+413	-0.001428933464922011	12_9 | 12_11 | 12_12
+414	0.03206735849380493	12_13 | 12_15 | 12_16
+415	0.017866723239421844	12_17 | 12_19 | 12_20
+416	-0.0015192549908533692	12_21 | 12_23 | 12_24
+417	0.034261055290699005	12_25 | 12_27 | 12_28
+418	0.003761677537113428	12_29 | 12_34 | 12_35
+419	0.011799507774412632	12_36 | 12_38 | 12_39
+420	0.00760230328887701	12_40 | 13_1 | 13_2
+421	0.04155868664383888	13_3 | 13_5 | 13_6
+422	0.07192757725715637	13_7 | 13_9 | 13_10
+423	0.05937451496720314	13_11 | 13_13 | 13_14
+424	0.01534883864223957	13_15 | 13_18 | 13_19
+425	0.0032410912681370974	13_20 | 13_22 | 13_24
+426	-0.007524025160819292	13_25 | 13_29 | 13_37
+427	0.018900325521826744	13_42 | 13_54 | 13_63
+428	0.015326553024351597	13_64 | 14_1 | 14_2
+429	0.01711801439523697	14_3 | 14_5 | 14_6
+430	0.03280360624194145	14_7 | 14_9 | 14_10
+431	0.040060099214315414	14_11 | 14_13 | 14_14
+432	-0.026661420240998268	14_15 | 14_17 | 14_18
+433	0.0012698229402303696	14_19 | 16_>300 & ~14_18 | 16_>300 & ~17_None | 16_None & ~14_18 | 16_None & ~17_None
+434	0.06309078633785248	16_Norm | 17_None & ~16_None | 17_None & ~18_Up | 17_Norm & ~16_None | 17_Norm & ~18_Up
+435	0.06108368560671806	18_No & 19_No | 18_Up & 19_No | 18_No & ~17_Norm | 18_Up & ~17_Norm | 18_Up & ~20_No | 19_No & ~17_Norm | 19_No & ~20_No | 18_No & ~19_Steady & ~19_Up & ~20_No
+436	-0.041175227612257004	19_Steady | 20_No & ~19_No | 20_No & ~21_Steady | 20_Steady & ~19_No | 20_Steady & ~21_Steady
+437	0.061960551887750626	20_Up | 21_Steady & ~20_Steady | 21_Steady & ~22_Up | 21_Up & ~20_Steady | 21_Up & ~22_Up
+438	-0.027852360159158707	22_No & 23_Steady | 22_Up & 23_Steady | 22_No & ~21_Up | 22_Up & ~21_Up | 22_Up & ~24_Up | 23_Steady & ~21_Up | 23_Steady & ~24_Up | 22_No & ~24_No & ~24_Steady & ~24_Up
+439	-0.004947408102452755	24_No & 25_No | 24_Up & 25_No | 24_No & ~23_Steady | 24_Up & ~23_Steady | 24_Up & ~26_Steady | 25_No & ~23_Steady | 25_No & ~26_Steady | 24_No & ~25_Steady & ~25_Up & ~26_Steady
+440	-0.030779976397752762	25_Steady | 26_Steady & 27_No | 26_Steady & ~25_No | 26_Steady & ~28_No | 27_No & ~25_No | 27_No & ~28_No
+441	0.02634081058204174	27_Steady | 28_No & ~27_No | 28_No & ~29_Steady | 28_Steady & ~27_No | 28_Steady & ~29_Steady
+442	0.06035643443465233	28_Up | 29_Steady & ~28_Steady | 29_Steady & ~30_Up | 29_Up & ~28_Steady | 29_Up & ~30_Up
+443	-0.046165164560079575	30_No & 31_Steady | 30_Up & 31_Steady | 30_No & ~29_Up | 30_Up & ~29_Up | 30_Up & ~35_No | 31_Steady & ~29_Up | 31_Steady & ~35_No | 30_No & ~32_Steady & ~32_Up & ~35_No
+444	-0.0034230505116283894	32_Steady & 35_No | 32_Steady & 35_Steady | 32_Steady & ~31_Steady | 35_No & ~31_Steady | 35_No & ~36_Steady | 35_Steady & ~31_Steady | 35_Steady & ~36_Steady | 32_Steady & ~35_Up & ~36_No & ~36_Steady
+445	0.010943268425762653	35_Up & ~37_Steady | 35_Up & ~38_Steady | 35_Up & ~39_Steady | 36_Steady & ~35_Steady | 36_Steady & ~39_Steady | 36_Up & ~35_Steady | 36_Up & ~39_Steady
+446	0.022889534011483192	37_Steady & 39_Steady | 37_Steady & 40_Steady | 39_Steady & 40_Steady | 39_Steady & ~36_Up | 39_Steady & ~time_in_hospital_ST_ | 40_Steady & ~36_Up | 40_Steady & ~time_in_hospital_ST_ | 37_Steady & ~36_Up & ~41_No | 37_Steady & ~36_Up & ~42_Yes | 37_Steady & ~36_Up & ~time_in_hospital_ST_ | 37_Steady & ~41_No & ~42_Yes & ~time_in_hospital_ST_
+447	0.0013717565452679992	41_No & time_in_hospital_ST_ | 41_No & num_lab_procedures_ST_ | time_in_hospital_ST_ & num_lab_procedures_ST_ | 41_No & ~40_Steady | time_in_hospital_ST_ & ~40_Steady | time_in_hospital_ST_ & ~number_diagnoses_ST_ | num_lab_procedures_ST_ & ~40_Steady | num_lab_procedures_ST_ & ~number_diagnoses_ST_ | 41_No & ~num_procedures_ST_ & ~num_medications_ST_ & ~number_diagnoses_ST_
+448	-0.01031504012644291	num_procedures_ST_ | number_diagnoses_ST_ | time_in_hospital_ST_17.48
+449	-0.0479213185608387	num_lab_procedures_ST_129.36 | num_medications_ST_51.66 & ~time_in_hospital_ST_17.48 | num_medications_ST_51.66 & ~num_procedures_ST_-0.5 | number_diagnoses_ST_15.9 & ~time_in_hospital_ST_17.48 | number_diagnoses_ST_15.9 & ~num_procedures_ST_-0.5
+450	0.009181192144751549	0_AfricanAmerican | 0_Asian | 0_Hispanic | 0_Other | 0_Caucasian & 1_UnknownInvalid | 0_Caucasian & 2_10-20
+451	-0.007522901985794306	0_Other | 1_Male | 2_10-20 | 2_20-30 | 1_UnknownInvalid & 2_40-50 | 1_UnknownInvalid & 2_50-60
+452	-0.02998843602836132	2_20-30 | 2_30-40 | 2_50-60 | 2_60-70
+453	-0.06640994548797607	2_60-70 | 2_70-80 | 2_90-100 | 3_NoInfo | 2_80-90 & 3_[100-125) | 2_80-90 & 3_[125-150)
+454	-0.043484028428792953	3_NoInfo | 3_[0-25) | 3_[125-150) | 3_[150-175)
+455	0.014574866741895676	3_[150-175) | 3_[175-200) | 3_[50-75) | 3_[75-100) | 3_[25-50) & 4_3 | 3_[25-50) & 4_4
+456	0.025966567918658257	3_[75-100) | 4_2 | 4_4 | 4_5
+457	-0.028725944459438324	4_5 | 4_6 | 4_8 | 5_2 | 4_7 & 5_4 | 4_7 & 5_5
+458	-0.11372152715921402	5_2 | 5_3 | 5_5 | 5_6
+459	0.09275030344724655	5_6 | 5_7 | 5_9 | 5_10
+460	-0.2997598648071289	5_10 | 5_11 | 5_13 | 5_14
+461	-0.08847244828939438	5_14 | 5_15 | 5_17 | 5_18
+462	-0.008763072080910206	5_18 | 5_19 | 5_22 | 5_23
+463	0.00874365959316492	5_23 | 5_24 | 5_27 | 5_28 | 5_25 & 6_3 | 5_25 & 6_4
+464	-0.0638812854886055	5_28 | 6_2 | 6_4 | 6_5
+465	0.013699423521757126	6_5 | 6_6 | 6_8 | 6_9
+466	-0.07199537754058838	6_9 | 6_10 | 6_13 | 6_14
+467	0.002487210091203451	6_14 | 6_17 | 6_22 | 6_25 | 6_20 & 8_Anesthesiology | 6_20 & 8_Anesthesiology-Pediatric
+468	-0.01767619140446186	6_25 | 8_AllergyandImmunology | 8_Anesthesiology-Pediatric | 8_Cardiology
+469	0.03556373715400696	8_Cardiology | 8_Cardiology-Pediatric | 8_Dentistry | 8_Dermatology
+470	0.01918400637805462	8_Dermatology | 8_EmergencyTrauma | 8_Endocrinology-Metabolism | 8_FamilyGeneralPractice
+471	-0.023714492097496986	8_FamilyGeneralPractice | 8_Gastroenterology | 8_Hematology | 8_HematologyOncology
+472	-0.025272173807024956	8_HematologyOncology | 8_Hospitalist | 8_InternalMedicine | 8_Nephrology
+473	-0.0022160587832331657	8_Nephrology | 8_Neurology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Obstetrics
+474	-0.07856050878763199	8_Obstetrics | 8_ObstetricsandGynecology | 8_Ophthalmology | 8_Orthopedics
+475	0.004628514871001244	8_Orthopedics | 8_Orthopedics-Reconstructive | 8_Otolaryngology | 8_OutreachServices
+476	0.07126664370298386	8_OutreachServices | 8_Pathology | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-CriticalCare
+477	-0.011965269222855568	8_Pediatrics-CriticalCare | 8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Hematology-Oncology | 8_Pediatrics-InfectiousDiseases
+478	-0.005605962593108416	8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Neurology | 8_Perinatology | 8_PhysicalMedicineandRehabilitation
+479	-0.021295946091413498	8_PhysicalMedicineandRehabilitation | 8_PhysicianNotFound | 8_Proctology | 8_Psychiatry
+480	-0.016013270244002342	8_Psychiatry | 8_Psychiatry-Addictive | 8_Psychology | 8_Pulmonology
+481	0.0008558211848139763	8_Pulmonology | 8_Radiologist | 8_Resident | 8_Rheumatology
+482	-0.052736274898052216	8_Rheumatology | 8_Speech | 8_Surgeon | 8_Surgery-Cardiovascular
+483	-0.008747244253754616	8_Surgery-Cardiovascular | 8_Surgery-CardiovascularThoracic | 8_Surgery-General | 8_Surgery-Maxillofacial
+484	-0.06805985420942307	8_Surgery-Maxillofacial | 8_Surgery-Neuro | 8_Surgery-Plastic | 8_Surgery-PlasticwithinHeadandNeck
+485	0.014926842413842678	8_Surgery-PlasticwithinHeadandNeck | 8_Surgery-Thoracic | 8_SurgicalSpecialty | 8_Urology | 8_Surgery-Vascular & 12_2 | 8_Surgery-Vascular & 12_3
+486	-0.01014872919768095	8_Urology | 12_1 | 12_3 | 12_4
+487	-0.04576753079891205	12_4 | 12_5 | 12_7 | 12_8
+488	0.02758840285241604	12_8 | 12_9 | 12_11 | 12_12
+489	0.07190489023923874	12_12 | 12_13 | 12_15 | 12_16
+490	0.04702666029334068	12_16 | 12_17 | 12_19 | 12_20
+491	0.055577222257852554	12_20 | 12_21 | 12_23 | 12_24
+492	0.04833371937274933	12_24 | 12_25 | 12_27 | 12_28
+493	0.018984999507665634	12_28 | 12_29 | 12_34 | 12_35
+494	0.013043489307165146	12_35 | 12_36 | 12_38 | 12_39 | 12_37 & 13_1
+495	0.011893966235220432	12_39 | 12_40 | 13_1 | 13_2 | 12_42 & 13_4 | 12_42 & 13_5
+496	0.059185244143009186	13_2 | 13_3 | 13_5 | 13_6
+497	0.07260459661483765	13_6 | 13_7 | 13_9 | 13_10
+498	0.09946893155574799	13_10 | 13_11 | 13_13 | 13_14
+499	0.012060252018272877	13_14 | 13_15 | 13_18 | 13_19
+500	0.010946285910904408	13_19 | 13_20 | 13_22 | 13_24
+501	0.004816074389964342	13_24 | 13_25 | 13_29 | 13_37
+502	0.011587780900299549	13_37 | 13_42 | 13_54 | 13_63 | 13_46 & 14_1
+503	0.019150102511048317	13_63 | 13_64 | 14_1 | 14_2 | 13_76 & 14_4 | 13_76 & 14_5
+504	0.036449626088142395	14_2 | 14_3 | 14_5 | 14_6
+505	0.08585569262504578	14_6 | 14_7 | 14_9 | 14_10
+506	0.023609939962625504	14_10 | 14_11 | 14_13 | 14_14
+507	-0.012539592571556568	14_14 | 14_15 | 14_17 | 14_18 | 14_16 & 16_>300
+508	0.00433470169082284	14_18 | 14_19 | 16_>300 | 16_None | 14_21 & 17_None | 14_21 & 17_>8 & ~16_Norm
+509	-0.10130369663238525	16_None | 16_Norm | 17_None | 17_Norm | 17_>8 & 18_Steady | 17_>8 & 18_Up
+510	-0.014633093029260635	17_Norm | 18_No | 18_Up | 19_No | 18_Steady & 19_Up | 18_Steady & 20_No
+511	1.4002996806539159e-07	19_No | 19_Steady | 20_No | 20_Steady | 19_Up & 21_Steady | 19_Up & 21_No & ~20_Up
+512	0.020715786144137383	20_Steady | 20_Up | 21_Steady | 21_Up | 21_No & 22_Steady | 21_No & 22_Up
+513	-0.013133802451193333	21_Up | 22_No | 22_Up | 23_Steady | 22_Steady & 24_Steady | 22_Steady & 24_Up
+514	-0.042458534240722656	23_Steady | 24_No | 24_Up | 25_No | 24_Steady & 25_Up | 24_Steady & 26_Steady
+515	-0.017888884991407394	25_No | 25_Steady | 26_Steady | 27_No | 25_Up & 27_Up | 25_Up & 28_No
+516	0.00404005590826273	27_No | 27_Steady | 28_No | 28_Steady | 27_Up & 29_Steady | 27_Up & 29_No & ~28_Up
+517	0.01342318020761013	28_Steady | 28_Up | 29_Steady | 29_Up | 29_No & 30_Steady | 29_No & 30_Up
+518	0.018063725903630257	29_Up | 30_No | 30_Up | 31_Steady | 30_Steady & 32_Up | 30_Steady & 35_No
+519	0.016896352171897888	31_Steady | 32_Steady | 35_No | 35_Steady | 32_Up & 36_Steady | 32_Up & 36_No & ~35_Up
+520	-0.022532423958182335	35_Steady | 35_Up | 36_Steady | 36_Up | 36_No & 39_Steady | 36_No & 38_Steady & ~37_Steady
+521	0.007317999843508005	36_Up | 37_Steady | 39_Steady | 40_Steady | 38_Steady & time_in_hospital_ST_ | 38_Steady & 42_Yes & ~41_No
+522	-0.019699957221746445	40_Steady | 41_No | time_in_hospital_ST_ | num_lab_procedures_ST_ | 42_Yes & num_medications_ST_ | 42_Yes & number_diagnoses_ST_
+523	-0.027603887021541595	num_lab_procedures_ST_ | num_procedures_ST_ | number_diagnoses_ST_ | time_in_hospital_ST_17.48 | num_medications_ST_ & num_procedures_ST_8.82 | num_medications_ST_ & num_medications_ST_51.66
+524	0.015812234953045845	time_in_hospital_ST_17.48 | num_lab_procedures_ST_129.36 | num_medications_ST_51.66 | number_diagnoses_ST_15.9 | num_procedures_ST_8.82 & num_procedures_ST_-0.5
+525	-0.04071098938584328	0_Asian | 0_Caucasian | 1_UnknownInvalid & 2_10-20 & ~0_Hispanic
+526	-0.02570364437997341	1_Male | 1_UnknownInvalid & ~0_Other & ~2_10-20 | 1_UnknownInvalid & ~2_10-20 & ~2_20-30
+527	-0.0046654948964715	2_30-40 | 2_40-50
+528	-0.017215952277183533	2_70-80 | 2_80-90
+529	0.04041234776377678	3_[0-25) | 3_[100-125)
+530	-0.027342425659298897	3_[175-200) | 3_[25-50)
+531	-0.06559781730175018	4_2 | 4_3
+532	0.09704744070768356	4_6 | 4_7
+533	0.06472640484571457	5_3 | 5_4
+534	0.0008191025699488819	5_7 | 5_8
+535	-0.16848911345005035	5_11 | 5_12
+536	0.008616877719759941	5_15 | 5_16
+537	0.041293688118457794	5_19 | 5_20
+538	-0.02405405044555664	5_24 | 5_25
+539	-0.002751366700977087	6_2 | 6_3
+540	-0.05096566304564476	6_6 | 6_7
+541	-0.05262403190135956	6_10 | 6_11
+542	0.03882502764463425	6_17 | 6_20
+543	-0.017751798033714294	8_AllergyandImmunology | 8_Anesthesiology
+544	0.008096423000097275	8_Cardiology-Pediatric | 8_DCPTEAM
+545	0.004338731057941914	8_EmergencyTrauma | 8_Endocrinology
+546	-0.03514563664793968	8_Gastroenterology | 8_Gynecology
+547	0.010736528784036636	8_Hospitalist | 8_InfectiousDiseases
+548	0.015402662567794323	8_Neurology | 8_Neurophysiology
+549	-0.022208083420991898	8_ObstetricsandGynecology | 8_Oncology
+550	-0.03926451876759529	8_Orthopedics-Reconstructive | 8_Osteopath
+551	0.08534111082553864	8_Pathology | 8_Pediatrics
+552	-0.06907027214765549	8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Endocrinology
+553	0.08589426428079605	8_Pediatrics-Neurology | 8_Pediatrics-Pulmonology
+554	0.04698777198791504	8_PhysicianNotFound | 8_Podiatry
+555	-0.047335609793663025	8_Psychiatry-Addictive | 8_Psychiatry-ChildAdolescent
+556	0.012678921222686768	8_Radiologist | 8_Radiology
+557	0.06219354644417763	8_Speech | 8_SportsMedicine
+558	-0.00361820962280035	8_Surgery-CardiovascularThoracic | 8_Surgery-Colon&Rectal
+559	0.018114039674401283	8_Surgery-Neuro | 8_Surgery-Pediatric
+560	-0.01961718313395977	8_Surgery-Thoracic | 8_Surgery-Vascular
+561	0.030653009191155434	12_1 | 12_2
+562	0.013676287606358528	12_5 | 12_6
+563	0.03754536062479019	12_9 | 12_10
+564	0.00011336557508911937	12_13 | 12_14
+565	-0.00416261563077569	12_17 | 12_18
+566	0.03356387838721275	12_21 | 12_22
+567	0.026104288175702095	12_25 | 12_26
+568	0.004543900024145842	12_29 | 12_33
+569	-0.00499907648190856	12_36 | 12_37 | 12_42 & 13_1
+570	0.002663109917193651	12_40 | 12_42 & ~13_1
+571	0.003095020307227969	13_3 | 13_4
+572	0.03942194953560829	13_7 | 13_8
+573	0.01892884075641632	13_11 | 13_12
+574	-0.008111457340419292	13_15 | 13_16
+575	-0.031635526567697525	13_20 | 13_21
+576	-0.015668896958231926	13_25 | 13_28
+577	0.009780479595065117	13_42 | 13_46 | 13_76 & 14_1
+578	0.00305296597070992	13_64 | 13_76 & ~14_1
+579	0.03812800720334053	14_3 | 14_4
+580	0.005119564943015575	14_7 | 14_8
+581	-0.029711896553635597	14_11 | 14_12
+582	0.005557989701628685	14_15 | 14_16 | 14_21 & 16_>300
+583	-0.004716968629509211	14_19 | 14_21 & ~16_>300
+584	-0.009634237736463547	16_Norm | 17_>8
+585	0.018179289996623993	18_No | 18_Steady & 20_No | 18_Steady & ~17_Norm | 18_Steady & ~19_No | 19_Up & 20_No & ~18_Up
+586	0.10658007115125656	19_Steady | 19_Up & ~20_No
+587	-0.0014525128062814474	20_Up | 21_No
+588	0.018277684226632118	22_No | 22_Steady & 24_Steady | 22_Steady & 24_Up | 22_Steady & ~23_Steady | 22_Steady & ~21_Up & ~24_No
+589	-0.007625976577401161	24_No | 24_Steady & 26_Steady | 24_Steady & ~23_Steady | 24_Steady & ~25_No | 25_Up & 26_Steady & ~24_Up
+590	-0.03175123780965805	25_Steady | 25_Up & ~26_Steady | 27_Up & 28_No & ~26_Steady
+591	0.01477078441530466	27_Steady | 27_Up & ~28_No
+592	-0.03307979553937912	28_Up | 29_No
+593	-0.0024075827095657587	30_No | 30_Steady & 32_Up | 30_Steady & 35_No | 30_Steady & ~31_Steady | 30_Steady & ~29_Up & ~32_Steady | 32_Up & 35_No & ~29_Up & ~30_Up | 32_Up & 35_No & ~30_Up & ~31_Steady
+594	-0.011519338004291058	32_Steady | 32_Up & 36_No & ~35_No | 32_Up & 36_Steady & ~35_No | 32_Up & ~31_Steady & ~35_No | 32_Up & ~35_No & ~35_Steady
+595	0.038509443402290344	35_Up | 36_No | 38_Steady & 39_Steady & ~35_Steady & ~36_Steady & ~36_Up | 38_Steady & 39_Steady & ~35_Steady & ~36_Steady & ~37_Steady | 38_Steady & 39_Steady & ~36_Steady & ~36_Up & ~37_Steady
+596	-0.0020003393292427063	37_Steady | 38_Steady & 42_Yes & ~39_Steady | 38_Steady & time_in_hospital_ST_ & ~39_Steady | 38_Steady & ~39_Steady & ~40_Steady | 38_Steady & ~36_Up & ~39_Steady & ~41_No | 42_Yes & time_in_hospital_ST_ & ~36_Up & ~39_Steady & ~40_Steady | 42_Yes & time_in_hospital_ST_ & ~36_Up & ~39_Steady & ~41_No | 42_Yes & time_in_hospital_ST_ & ~39_Steady & ~40_Steady & ~41_No
+597	1.4002996806539159e-07	41_No | 42_Yes & number_diagnoses_ST_ & ~time_in_hospital_ST_ | num_medications_ST_ & number_diagnoses_ST_ & ~time_in_hospital_ST_ | 42_Yes & ~40_Steady & ~time_in_hospital_ST_ | 42_Yes & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_
+598	-0.10129225999116898	num_procedures_ST_ | num_medications_ST_ | num_procedures_ST_8.82 & num_medications_ST_51.66 & ~number_diagnoses_ST_
+599	-0.01998845860362053	num_lab_procedures_ST_129.36 | num_procedures_ST_8.82 | num_lab_procedures_ST_21.86 & num_procedures_ST_-0.5
+
+
+
+Class 2:
+
+Position	Weight	Rule
+0	-0.04712646082043648	0_Asian | 0_Other | 0_Caucasian & ~1_Male | 0_Caucasian & ~2_10-20 | 0_Hispanic & ~1_Male & ~2_10-20 | 1_UnknownInvalid & ~0_AfricanAmerican & ~2_10-20
+1	0.022129736840724945	1_Male | 2_20-30 | 1_UnknownInvalid & ~0_Other | 2_10-20 & ~0_Other | 2_40-50 & ~0_Other | 1_UnknownInvalid & ~2_30-40 & ~2_50-60
+2	-0.03332343325018883	2_30-40 | 2_40-50 | 2_50-60 | 2_60-70 | 2_80-90
+3	-0.035023149102926254	2_70-80 | 2_80-90 | 3_NoInfo | 3_[100-125) & ~2_60-70 | 2_90-100 & ~3_[0-25) & ~3_[125-150)
+4	-0.07101285457611084	3_[0-25) | 3_[100-125) | 3_[125-150) | 3_[150-175) | 3_[25-50)
+5	-0.015113559551537037	3_[175-200) | 3_[25-50) | 3_[75-100) | 4_3 & ~3_[150-175) | 3_[50-75) & ~4_2 & ~4_4
+6	0.054986897855997086	4_2 | 4_3 | 4_5 | 4_4 & ~3_[75-100) | 4_7 & ~3_[75-100)
+7	-0.005317488685250282	4_6 | 4_7 | 5_2 | 5_4 & ~4_5 | 4_8 & ~5_3 & ~5_5
+8	-0.049288395792245865	5_3 | 5_4 | 5_5 | 5_6 | 5_8
+9	-0.15735982358455658	5_7 | 5_8 | 5_9 | 5_10 | 5_12
+10	0.44094833731651306	5_11 | 5_12 | 5_13 | 5_14 | 5_16
+11	-0.09635431319475174	5_15 | 5_16 | 5_17 | 5_18 | 5_20
+12	-0.029021939262747765	5_19 | 5_20 | 5_22 | 5_23 | 5_25
+13	-0.11421016603708267	5_24 | 5_25 | 5_28 | 6_3 & ~5_23 | 5_27 & ~6_2 & ~6_4
+14	-0.01135676633566618	6_2 | 6_3 | 6_5 | 6_4 & ~5_28 | 6_7 & ~5_28
+15	0.069090835750103	6_6 | 6_7 | 6_8 | 6_9 | 6_11
+16	-0.04762840270996094	6_10 | 6_11 | 6_13 | 6_14 | 6_20
+17	-0.04094798117876053	6_17 | 6_20 | 6_25 | 8_Anesthesiology & ~6_14 | 6_22 & ~8_AllergyandImmunology & ~8_Anesthesiology-Pediatric
+18	0.03992488980293274	8_AllergyandImmunology | 8_Anesthesiology | 8_Cardiology | 8_Anesthesiology-Pediatric & ~6_25 | 8_DCPTEAM & ~6_25
+19	-0.009633537381887436	8_Cardiology-Pediatric | 8_DCPTEAM | 8_Dentistry | 8_Dermatology | 8_Endocrinology
+20	0.05928395688533783	8_EmergencyTrauma | 8_Endocrinology | 8_Endocrinology-Metabolism | 8_FamilyGeneralPractice | 8_Gynecology
+21	-0.014836553484201431	8_Gastroenterology | 8_Gynecology | 8_Hematology | 8_HematologyOncology | 8_InfectiousDiseases
+22	-0.09213391691446304	8_Hospitalist | 8_InfectiousDiseases | 8_InternalMedicine | 8_Nephrology | 8_Neurophysiology
+23	0.01834828034043312	8_Neurology | 8_Neurophysiology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Obstetrics | 8_Oncology
+24	-0.02736097015440464	8_ObstetricsandGynecology | 8_Oncology | 8_Ophthalmology | 8_Orthopedics | 8_Osteopath
+25	0.07545726746320724	8_Orthopedics-Reconstructive | 8_Osteopath | 8_Otolaryngology | 8_OutreachServices | 8_Pediatrics
+26	0.08451714366674423	8_Pathology | 8_Pediatrics | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-CriticalCare | 8_Pediatrics-Endocrinology
+27	0.11863858252763748	8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Endocrinology | 8_Pediatrics-Hematology-Oncology | 8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Pulmonology
+28	-0.03398183733224869	8_Pediatrics-Neurology | 8_Pediatrics-Pulmonology | 8_Perinatology | 8_PhysicalMedicineandRehabilitation | 8_Podiatry
+29	-0.00397646427154541	8_PhysicianNotFound | 8_Podiatry | 8_Proctology | 8_Psychiatry | 8_Psychiatry-ChildAdolescent
+30	-0.03784877061843872	8_Psychiatry-Addictive | 8_Psychiatry-ChildAdolescent | 8_Psychology | 8_Pulmonology | 8_Radiology
+31	-0.057653579860925674	8_Radiologist | 8_Radiology | 8_Resident | 8_Rheumatology | 8_SportsMedicine
+32	0.051068611443042755	8_Speech | 8_SportsMedicine | 8_Surgeon | 8_Surgery-Cardiovascular | 8_Surgery-Colon&Rectal
+33	0.036632075905799866	8_Surgery-CardiovascularThoracic | 8_Surgery-Colon&Rectal | 8_Surgery-General | 8_Surgery-Maxillofacial | 8_Surgery-Pediatric
+34	-0.01863083429634571	8_Surgery-Neuro | 8_Surgery-Pediatric | 8_Surgery-Plastic | 8_Surgery-PlasticwithinHeadandNeck | 8_Surgery-Vascular
+35	0.0034013569820672274	8_Surgery-Thoracic | 8_Surgery-Vascular | 8_Urology | 12_2 & ~8_Surgery-PlasticwithinHeadandNeck | 8_SurgicalSpecialty & ~12_1 & ~12_3
+36	-0.0013404294149950147	12_1 | 12_2 | 12_4 | 12_3 & ~8_Urology | 12_6 & ~8_Urology
+37	-0.03697021305561066	12_5 | 12_6 | 12_7 | 12_8 | 12_10
+38	-0.11882011592388153	12_9 | 12_10 | 12_11 | 12_12 | 12_14
+39	-0.05377022176980972	12_13 | 12_14 | 12_15 | 12_16 | 12_18
+40	-0.05633347108960152	12_17 | 12_18 | 12_19 | 12_20 | 12_22
+41	-0.04861116781830788	12_21 | 12_22 | 12_23 | 12_24 | 12_26
+42	-0.04457893222570419	12_25 | 12_26 | 12_27 | 12_28 | 12_33
+43	0.005862121004611254	12_29 | 12_33 | 12_34 | 12_35 | 12_37
+44	-0.005938602611422539	12_36 | 12_37 | 12_39 | 12_38 & ~13_1 | 12_42 & ~13_1
+45	-0.02841835841536522	12_40 | 12_42 | 13_2 | 13_1 & ~12_39 | 13_4 & ~12_39
+46	-0.13297826051712036	13_3 | 13_4 | 13_5 | 13_6 | 13_8
+47	-0.09954898804426193	13_7 | 13_8 | 13_9 | 13_10 | 13_12
+48	-0.04032469913363457	13_11 | 13_12 | 13_13 | 13_14 | 13_16
+49	-0.0803677961230278	13_15 | 13_16 | 13_18 | 13_19 | 13_21
+50	-0.05631884187459946	13_20 | 13_21 | 13_22 | 13_24 | 13_28
+51	0.017716851085424423	13_25 | 13_28 | 13_29 | 13_37 | 13_46
+52	-0.02360730990767479	13_42 | 13_46 | 13_63 | 13_54 & ~14_1 | 13_76 & ~14_1
+53	-0.012706821784377098	13_64 | 13_76 | 14_2 | 14_1 & ~13_63 | 14_4 & ~13_63
+54	-0.21187838912010193	14_3 | 14_4 | 14_5 | 14_6 | 14_8
+55	-0.24319759011268616	14_7 | 14_8 | 14_9 | 14_10 | 14_12
+56	-0.18583005666732788	14_11 | 14_12 | 14_13 | 14_14 | 14_16
+57	-0.08079182356595993	14_15 | 14_16 | 14_18 | 14_17 & ~16_>300 | 14_21 & ~16_>300
+58	-0.007865730673074722	14_19 | 16_None | 16_>300 & 17_>8 | 14_21 & ~16_Norm | 14_21 & ~17_None | 16_>300 & ~14_18 & ~17_None | 17_>8 & ~14_18 & ~16_Norm
+59	0.03703094273805618	16_Norm | 17_Norm | 17_None & 18_Steady | 17_>8 & ~16_None | 18_Steady & ~16_None | 17_>8 & ~18_No & ~18_Up | 17_None & ~16_None & ~18_No & ~18_Up
+60	-0.13758660852909088	18_No | 19_No | 18_Up & 19_Up & ~20_No | 18_Steady & ~17_Norm & ~19_Steady | 18_Steady & ~17_Norm & ~20_No | 18_Steady & ~19_Steady & ~20_No | 19_Up & ~17_Norm & ~20_No | 18_Up & ~17_Norm & ~19_Steady & ~20_No
+61	0.02753657102584839	19_Steady | 20_Steady | 20_No & 21_No | 19_Up & ~20_Up | 19_Up & ~21_Steady | 20_No & ~19_No & ~21_Steady | 21_No & ~19_No & ~20_Up
+62	-0.005326351150870323	20_Up | 21_Up | 21_Steady & 22_Steady | 21_No & ~20_Steady | 22_Steady & ~20_Steady | 21_No & ~22_No & ~22_Up | 21_Steady & ~20_Steady & ~22_No & ~22_Up
+63	0.008835854940116405	22_No | 23_Steady | 22_Up & 24_Steady | 22_Steady & ~21_Up | 24_Steady & ~21_Up | 22_Steady & ~24_No & ~24_Up | 22_Up & ~21_Up & ~24_No & ~24_Up
+64	-0.005561576224863529	24_No | 25_No | 24_Up & 25_Up & ~26_Steady | 24_Steady & ~23_Steady & ~25_Steady | 24_Steady & ~23_Steady & ~26_Steady | 24_Steady & ~25_Steady & ~26_Steady | 25_Up & ~23_Steady & ~26_Steady | 24_Up & ~23_Steady & ~25_Steady & ~26_Steady
+65	0.06720569729804993	25_Steady | 27_No | 25_Up & 26_Steady | 25_Up & ~27_Steady | 25_Up & ~28_No | 26_Steady & 27_Up & ~28_No | 27_Up & ~25_No & ~28_No | 26_Steady & ~25_No & ~27_Steady & ~28_No
+66	-0.08491825312376022	27_Steady | 28_Steady | 28_No & 29_No | 27_Up & ~28_Up | 27_Up & ~29_Steady | 28_No & ~27_No & ~29_Steady | 29_No & ~27_No & ~28_Up
+67	0.05772492662072182	28_Up | 29_Up | 29_Steady & 30_Steady | 29_No & ~28_Steady | 30_Steady & ~28_Steady | 29_No & ~30_No & ~30_Up | 29_Steady & ~28_Steady & ~30_No & ~30_Up
+68	0.0400175005197525	30_No | 30_Steady & 31_Steady | 30_Up & 31_Steady | 31_Steady & ~29_Up | 31_Steady & ~32_Steady | 31_Steady & ~35_No | 30_Up & 32_Up & ~35_No | 30_Steady & ~29_Up & ~32_Steady | 30_Steady & ~29_Up & ~35_No | 30_Steady & ~32_Steady & ~35_No | 32_Up & ~29_Up & ~35_No | 30_Up & ~29_Up & ~32_Steady & ~35_No
+69	0.03144495189189911	32_Steady | 35_Steady | 32_Up & 35_No | 32_Up & 36_No | 35_No & 36_No | 32_Up & ~31_Steady & ~35_Up | 32_Up & ~31_Steady & ~36_Steady | 32_Up & ~35_Up & ~36_Steady | 35_No & ~31_Steady & ~36_Steady | 36_No & ~31_Steady & ~35_Up
+70	-0.13121144473552704	35_Up | 36_Up & 38_Steady | 36_Up & ~35_Steady | 36_Up & ~37_Steady | 36_Up & ~39_Steady | 36_No & 38_Steady & ~35_Steady | 36_No & 38_Steady & ~39_Steady | 36_No & ~35_Steady & ~37_Steady | 36_No & ~35_Steady & ~39_Steady | 36_No & ~37_Steady & ~39_Steady | 36_Steady & 38_Steady & ~35_Steady & ~39_Steady | 36_Steady & 38_Steady & ~37_Steady & ~39_Steady | 36_Steady & ~35_Steady & ~37_Steady & ~39_Steady | 38_Steady & ~35_Steady & ~37_Steady & ~39_Steady
+71	-0.04208987578749657	37_Steady | 38_Steady & 40_Steady | 39_Steady & 40_Steady | 40_Steady & 42_Yes | 40_Steady & ~36_Up | 40_Steady & ~41_No | 40_Steady & ~time_in_hospital_ST_ | 38_Steady & 39_Steady & 42_Yes | 38_Steady & 39_Steady & ~36_Up | 38_Steady & 39_Steady & ~41_No | 38_Steady & 39_Steady & ~time_in_hospital_ST_ | 38_Steady & 42_Yes & ~36_Up | 38_Steady & 42_Yes & ~time_in_hospital_ST_ | 38_Steady & ~36_Up & ~41_No | 38_Steady & ~36_Up & ~time_in_hospital_ST_ | 38_Steady & ~41_No & ~time_in_hospital_ST_ | 39_Steady & 42_Yes & ~36_Up & ~time_in_hospital_ST_ | 39_Steady & 42_Yes & ~41_No & ~time_in_hospital_ST_ | 39_Steady & ~36_Up & ~41_No & ~time_in_hospital_ST_ | 42_Yes & ~36_Up & ~41_No & ~time_in_hospital_ST_
+72	4.7104032319111866e-07	41_No | num_lab_procedures_ST_ | 42_Yes & time_in_hospital_ST_ & ~40_Steady | 42_Yes & time_in_hospital_ST_ & ~num_procedures_ST_ | 42_Yes & time_in_hospital_ST_ & ~number_diagnoses_ST_ | time_in_hospital_ST_ & num_medications_ST_ & ~number_diagnoses_ST_ | 42_Yes & ~40_Steady & ~num_procedures_ST_ | 42_Yes & ~40_Steady & ~number_diagnoses_ST_ | 42_Yes & ~num_procedures_ST_ & ~number_diagnoses_ST_ | num_medications_ST_ & ~40_Steady & ~number_diagnoses_ST_ | time_in_hospital_ST_ & ~40_Steady & ~num_procedures_ST_ & ~number_diagnoses_ST_
+73	0.020566368475556374	num_procedures_ST_ | num_medications_ST_ | time_in_hospital_ST_17.48 | number_diagnoses_ST_ & ~num_medications_ST_51.66 | num_procedures_ST_8.82 & ~num_lab_procedures_ST_ & ~num_lab_procedures_ST_129.36 & ~num_medications_ST_51.66
+74	0.05725213140249252	num_lab_procedures_ST_129.36 | number_diagnoses_ST_15.9 | num_procedures_ST_8.82 & ~time_in_hospital_ST_17.48 | num_procedures_ST_8.82 & ~num_procedures_ST_-0.5 | num_medications_ST_51.66 & ~time_in_hospital_ST_17.48 & ~num_procedures_ST_-0.5 | num_lab_procedures_ST_21.86 & ~time_in_hospital_ST_17.48 & ~num_procedures_ST_-0.5
+75	-0.01489761658012867	0_Other & ~1_UnknownInvalid & ~2_10-20 | ~0_AfricanAmerican & ~0_Asian & ~0_Caucasian & ~0_Hispanic & ~0_Other & ~1_UnknownInvalid | ~0_AfricanAmerican & ~0_Asian & ~0_Caucasian & ~0_Hispanic & ~0_Other & ~2_10-20
+76	0.006257098168134689	~0_Other & ~1_Male & ~1_UnknownInvalid & ~2_10-20
+77	0.008767165243625641	~2_20-30 & ~2_30-40 & ~2_40-50 & ~2_50-60
+78	0.00046992526040412486	~2_60-70 & ~2_70-80 & ~2_80-90 & ~2_90-100
+79	-0.013936981558799744	~3_NoInfo & ~3_[0-25) & ~3_[100-125) & ~3_[125-150)
+80	0.01914001628756523	3_[75-100) & ~4_3 & ~4_4 | ~3_[150-175) & ~3_[175-200) & ~3_[25-50) & ~3_[50-75) & ~3_[75-100)
+81	0.014739039354026318	~3_[75-100) & ~4_2 & ~4_3 & ~4_4
+82	0.006631150841712952	~4_5 & ~4_6 & ~4_7 & ~4_8
+83	0.012297064997255802	~5_2 & ~5_3 & ~5_4 & ~5_5
+84	-0.0036714845336973667	~5_6 & ~5_7 & ~5_8 & ~5_9
+85	-0.01585470698773861	~5_10 & ~5_11 & ~5_12 & ~5_13
+86	0.029071679338812828	~5_14 & ~5_15 & ~5_16 & ~5_17
+87	0.010502786375582218	~5_18 & ~5_19 & ~5_20 & ~5_22
+88	0.006351076997816563	5_28 & ~6_3 & ~6_4 | ~5_23 & ~5_24 & ~5_25 & ~5_27 & ~5_28
+89	0.001803626655600965	~5_28 & ~6_2 & ~6_3 & ~6_4
+90	0.017084261402487755	~6_5 & ~6_6 & ~6_7 & ~6_8
+91	-0.013806084170937538	~6_9 & ~6_10 & ~6_11 & ~6_13
+92	0.0005844855913892388	6_25 & ~8_Anesthesiology & ~8_Anesthesiology-Pediatric | ~6_14 & ~6_17 & ~6_20 & ~6_22 & ~6_25
+93	-0.0033868143800646067	~6_25 & ~8_AllergyandImmunology & ~8_Anesthesiology & ~8_Anesthesiology-Pediatric
+94	0.009228400886058807	~8_Cardiology & ~8_Cardiology-Pediatric & ~8_DCPTEAM & ~8_Dentistry
+95	-0.00140766438562423	~8_Dermatology & ~8_EmergencyTrauma & ~8_Endocrinology & ~8_Endocrinology-Metabolism
+96	0.01644732616841793	~8_FamilyGeneralPractice & ~8_Gastroenterology & ~8_Gynecology & ~8_Hematology
+97	0.030221890658140182	~8_HematologyOncology & ~8_Hospitalist & ~8_InfectiousDiseases & ~8_InternalMedicine
+98	-0.028635650873184204	~8_Nephrology & ~8_Neurology & ~8_Neurophysiology & ~8_Obsterics&Gynecology-GynecologicOnco
+99	0.0031263106502592564	~8_Obstetrics & ~8_ObstetricsandGynecology & ~8_Oncology & ~8_Ophthalmology
+100	-0.0051987674087285995	~8_Orthopedics & ~8_Orthopedics-Reconstructive & ~8_Osteopath & ~8_Otolaryngology
+101	0.05033988133072853	~8_OutreachServices & ~8_Pathology & ~8_Pediatrics & ~8_Pediatrics-AllergyandImmunology
+102	0.018980490043759346	~8_Pediatrics-CriticalCare & ~8_Pediatrics-EmergencyMedicine & ~8_Pediatrics-Endocrinology & ~8_Pediatrics-Hematology-Oncology
+103	-0.0023123458959162235	~8_Pediatrics-InfectiousDiseases & ~8_Pediatrics-Neurology & ~8_Pediatrics-Pulmonology & ~8_Perinatology
+104	0.029917171224951744	~8_PhysicalMedicineandRehabilitation & ~8_PhysicianNotFound & ~8_Podiatry & ~8_Proctology
+105	-0.007863343693315983	~8_Psychiatry & ~8_Psychiatry-Addictive & ~8_Psychiatry-ChildAdolescent & ~8_Psychology
+106	0.01589784398674965	~8_Pulmonology & ~8_Radiologist & ~8_Radiology & ~8_Resident
+107	-0.023829488083720207	~8_Rheumatology & ~8_Speech & ~8_SportsMedicine & ~8_Surgeon
+108	0.011051105335354805	~8_Surgery-Cardiovascular & ~8_Surgery-CardiovascularThoracic & ~8_Surgery-Colon&Rectal & ~8_Surgery-General
+109	0.024330509826540947	~8_Surgery-Maxillofacial & ~8_Surgery-Neuro & ~8_Surgery-Pediatric & ~8_Surgery-Plastic
+110	-0.006735334638506174	8_Urology & ~12_2 & ~12_3 | ~8_Surgery-PlasticwithinHeadandNeck & ~8_Surgery-Thoracic & ~8_Surgery-Vascular & ~8_SurgicalSpecialty & ~8_Urology
+111	0.004980226047337055	~8_Urology & ~12_1 & ~12_2 & ~12_3
+112	0.027430430054664612	~12_4 & ~12_5 & ~12_6 & ~12_7
+113	0.015124054625630379	~12_8 & ~12_9 & ~12_10 & ~12_11
+114	-0.02703273482620716	~12_12 & ~12_13 & ~12_14 & ~12_15
+115	0.0025433236733078957	~12_16 & ~12_17 & ~12_18 & ~12_19
+116	-0.03273201733827591	~12_20 & ~12_21 & ~12_22 & ~12_23
+117	-0.008427601307630539	~12_24 & ~12_25 & ~12_26 & ~12_27
+118	-0.0017414606409147382	~12_28 & ~12_29 & ~12_33 & ~12_34
+119	-0.0011104985605925322	~12_35 & ~12_36 & ~12_37 & ~12_38 & ~13_1 | ~12_35 & ~12_36 & ~12_37 & ~12_38 & ~12_39 & ~12_42
+120	5.9369085647631437e-05	~12_39 & ~12_40 & ~12_42 & ~13_1
+121	-0.014446229673922062	~13_2 & ~13_3 & ~13_4 & ~13_5
+122	0.041649166494607925	~13_6 & ~13_7 & ~13_8 & ~13_9
+123	0.00204851315356791	~13_10 & ~13_11 & ~13_12 & ~13_13
+124	0.006448473781347275	~13_14 & ~13_15 & ~13_16 & ~13_18
+125	-0.025940049439668655	~13_19 & ~13_20 & ~13_21 & ~13_22
+126	-0.030740885064005852	~13_24 & ~13_25 & ~13_28 & ~13_29
+127	0.008711268194019794	~13_37 & ~13_42 & ~13_46 & ~13_54 & ~14_1 | ~13_37 & ~13_42 & ~13_46 & ~13_54 & ~13_63 & ~13_76
+128	0.009407740086317062	~13_63 & ~13_64 & ~13_76 & ~14_1
+129	-0.017612185329198837	~14_2 & ~14_3 & ~14_4 & ~14_5
+130	-0.03689083456993103	~14_6 & ~14_7 & ~14_8 & ~14_9
+131	0.027435285970568657	~14_10 & ~14_11 & ~14_12 & ~14_13
+132	0.004276873078197241	~14_14 & ~14_15 & ~14_16 & ~14_17 & ~16_>300 | ~14_14 & ~14_15 & ~14_16 & ~14_17 & ~14_18 & ~14_21
+133	-0.004109312780201435	~14_18 & ~14_19 & ~14_21 & ~16_>300 & ~16_None | ~14_18 & ~14_19 & ~14_21 & ~16_>300 & ~17_>8 & ~17_None
+134	0.0025406943168491125	17_Norm & ~16_None & ~16_Norm & ~18_Steady & ~18_Up | ~16_None & ~16_Norm & ~17_>8 & ~17_None & ~17_Norm
+135	0.003233731724321842	~17_Norm & ~18_No & ~18_Steady & ~18_Up & ~20_No | ~17_Norm & ~18_No & ~18_Steady & ~18_Up & ~19_No & ~19_Up
+136	0.019127216190099716	~19_No & ~19_Steady & ~19_Up & ~20_No & ~20_Steady | ~19_No & ~19_Steady & ~19_Up & ~20_No & ~21_No & ~21_Steady
+137	-0.0177205428481102	21_Up & ~20_Steady & ~20_Up & ~22_Steady & ~22_Up | ~20_Steady & ~20_Up & ~21_No & ~21_Steady & ~21_Up
+138	0.03280362859368324	~21_Up & ~22_No & ~22_Steady & ~22_Up & ~23_Steady | ~21_Up & ~22_No & ~22_Steady & ~22_Up & ~24_Steady & ~24_Up
+139	-0.015087620355188847	~23_Steady & ~24_No & ~24_Steady & ~24_Up & ~26_Steady | ~23_Steady & ~24_No & ~24_Steady & ~24_Up & ~25_No & ~25_Up
+140	0.004329852759838104	~25_No & ~25_Steady & ~25_Up & ~26_Steady & ~28_No | ~25_No & ~25_Steady & ~25_Up & ~26_Steady & ~27_No & ~27_Up
+141	-0.013171842321753502	~27_No & ~27_Steady & ~27_Up & ~28_No & ~28_Steady | ~27_No & ~27_Steady & ~27_Up & ~28_No & ~29_No & ~29_Steady
+142	0.013546847738325596	29_Up & ~28_Steady & ~28_Up & ~30_Steady & ~30_Up | ~28_Steady & ~28_Up & ~29_No & ~29_Steady & ~29_Up
+143	0.0061063081957399845	~29_Up & ~30_No & ~30_Steady & ~30_Up & ~31_Steady & ~32_Up | ~29_Up & ~30_No & ~30_Steady & ~30_Up & ~31_Steady & ~35_No | ~29_Up & ~30_No & ~30_Steady & ~30_Up & ~32_Up & ~35_No
+144	0.006801999639719725	~31_Steady & ~32_Steady & ~32_Up & ~35_No & ~35_Steady | ~31_Steady & ~32_Steady & ~32_Up & ~35_No & ~36_No & ~36_Steady
+145	0.006547882687300444	36_Up & ~35_Steady & ~35_Up & ~38_Steady & ~39_Steady | ~35_Steady & ~35_Up & ~36_No & ~36_Steady & ~36_Up & ~38_Steady | ~35_Steady & ~35_Up & ~36_No & ~36_Steady & ~36_Up & ~39_Steady
+146	-0.011126485653221607	~36_Up & ~37_Steady & ~38_Steady & ~39_Steady & ~40_Steady & ~42_Yes | ~36_Up & ~37_Steady & ~38_Steady & ~39_Steady & ~40_Steady & ~time_in_hospital_ST_ | ~36_Up & ~37_Steady & ~38_Steady & ~39_Steady & ~42_Yes & ~time_in_hospital_ST_
+147	0.008056564256548882	~40_Steady & ~41_No & ~42_Yes & ~time_in_hospital_ST_ & ~number_diagnoses_ST_ | ~40_Steady & ~41_No & ~42_Yes & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_ & ~num_medications_ST_
+148	0.006762133911252022	time_in_hospital_ST_17.48 & ~num_procedures_ST_8.82 & ~num_medications_ST_51.66 | ~num_lab_procedures_ST_ & ~num_procedures_ST_ & ~num_medications_ST_ & ~number_diagnoses_ST_ & ~time_in_hospital_ST_17.48 & ~num_procedures_ST_8.82 | ~num_lab_procedures_ST_ & ~num_procedures_ST_ & ~num_medications_ST_ & ~number_diagnoses_ST_ & ~time_in_hospital_ST_17.48 & ~num_medications_ST_51.66
+149	0.005620358511805534	~time_in_hospital_ST_17.48 & ~num_lab_procedures_ST_129.36 & ~num_procedures_ST_8.82 & ~num_medications_ST_51.66 & ~num_procedures_ST_-0.5 | ~time_in_hospital_ST_17.48 & ~num_lab_procedures_ST_129.36 & ~num_procedures_ST_8.82 & ~num_medications_ST_51.66 & ~number_diagnoses_ST_15.9 & ~num_lab_procedures_ST_21.86
+150	0.021876517683267593	0_Asian | 0_Caucasian | 0_AfricanAmerican & ~1_Male | 2_10-20 & ~0_Other | 2_10-20 & ~1_Male | 1_UnknownInvalid & ~0_Hispanic & ~0_Other
+151	-0.09923001378774643	2_40-50 | 2_50-60 | 0_Other & 1_Male | 1_Male & ~2_20-30 | 0_Other & 1_UnknownInvalid & ~2_20-30 | 1_UnknownInvalid & ~2_10-20 & ~2_20-30 | 0_Other & ~2_10-20 & ~2_20-30 & ~2_30-40
+152	0.015368460677564144	2_20-30 | 2_30-40 | 2_40-50 | 2_80-90 | 2_90-100
+153	-0.020291637629270554	3_[125-150) | 2_70-80 & ~3_NoInfo | 2_80-90 & ~3_NoInfo | 3_[100-125) & ~2_90-100 | 2_60-70 & ~3_NoInfo & ~3_[0-25)
+154	0.004063095431774855	3_NoInfo | 3_[0-25) | 3_[100-125) | 3_[25-50) | 3_[50-75)
+155	-0.03381553664803505	3_[175-200) | 3_[25-50) | 4_4 | 3_[150-175) & ~4_2 | 4_3 & ~3_[50-75) & ~3_[75-100)
+156	0.12198439240455627	4_2 | 4_3 | 4_7 | 4_8 | 3_[75-100) & ~4_4 & ~4_5 & ~4_6
+157	0.017029834911227226	5_5 | 4_6 & ~5_2 | 4_7 & ~5_2 | 5_4 & ~4_8 | 4_5 & ~5_2 & ~5_3
+158	0.12233021855354309	5_2 | 5_3 | 5_4 | 5_8 | 5_9
+159	-0.05465223640203476	5_6 | 5_7 | 5_8 | 5_12 | 5_13
+160	0.34322869777679443	5_10 | 5_11 | 5_12 | 5_16 | 5_17
+161	-0.20758523046970367	5_14 | 5_15 | 5_16 | 5_20 | 5_22
+162	0.1414908617734909	5_18 | 5_19 | 5_20 | 5_25 | 5_27
+163	0.11295333504676819	5_24 | 5_25 | 6_4 | 5_23 & ~6_2 | 6_3 & ~5_27 & ~5_28
+164	-0.08363713324069977	6_2 | 6_3 | 6_7 | 6_8 | 5_28 & ~6_4 & ~6_5 & ~6_6
+165	0.015309859067201614	6_5 | 6_6 | 6_7 | 6_11 | 6_13
+166	-0.043104153126478195	6_9 | 6_10 | 6_11 | 6_20 | 6_22
+167	-0.049350276589393616	6_17 | 6_20 | 8_Anesthesiology-Pediatric | 6_14 & ~8_AllergyandImmunology | 8_Anesthesiology & ~6_22 & ~6_25
+168	0.0076830447651445866	8_AllergyandImmunology | 8_Anesthesiology | 8_DCPTEAM | 8_Dentistry | 6_25 & ~8_Anesthesiology-Pediatric & ~8_Cardiology & ~8_Cardiology-Pediatric
+169	0.07224619388580322	8_Cardiology | 8_Cardiology-Pediatric | 8_DCPTEAM | 8_Endocrinology | 8_Endocrinology-Metabolism
+170	0.029455680400133133	8_Dermatology | 8_EmergencyTrauma | 8_Endocrinology | 8_Gynecology | 8_Hematology
+171	0.03653775900602341	8_FamilyGeneralPractice | 8_Gastroenterology | 8_Gynecology | 8_InfectiousDiseases | 8_InternalMedicine
+172	0.043407198041677475	8_HematologyOncology | 8_Hospitalist | 8_InfectiousDiseases | 8_Neurophysiology | 8_Obsterics&Gynecology-GynecologicOnco
+173	-0.13855893909931183	8_Nephrology | 8_Neurology | 8_Neurophysiology | 8_Oncology | 8_Ophthalmology
+174	0.09428176283836365	8_Obstetrics | 8_ObstetricsandGynecology | 8_Oncology | 8_Osteopath | 8_Otolaryngology
+175	-0.014585043303668499	8_Orthopedics | 8_Orthopedics-Reconstructive | 8_Osteopath | 8_Pediatrics | 8_Pediatrics-AllergyandImmunology
+176	0.12554951012134552	8_OutreachServices | 8_Pathology | 8_Pediatrics | 8_Pediatrics-Endocrinology | 8_Pediatrics-Hematology-Oncology
+177	0.08659543097019196	8_Pediatrics-CriticalCare | 8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Endocrinology | 8_Pediatrics-Pulmonology | 8_Perinatology
+178	-0.06326346099376678	8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Neurology | 8_Pediatrics-Pulmonology | 8_Podiatry | 8_Proctology
+179	-0.03844581916928291	8_PhysicalMedicineandRehabilitation | 8_PhysicianNotFound | 8_Podiatry | 8_Psychiatry-ChildAdolescent | 8_Psychology
+180	-0.04073727875947952	8_Psychiatry | 8_Psychiatry-Addictive | 8_Psychiatry-ChildAdolescent | 8_Radiology | 8_Resident
+181	0.034022338688373566	8_Pulmonology | 8_Radiologist | 8_Radiology | 8_SportsMedicine | 8_Surgeon
+182	-0.07757949829101562	8_Rheumatology | 8_Speech | 8_SportsMedicine | 8_Surgery-Colon&Rectal | 8_Surgery-General
+183	0.024768907576799393	8_Surgery-Cardiovascular | 8_Surgery-CardiovascularThoracic | 8_Surgery-Colon&Rectal | 8_Surgery-Pediatric | 8_Surgery-Plastic
+184	0.021583037450909615	8_Surgery-Maxillofacial | 8_Surgery-Neuro | 8_Surgery-Pediatric | 8_Surgery-Vascular | 8_SurgicalSpecialty
+185	-0.07519841194152832	8_Surgery-Thoracic | 8_Surgery-Vascular | 12_3 | 8_Surgery-PlasticwithinHeadandNeck & ~12_1 | 12_2 & ~8_SurgicalSpecialty & ~8_Urology
+186	-0.06453272700309753	12_1 | 12_2 | 12_6 | 12_7 | 8_Urology & ~12_3 & ~12_4 & ~12_5
+187	-0.054926566779613495	12_4 | 12_5 | 12_6 | 12_10 | 12_11
+188	0.019197242334485054	12_8 | 12_9 | 12_10 | 12_14 | 12_15
+189	-0.10143782943487167	12_12 | 12_13 | 12_14 | 12_18 | 12_19
+190	-0.044902410358190536	12_16 | 12_17 | 12_18 | 12_22 | 12_23
+191	-0.06651902198791504	12_20 | 12_21 | 12_22 | 12_26 | 12_27
+192	-0.01978091523051262	12_24 | 12_25 | 12_26 | 12_33 | 12_34
+193	-0.0035174803342670202	12_28 | 12_29 | 12_33 | 12_37 | 12_38
+194	-0.051716722548007965	12_35 | 12_36 | 12_37 | 12_42 | 13_1
+195	-0.12363067269325256	13_4 | 13_5 | 12_40 & ~13_2 | 12_42 & ~13_1 & ~13_2 | 12_39 & ~13_1 & ~13_2 & ~13_3
+196	-0.076883465051651	13_2 | 13_3 | 13_4 | 13_8 | 13_9
+197	-0.11509588360786438	13_6 | 13_7 | 13_8 | 13_12 | 13_13
+198	-0.09901966899633408	13_10 | 13_11 | 13_12 | 13_16 | 13_18
+199	-0.08816863596439362	13_14 | 13_15 | 13_16 | 13_21 | 13_22
+200	-0.04280349239706993	13_19 | 13_20 | 13_21 | 13_28 | 13_29
+201	0.0005369072314351797	13_24 | 13_25 | 13_28 | 13_46 | 13_54
+202	-0.06487827003002167	13_37 | 13_42 | 13_46 | 13_76 | 14_1
+203	-0.1372598260641098	14_4 | 14_5 | 13_64 & ~14_2 | 13_76 & ~14_1 & ~14_2 | 13_63 & ~14_1 & ~14_2 & ~14_3
+204	-0.23230884969234467	14_2 | 14_3 | 14_4 | 14_8 | 14_9
+205	-0.2355009913444519	14_6 | 14_7 | 14_8 | 14_12 | 14_13
+206	-0.21042613685131073	14_10 | 14_11 | 14_12 | 14_16 | 14_17
+207	-0.10021975636482239	14_14 | 14_15 | 14_16 | 14_21 | 16_>300
+208	0.05180061236023903	17_None | 14_19 & 17_>8 | 14_19 & ~16_None | 14_18 & 17_>8 & ~16_None | 14_21 & 17_>8 & ~16_None | 14_21 & ~16_>300 & ~16_None | 14_18 & ~16_>300 & ~16_None & ~16_Norm | 17_>8 & ~16_>300 & ~16_None & ~16_Norm
+209	-0.07765394449234009	17_>8 | 18_Up | 16_Norm & 18_Steady | 16_None & 18_Steady & ~17_Norm | 16_Norm & ~17_None & ~17_Norm | 16_Norm & ~17_Norm & ~18_No | 18_Steady & ~17_None & ~17_Norm | 16_None & ~17_None & ~17_Norm & ~18_No
+210	0.014578638598322868	17_Norm & 18_No | 17_Norm & 19_Up | 18_No & ~19_No | 18_Steady & ~19_No | 19_Up & ~18_Up | 20_No & ~18_Up | 20_No & ~19_No | 17_Norm & ~18_Up & ~19_No & ~19_Steady
+211	0.028045786544680595	21_Steady | 19_Steady & 21_No | 19_Steady & ~20_Steady | 19_No & 21_No & ~20_Steady | 19_Up & 21_No & ~20_Steady | 19_Up & ~20_No & ~20_Steady | 19_No & ~20_No & ~20_Steady & ~20_Up | 21_No & ~20_No & ~20_Steady & ~20_Up
+212	-0.0003888471401296556	21_No | 22_Up | 20_Up & 22_Steady | 20_Steady & 22_Steady & ~21_Up | 20_Up & ~21_Steady & ~21_Up | 20_Up & ~21_Up & ~22_No | 22_Steady & ~21_Steady & ~21_Up | 20_Steady & ~21_Steady & ~21_Up & ~22_No
+213	-0.01281818002462387	22_No & 24_Steady | 22_No & ~23_Steady | 22_Steady & ~23_Steady | 24_Up & ~22_Up | 24_Up & ~23_Steady | 21_Up & 22_Steady & 24_Steady | 21_Up & 22_No & ~24_No | 21_Up & 24_Steady & ~23_Steady | 24_Steady & ~22_Up & ~23_Steady | 21_Up & ~22_Up & ~23_Steady & ~24_No
+214	-0.028801241889595985	23_Steady & 24_No | 23_Steady & 25_Up | 24_No & ~25_No | 24_Steady & ~25_No | 25_Up & ~24_Up | 26_Steady & ~24_Up | 26_Steady & ~25_No | 23_Steady & ~24_Up & ~25_No & ~25_Steady
+215	-0.06421878933906555	25_No & 27_Up | 25_Steady & 28_No | 25_Up & 27_Up | 25_Up & 28_No | 27_Up & ~26_Steady | 28_No & ~26_Steady | 28_No & ~27_No | 25_Steady & ~26_Steady & ~27_No | 25_Steady & ~27_No & ~27_Steady | 25_Up & ~26_Steady & ~27_No | 25_No & ~26_Steady & ~27_No & ~27_Steady
+216	0.08595071732997894	29_Steady | 27_Steady & 29_No | 27_Steady & ~28_Steady | 27_No & 29_No & ~28_Steady | 27_Up & 29_No & ~28_Steady | 27_Up & ~28_No & ~28_Steady | 27_No & ~28_No & ~28_Steady & ~28_Up | 29_No & ~28_No & ~28_Steady & ~28_Up
+217	0.1038145124912262	29_No | 30_Up | 28_Up & 30_Steady | 28_Steady & 30_Steady & ~29_Up | 28_Up & ~29_Steady & ~29_Up | 28_Up & ~29_Up & ~30_No | 30_Steady & ~29_Steady & ~29_Up | 28_Steady & ~29_Steady & ~29_Up & ~30_No
+218	0.024068089202046394	30_No & 32_Up | 30_No & 35_No | 30_Steady & 35_No | 30_No & ~31_Steady | 30_Steady & ~31_Steady | 35_No & ~31_Steady | 29_Up & 30_Steady & 32_Up | 29_Up & 32_Up & 35_No | 29_Up & 30_No & ~32_Steady | 29_Up & 32_Up & ~31_Steady | 29_Up & 35_No & ~30_Up | 32_Up & ~30_Up & ~31_Steady | 35_No & ~30_Up & ~32_Steady | 29_Up & ~30_Up & ~31_Steady & ~32_Steady
+219	-0.06857108324766159	36_Steady | 31_Steady & 32_Steady | 32_Steady & 36_No | 32_Steady & ~35_Steady | 31_Steady & 32_Up & 36_No | 31_Steady & 32_Up & ~35_Steady | 31_Steady & 36_No & ~35_Steady | 32_Up & 36_No & ~35_Steady | 32_Up & ~35_No & ~35_Steady | 31_Steady & ~35_No & ~35_Steady & ~35_Up | 36_No & ~35_No & ~35_Steady & ~35_Up
+220	-0.022250087931752205	36_No | 35_Steady & 39_Steady | 35_Up & 39_Steady | 38_Steady & 39_Steady | 39_Steady & ~36_Up | 39_Steady & ~37_Steady | 35_Up & 38_Steady & ~36_Up | 35_Up & 38_Steady & ~37_Steady | 35_Up & ~36_Steady & ~36_Up | 35_Up & ~36_Up & ~37_Steady | 35_Steady & 38_Steady & ~36_Steady & ~36_Up | 35_Steady & 38_Steady & ~36_Up & ~37_Steady | 35_Steady & ~36_Steady & ~36_Up & ~37_Steady | 38_Steady & ~36_Steady & ~36_Up & ~37_Steady
+221	0.020939067006111145	37_Steady & time_in_hospital_ST_ | time_in_hospital_ST_ & ~40_Steady | 36_Up & 38_Steady & time_in_hospital_ST_ | 38_Steady & 42_Yes & time_in_hospital_ST_ | 36_Up & 37_Steady & ~40_Steady | 36_Up & time_in_hospital_ST_ & ~39_Steady | 37_Steady & 38_Steady & ~40_Steady | 37_Steady & 42_Yes & ~40_Steady | 38_Steady & time_in_hospital_ST_ & ~39_Steady | 38_Steady & time_in_hospital_ST_ & ~41_No | 42_Yes & time_in_hospital_ST_ & ~39_Steady | 36_Up & 37_Steady & 38_Steady & 42_Yes | 37_Steady & ~39_Steady & ~40_Steady | 37_Steady & ~40_Steady & ~41_No | 38_Steady & ~39_Steady & ~40_Steady | time_in_hospital_ST_ & ~39_Steady & ~41_No | 36_Up & 37_Steady & 38_Steady & ~39_Steady | 36_Up & 37_Steady & 38_Steady & ~41_No | 36_Up & 37_Steady & 42_Yes & ~39_Steady | 36_Up & 38_Steady & 42_Yes & ~40_Steady | 36_Up & 42_Yes & time_in_hospital_ST_ & ~41_No | 37_Steady & 38_Steady & 42_Yes & ~39_Steady | 37_Steady & 38_Steady & 42_Yes & ~41_No | 36_Up & 37_Steady & ~39_Steady & ~41_No | 36_Up & 38_Steady & ~40_Steady & ~41_No | 36_Up & 42_Yes & ~39_Steady & ~40_Steady | 36_Up & 42_Yes & ~40_Steady & ~41_No | 37_Steady & 38_Steady & ~39_Steady & ~41_No | 37_Steady & 42_Yes & ~39_Steady & ~41_No | 38_Steady & 42_Yes & ~40_Steady & ~41_No | 36_Up & ~39_Steady & ~40_Steady & ~41_No | 42_Yes & ~39_Steady & ~40_Steady & ~41_No | 36_Up & 38_Steady & 42_Yes & ~39_Steady & ~41_No
+222	4.7104032319111866e-07	40_Steady & num_medications_ST_ | 41_No & number_diagnoses_ST_ | 42_Yes & num_medications_ST_ | 42_Yes & number_diagnoses_ST_ | num_medications_ST_ & ~time_in_hospital_ST_ | number_diagnoses_ST_ & ~time_in_hospital_ST_ | number_diagnoses_ST_ & ~num_lab_procedures_ST_ | 40_Steady & 41_No & 42_Yes | 40_Steady & 41_No & ~time_in_hospital_ST_ | 40_Steady & 41_No & ~num_lab_procedures_ST_ | 41_No & 42_Yes & ~time_in_hospital_ST_ | 41_No & 42_Yes & ~num_lab_procedures_ST_ | 41_No & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_ | 41_No & ~num_lab_procedures_ST_ & ~num_procedures_ST_ | 42_Yes & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_ | 40_Steady & 42_Yes & ~num_lab_procedures_ST_ & ~num_procedures_ST_ | 40_Steady & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_ & ~num_procedures_ST_
+223	0.073881596326828	num_lab_procedures_ST_ | num_procedures_ST_ | num_medications_ST_ | num_medications_ST_51.66 | num_procedures_ST_8.82 & ~number_diagnoses_ST_ & ~time_in_hospital_ST_17.48 & ~num_lab_procedures_ST_129.36
+224	-0.01532372273504734	num_procedures_ST_8.82 | num_lab_procedures_ST_21.86 | num_procedures_ST_-0.5 | num_lab_procedures_ST_129.36 & ~number_diagnoses_ST_15.9 | time_in_hospital_ST_17.48 & ~num_medications_ST_51.66 & ~number_diagnoses_ST_15.9 & ~time_in_hospital_ST_1.17
+225	0.1407429724931717	0_Hispanic | 0_Other | 1_Male | 0_Asian & ~1_UnknownInvalid & ~2_10-20
+226	0.04874686151742935	2_10-20 | 2_20-30 | 2_30-40 | 1_Male & ~0_Other & ~2_40-50 & ~2_50-60
+227	-0.07597304880619049	2_30-40 | 2_50-60 | 2_60-70 | 2_70-80
+228	0.0025870725512504578	2_90-100 | 3_NoInfo | 3_[0-25) | 2_70-80 & ~3_[100-125) & ~3_[125-150)
+229	-0.04998249560594559	3_[0-25) | 3_[125-150) | 3_[150-175) | 3_[175-200)
+230	-0.034391772001981735	3_[50-75) | 3_[75-100) | 4_2 | 3_[175-200) & ~4_3 & ~4_4
+231	-0.23333026468753815	4_4 | 4_5 | 4_6 | 4_2 & ~3_[75-100)
+232	0.05410715565085411	4_8 | 5_2 | 5_3 | 4_6 & ~5_4 & ~5_5
+233	-0.16902391612529755	5_3 | 5_5 | 5_6 | 5_7
+234	0.38365867733955383	5_7 | 5_9 | 5_10 | 5_11
+235	0.30658087134361267	5_11 | 5_13 | 5_14 | 5_15
+236	-0.038735292851924896	5_15 | 5_17 | 5_18 | 5_19
+237	0.06095598638057709	5_19 | 5_22 | 5_23 | 5_24
+238	0.008817017078399658	5_27 | 5_28 | 6_2 | 5_24 & ~6_3 & ~6_4
+239	0.16341428458690643	6_4 | 6_5 | 6_6 | 6_2 & ~5_28
+240	0.0626317486166954	6_6 | 6_8 | 6_9 | 6_10
+241	0.14221739768981934	6_10 | 6_13 | 6_14 | 6_17
+242	0.12040232867002487	6_22 | 6_25 | 8_AllergyandImmunology | 6_17 & ~8_Anesthesiology & ~8_Anesthesiology-Pediatric
+243	-0.035307325422763824	8_Anesthesiology-Pediatric | 8_Cardiology | 8_Cardiology-Pediatric | 8_AllergyandImmunology & ~6_25
+244	-0.07501088827848434	8_Cardiology-Pediatric | 8_Dentistry | 8_Dermatology | 8_EmergencyTrauma
+245	-0.062301699072122574	8_EmergencyTrauma | 8_Endocrinology-Metabolism | 8_FamilyGeneralPractice | 8_Gastroenterology
+246	-0.055587898939847946	8_Gastroenterology | 8_Hematology | 8_HematologyOncology | 8_Hospitalist
+247	0.09396427124738693	8_Hospitalist | 8_InternalMedicine | 8_Nephrology | 8_Neurology
+248	0.23719967901706696	8_Neurology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Obstetrics | 8_ObstetricsandGynecology
+249	0.16389146447181702	8_ObstetricsandGynecology | 8_Ophthalmology | 8_Orthopedics | 8_Orthopedics-Reconstructive
+250	0.04188524931669235	8_Orthopedics-Reconstructive | 8_Otolaryngology | 8_OutreachServices | 8_Pathology
+251	-0.09461521357297897	8_Pathology | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-CriticalCare | 8_Pediatrics-EmergencyMedicine
+252	0.018789051100611687	8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Hematology-Oncology | 8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Neurology
+253	0.01801789179444313	8_Pediatrics-Neurology | 8_Perinatology | 8_PhysicalMedicineandRehabilitation | 8_PhysicianNotFound
+254	0.03307816758751869	8_PhysicianNotFound | 8_Proctology | 8_Psychiatry | 8_Psychiatry-Addictive
+255	0.06348061561584473	8_Psychiatry-Addictive | 8_Psychology | 8_Pulmonology | 8_Radiologist
+256	0.026799391955137253	8_Radiologist | 8_Resident | 8_Rheumatology | 8_Speech
+257	0.13582240045070648	8_Speech | 8_Surgeon | 8_Surgery-Cardiovascular | 8_Surgery-CardiovascularThoracic
+258	0.14054669439792633	8_Surgery-CardiovascularThoracic | 8_Surgery-General | 8_Surgery-Maxillofacial | 8_Surgery-Neuro
+259	0.053996309638023376	8_Surgery-Neuro | 8_Surgery-Plastic | 8_Surgery-PlasticwithinHeadandNeck | 8_Surgery-Thoracic
+260	0.07314077764749527	8_SurgicalSpecialty | 8_Urology | 12_1 | 8_Surgery-Thoracic & ~12_2 & ~12_3
+261	-0.020247137174010277	12_3 | 12_4 | 12_5 | 12_1 & ~8_Urology
+262	0.048632048070430756	12_5 | 12_7 | 12_8 | 12_9
+263	0.025429369881749153	12_9 | 12_11 | 12_12 | 12_13
+264	0.0248227771371603	12_13 | 12_15 | 12_16 | 12_17
+265	0.03149678185582161	12_17 | 12_19 | 12_20 | 12_21
+266	0.005419127643108368	12_21 | 12_23 | 12_24 | 12_25
+267	-0.013615910895168781	12_25 | 12_27 | 12_28 | 12_29
+268	0.02040860988199711	12_29 | 12_34 | 12_35 | 12_36
+269	-0.022153163328766823	12_38 | 12_39 | 12_40 | 12_36 & ~13_1
+270	0.021817293018102646	13_1 | 13_2 | 13_3 | 12_40 & ~13_4 & ~13_5
+271	-0.04234153404831886	13_3 | 13_5 | 13_6 | 13_7
+272	-0.12658396363258362	13_7 | 13_9 | 13_10 | 13_11
+273	-0.04680224508047104	13_11 | 13_13 | 13_14 | 13_15
+274	-0.04562842473387718	13_15 | 13_18 | 13_19 | 13_20
+275	0.0013151336461305618	13_20 | 13_22 | 13_24 | 13_25
+276	0.04427354782819748	13_25 | 13_29 | 13_37 | 13_42
+277	-0.028282035142183304	13_54 | 13_63 | 13_64 | 13_42 & ~14_1
+278	0.029900427907705307	14_1 | 14_2 | 14_3 | 13_64 & ~14_4 & ~14_5
+279	-0.09078005701303482	14_3 | 14_5 | 14_6 | 14_7
+280	-0.1536003202199936	14_7 | 14_9 | 14_10 | 14_11
+281	-0.27313658595085144	14_11 | 14_13 | 14_14 | 14_15
+282	-0.13924458622932434	14_17 | 14_18 | 14_19 | 14_15 & ~16_>300
+283	0.07751364260911942	16_>300 | 16_Norm | 16_None & ~14_18 | 14_19 & ~17_>8 & ~17_None | 16_None & ~17_>8 & ~17_None
+284	0.00942059513181448	17_None | 18_No | 17_Norm & ~16_None | 17_Norm & ~18_Steady & ~18_Up | 16_Norm & ~17_>8 & ~18_Steady & ~18_Up
+285	-0.040409862995147705	18_Up | 18_No & 19_No | 19_No & ~17_Norm | 19_No & ~20_No | 19_Steady & ~17_Norm | 19_Steady & ~18_Steady | 19_Steady & ~20_No | 18_No & ~17_Norm & ~19_Up & ~20_No
+286	0.064878910779953	20_No | 20_Up | 20_Steady & ~19_No | 19_Steady & ~21_No & ~21_Steady | 20_Steady & ~21_No & ~21_Steady
+287	-0.05000780522823334	21_Steady | 22_No | 21_Up & ~20_Steady | 21_Up & ~22_Steady & ~22_Up | 20_Up & ~21_No & ~22_Steady & ~22_Up
+288	0.019363543018698692	22_Up | 24_No | 22_No & 23_Steady | 23_Steady & ~21_Up | 23_Steady & ~24_Steady & ~24_Up | 22_No & ~21_Up & ~24_Steady & ~24_Up
+289	-0.04206901788711548	24_Up | 24_No & 25_No | 25_No & ~23_Steady | 25_No & ~26_Steady | 25_Steady & ~23_Steady | 25_Steady & ~24_Steady | 25_Steady & ~26_Steady | 24_No & ~23_Steady & ~25_Up & ~26_Steady
+290	0.021195409819483757	26_Steady | 27_Steady | 27_No & ~25_No | 27_No & ~28_No | 25_Steady & ~27_Up & ~28_No
+291	-0.027364635840058327	28_No | 28_Up | 28_Steady & ~27_No | 27_Steady & ~29_No & ~29_Steady | 28_Steady & ~29_No & ~29_Steady
+292	0.0331830270588398	29_Steady | 30_No | 29_Up & ~28_Steady | 29_Up & ~30_Steady & ~30_Up | 28_Up & ~29_No & ~30_Steady & ~30_Up
+293	0.03620808199048042	30_Up | 30_No & 31_Steady | 31_Steady & 32_Steady | 32_Steady & ~29_Up | 32_Steady & ~30_Steady | 32_Steady & ~35_No | 31_Steady & ~29_Up & ~30_Steady | 31_Steady & ~29_Up & ~32_Up | 31_Steady & ~29_Up & ~35_No | 31_Steady & ~32_Up & ~35_No | 30_No & ~29_Up & ~32_Up & ~35_No
+294	0.017909057438373566	35_No | 32_Steady & 35_Steady | 35_Steady & ~31_Steady | 35_Up & ~31_Steady | 35_Up & ~32_Up | 35_Steady & ~36_No & ~36_Steady | 35_Up & ~36_No & ~36_Steady | 32_Steady & ~31_Steady & ~36_No & ~36_Steady
+295	-0.0076667568646371365	36_Steady | 36_Up & 37_Steady | 36_Up & ~35_Steady | 37_Steady & ~35_Steady | 36_Up & ~38_Steady & ~39_Steady | 37_Steady & ~36_No & ~38_Steady | 37_Steady & ~36_No & ~39_Steady | 37_Steady & ~38_Steady & ~39_Steady | 35_Up & ~36_No & ~38_Steady & ~39_Steady
+296	-0.014565948396921158	39_Steady | 37_Steady & 41_No | 40_Steady & 41_No | 41_No & ~36_Up | 37_Steady & 40_Steady & ~36_Up | 37_Steady & 40_Steady & ~38_Steady | 37_Steady & 40_Steady & ~42_Yes | 37_Steady & 40_Steady & ~time_in_hospital_ST_ | 40_Steady & ~36_Up & ~38_Steady | 40_Steady & ~36_Up & ~42_Yes | 40_Steady & ~36_Up & ~time_in_hospital_ST_ | 40_Steady & ~42_Yes & ~time_in_hospital_ST_ | 41_No & ~38_Steady & ~42_Yes | 41_No & ~38_Steady & ~time_in_hospital_ST_ | 41_No & ~42_Yes & ~time_in_hospital_ST_ | 37_Steady & ~36_Up & ~38_Steady & ~42_Yes & ~time_in_hospital_ST_
+297	0.03668110445141792	time_in_hospital_ST_ | 41_No & num_lab_procedures_ST_ | 41_No & num_procedures_ST_ | num_lab_procedures_ST_ & ~40_Steady | num_lab_procedures_ST_ & ~number_diagnoses_ST_ | num_procedures_ST_ & ~40_Steady | num_procedures_ST_ & ~42_Yes | num_procedures_ST_ & ~number_diagnoses_ST_ | 41_No & ~40_Steady & ~42_Yes & ~num_medications_ST_ & ~number_diagnoses_ST_
+298	-0.023364722728729248	number_diagnoses_ST_ | time_in_hospital_ST_17.48 | num_lab_procedures_ST_129.36 | num_procedures_ST_ & ~num_procedures_ST_8.82 & ~num_medications_ST_51.66
+299	0.0653001144528389	num_medications_ST_51.66 | time_in_hospital_ST_1.17 | number_diagnoses_ST_15.9 & ~time_in_hospital_ST_17.48 | number_diagnoses_ST_15.9 & ~num_procedures_ST_-0.5 | num_lab_procedures_ST_129.36 & ~num_procedures_ST_8.82 & ~num_lab_procedures_ST_21.86 & ~num_procedures_ST_-0.5
+300	-0.19171346724033356	0_AfricanAmerican | 0_Caucasian | 0_Hispanic | 2_10-20 & ~0_Other
+301	0.03185345232486725	1_UnknownInvalid | 2_10-20 | 2_50-60 | 0_Other & ~2_20-30
+302	0.11101382225751877	2_20-30 | 2_40-50 | 2_50-60 | 2_90-100
+303	-0.050343871116638184	2_80-90 | 2_90-100 | 3_[125-150) | 2_60-70 & ~3_NoInfo
+304	0.17596475780010223	3_NoInfo | 3_[100-125) | 3_[125-150) | 3_[50-75)
+305	0.07622411847114563	3_[150-175) | 3_[25-50) | 3_[50-75) | 4_4 & ~3_[75-100)
+306	-0.07279843091964722	4_3 | 4_4 | 4_8 | 3_[75-100) & ~4_5
+307	0.07190419733524323	4_7 | 4_8 | 5_5 | 4_5 & ~5_2
+308	-0.13923922181129456	5_2 | 5_4 | 5_5 | 5_9
+309	0.09598568826913834	5_6 | 5_8 | 5_9 | 5_13
+310	-0.20866696536540985	5_10 | 5_12 | 5_13 | 5_17
+311	0.013992306776344776	5_14 | 5_16 | 5_17 | 5_22
+312	-0.08498255163431168	5_18 | 5_20 | 5_22 | 5_27
+313	0.10496211051940918	5_23 | 5_25 | 5_27 | 6_4 & ~5_28
+314	-0.11218875646591187	6_3 | 6_4 | 6_8 | 5_28 & ~6_5
+315	-0.016814490780234337	6_5 | 6_7 | 6_8 | 6_13
+316	0.12865407764911652	6_9 | 6_11 | 6_13 | 6_22
+317	-0.0995882973074913	6_14 | 6_20 | 6_22 | 8_Anesthesiology-Pediatric & ~6_25
+318	0.01309231761842966	8_Anesthesiology | 8_Anesthesiology-Pediatric | 8_Dentistry | 6_25 & ~8_Cardiology
+319	0.04573500528931618	8_Cardiology | 8_DCPTEAM | 8_Dentistry | 8_Endocrinology-Metabolism
+320	-0.0723152756690979	8_Dermatology | 8_Endocrinology | 8_Endocrinology-Metabolism | 8_Hematology
+321	-0.006222676485776901	8_FamilyGeneralPractice | 8_Gynecology | 8_Hematology | 8_InternalMedicine
+322	0.034471604973077774	8_HematologyOncology | 8_InfectiousDiseases | 8_InternalMedicine | 8_Obsterics&Gynecology-GynecologicOnco
+323	-0.06201770156621933	8_Nephrology | 8_Neurophysiology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Ophthalmology
+324	0.0061754873022437096	8_Obstetrics | 8_Oncology | 8_Ophthalmology | 8_Otolaryngology
+325	-0.02069889008998871	8_Orthopedics | 8_Osteopath | 8_Otolaryngology | 8_Pediatrics-AllergyandImmunology
+326	-0.0313449464738369	8_OutreachServices | 8_Pediatrics | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-Hematology-Oncology
+327	0.14789578318595886	8_Pediatrics-CriticalCare | 8_Pediatrics-Endocrinology | 8_Pediatrics-Hematology-Oncology | 8_Perinatology
+328	-0.0619918555021286	8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Pulmonology | 8_Perinatology | 8_Proctology
+329	-0.006039715837687254	8_PhysicalMedicineandRehabilitation | 8_Podiatry | 8_Proctology | 8_Psychology
+330	0.011137525551021099	8_Psychiatry | 8_Psychiatry-ChildAdolescent | 8_Psychology | 8_Resident
+331	-0.028264714404940605	8_Pulmonology | 8_Radiology | 8_Resident | 8_Surgeon
+332	-0.014650908298790455	8_Rheumatology | 8_SportsMedicine | 8_Surgeon | 8_Surgery-General
+333	-0.07904307544231415	8_Surgery-Cardiovascular | 8_Surgery-Colon&Rectal | 8_Surgery-General | 8_Surgery-Plastic
+334	-0.002005965681746602	8_Surgery-Maxillofacial | 8_Surgery-Pediatric | 8_Surgery-Plastic | 8_SurgicalSpecialty
+335	-0.07769706845283508	8_Surgery-PlasticwithinHeadandNeck | 8_Surgery-Vascular | 8_SurgicalSpecialty | 12_3 & ~8_Urology
+336	0.04168635234236717	12_2 | 12_3 | 12_7 | 8_Urology & ~12_4
+337	-0.09759816527366638	12_4 | 12_6 | 12_7 | 12_11
+338	0.026352308690547943	12_8 | 12_10 | 12_11 | 12_15
+339	-0.15384604036808014	12_12 | 12_14 | 12_15 | 12_19
+340	-0.036815762519836426	12_16 | 12_18 | 12_19 | 12_23
+341	-0.10542178153991699	12_20 | 12_22 | 12_23 | 12_27
+342	-0.028903547674417496	12_24 | 12_26 | 12_27 | 12_34
+343	-0.02137584425508976	12_28 | 12_33 | 12_34 | 12_38
+344	-0.028618911281228065	12_35 | 12_37 | 12_38 | 13_1 & ~12_39
+345	-0.06427331268787384	12_42 | 13_1 | 13_5 | 12_39 & ~13_2
+346	-0.11471311748027802	13_2 | 13_4 | 13_5 | 13_9
+347	-0.12192272394895554	13_6 | 13_8 | 13_9 | 13_13
+348	-0.1032213643193245	13_10 | 13_12 | 13_13 | 13_18
+349	-0.09166713804006577	13_14 | 13_16 | 13_18 | 13_22
+350	-0.055997055023908615	13_19 | 13_21 | 13_22 | 13_29
+351	-0.019994473084807396	13_24 | 13_28 | 13_29 | 13_54
+352	-0.019780976697802544	13_37 | 13_46 | 13_54 | 14_1 & ~13_63
+353	-0.19377200305461884	13_76 | 14_1 | 14_5 | 13_63 & ~14_2
+354	-0.22427016496658325	14_2 | 14_4 | 14_5 | 14_9
+355	-0.28423136472702026	14_6 | 14_8 | 14_9 | 14_13
+356	-0.09769343584775925	14_10 | 14_12 | 14_13 | 14_17
+357	-0.05026204138994217	14_14 | 14_16 | 14_17 | 16_>300 & ~14_18
+358	-0.03581839054822922	14_21 | 16_>300 | 14_18 & 17_>8 | 14_18 & 17_None | 14_18 & ~16_None | 17_None & ~16_None
+359	0.019067222252488136	17_>8 | 17_None | 16_None & 18_Steady | 16_None & 18_Up | 16_None & ~17_Norm | 18_Up & ~17_Norm
+360	0.15621356666088104	18_Steady | 18_Up | 17_Norm & 20_No | 17_Norm & ~19_No | 20_No & ~19_No
+361	0.018932122737169266	19_Up | 20_No | 19_No & 21_No | 19_No & 21_Steady | 19_No & ~20_Steady | 21_Steady & ~20_Steady
+362	0.014968627132475376	21_No | 21_Steady | 20_Steady & 22_Steady | 20_Steady & 22_Up | 20_Steady & ~21_Up | 22_Up & ~21_Up
+363	0.02487790584564209	22_Steady | 22_Up | 21_Up & 24_Up | 21_Up & ~23_Steady | 24_Up & ~23_Steady | 21_Up & 24_Steady & ~22_No
+364	-0.010614183731377125	24_Steady | 24_Up | 23_Steady & 26_Steady | 23_Steady & ~25_No | 26_Steady & ~25_No
+365	-0.011210734024643898	25_Up | 25_No & 28_No | 26_Steady & 28_No | 25_No & ~27_No | 26_Steady & ~25_Steady | 26_Steady & ~27_No | 28_No & ~27_No
+366	0.06866893917322159	27_Up | 28_No | 27_No & 29_No | 27_No & 29_Steady | 27_No & ~28_Steady | 29_Steady & ~28_Steady
+367	0.019444560632109642	29_No | 29_Steady | 28_Steady & 30_Steady | 28_Steady & 30_Up | 28_Steady & ~29_Up | 30_Up & ~29_Up
+368	0.0013988753780722618	30_Steady | 30_Up | 29_Up & 35_No | 29_Up & ~31_Steady | 35_No & ~31_Steady | 29_Up & 32_Up & ~30_No
+369	-0.0027786577120423317	32_Up | 35_No | 31_Steady & 36_Steady | 31_Steady & ~35_Steady | 36_Steady & ~35_Steady | 31_Steady & 36_No & ~32_Steady
+370	-0.025708932429552078	36_No | 36_Steady | 35_Steady & 38_Steady | 35_Steady & 39_Steady | 35_Steady & ~36_Up | 39_Steady & ~36_Up
+371	0.04825294390320778	38_Steady | 36_Up & 39_Steady | 36_Up & time_in_hospital_ST_ | 39_Steady & 42_Yes | 39_Steady & time_in_hospital_ST_ | 36_Up & ~40_Steady | 39_Steady & ~37_Steady | 39_Steady & ~40_Steady | time_in_hospital_ST_ & ~40_Steady | 36_Up & 42_Yes & ~37_Steady
+372	-0.14638637006282806	42_Yes | 40_Steady & time_in_hospital_ST_ | 40_Steady & number_diagnoses_ST_ | time_in_hospital_ST_ & number_diagnoses_ST_ | 40_Steady & ~num_lab_procedures_ST_ | time_in_hospital_ST_ & ~41_No | time_in_hospital_ST_ & ~num_lab_procedures_ST_ | number_diagnoses_ST_ & ~num_lab_procedures_ST_
+373	-0.0022560744546353817	num_lab_procedures_ST_ | num_medications_ST_ | number_diagnoses_ST_ | num_medications_ST_51.66 & ~time_in_hospital_ST_17.48
+374	-0.047166671603918076	num_procedures_ST_8.82 | num_medications_ST_51.66 | time_in_hospital_ST_17.48 & num_procedures_ST_-0.5 | time_in_hospital_ST_17.48 & ~number_diagnoses_ST_15.9 | num_procedures_ST_-0.5 & ~number_diagnoses_ST_15.9
+375	0.06816597282886505	0_Asian | 0_Hispanic | 0_Other
+376	-0.0065263910219073296	2_10-20 | 2_20-30 | 1_Male & ~0_Other | 1_Male & ~2_30-40 & ~2_40-50 & ~2_50-60
+377	0.11970183998346329	2_30-40 | 2_50-60 | 2_60-70
+378	-0.04418230429291725	2_70-80 | 2_90-100 | 3_NoInfo
+379	-0.1034967452287674	3_[0-25) | 3_[125-150) | 3_[150-175)
+380	-0.0725015327334404	3_[175-200) | 3_[50-75) | 3_[75-100)
+381	0.050986792892217636	4_2 | 4_4 | 4_5
+382	-0.10723839700222015	4_6 | 4_8 | 5_2
+383	-0.01588721014559269	5_3 | 5_5 | 5_6
+384	-0.07397447526454926	5_7 | 5_9 | 5_10
+385	0.5299584269523621	5_11 | 5_13 | 5_14
+386	-0.10525816679000854	5_15 | 5_17 | 5_18
+387	-0.011550068855285645	5_19 | 5_22 | 5_23
+388	-0.03715936839580536	5_24 | 5_27 | 5_28
+389	0.11941532790660858	6_2 | 6_4 | 6_5
+390	0.03687687963247299	6_6 | 6_8 | 6_9
+391	0.059834085404872894	6_10 | 6_13 | 6_14
+392	0.12971533834934235	6_17 | 6_22 | 6_25
+393	0.005798534490168095	8_AllergyandImmunology | 8_Anesthesiology-Pediatric | 8_Cardiology
+394	-0.10653872787952423	8_Cardiology-Pediatric | 8_Dentistry | 8_Dermatology
+395	-0.021950319409370422	8_EmergencyTrauma | 8_Endocrinology-Metabolism | 8_FamilyGeneralPractice
+396	-0.13378097116947174	8_Gastroenterology | 8_Hematology | 8_HematologyOncology
+397	0.0315890796482563	8_Hospitalist | 8_InternalMedicine | 8_Nephrology
+398	0.08602139353752136	8_Neurology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Obstetrics
+399	0.10904070734977722	8_ObstetricsandGynecology | 8_Ophthalmology | 8_Orthopedics
+400	0.07848604768514633	8_Orthopedics-Reconstructive | 8_Otolaryngology | 8_OutreachServices
+401	-0.09311478585004807	8_Pathology | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-CriticalCare
+402	-0.011477303691208363	8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Hematology-Oncology | 8_Pediatrics-InfectiousDiseases
+403	0.0407191626727581	8_Pediatrics-Neurology | 8_Perinatology | 8_PhysicalMedicineandRehabilitation
+404	0.017813844606280327	8_PhysicianNotFound | 8_Proctology | 8_Psychiatry
+405	0.011923194862902164	8_Psychiatry-Addictive | 8_Psychology | 8_Pulmonology
+406	0.016514195129275322	8_Radiologist | 8_Resident | 8_Rheumatology
+407	0.08161342889070511	8_Speech | 8_Surgeon | 8_Surgery-Cardiovascular
+408	0.03938634693622589	8_Surgery-CardiovascularThoracic | 8_Surgery-General | 8_Surgery-Maxillofacial
+409	0.04916226118803024	8_Surgery-Neuro | 8_Surgery-Plastic | 8_Surgery-PlasticwithinHeadandNeck
+410	0.09475654363632202	8_Surgery-Thoracic | 8_SurgicalSpecialty | 8_Urology
+411	-0.01237647607922554	12_1 | 12_3 | 12_4
+412	0.0012571437982842326	12_5 | 12_7 | 12_8
+413	-4.5564109314000234e-05	12_9 | 12_11 | 12_12
+414	-0.005442401859909296	12_13 | 12_15 | 12_16
+415	0.005755092948675156	12_17 | 12_19 | 12_20
+416	0.010653087869286537	12_21 | 12_23 | 12_24
+417	-0.028630496934056282	12_25 | 12_27 | 12_28
+418	0.01410984992980957	12_29 | 12_34 | 12_35
+419	0.0015610401751473546	12_36 | 12_38 | 12_39
+420	-0.014511330984532833	12_40 | 13_1 | 13_2
+421	-0.003663211828097701	13_3 | 13_5 | 13_6
+422	-0.1255573332309723	13_7 | 13_9 | 13_10
+423	-0.03779079020023346	13_11 | 13_13 | 13_14
+424	-0.045593805611133575	13_15 | 13_18 | 13_19
+425	-0.025383520871400833	13_20 | 13_22 | 13_24
+426	0.04427354782819748	13_25 | 13_29 | 13_37
+427	-0.010199755430221558	13_42 | 13_54 | 13_63
+428	-0.03643691539764404	13_64 | 14_1 | 14_2
+429	-0.1292956918478012	14_3 | 14_5 | 14_6
+430	-0.0005429363809525967	14_7 | 14_9 | 14_10
+431	-0.1798575073480606	14_11 | 14_13 | 14_14
+432	-0.1187249943614006	14_15 | 14_17 | 14_18
+433	-0.017027556896209717	14_19 | 16_>300 & ~14_18 | 16_>300 & ~17_None | 16_None & ~14_18 | 16_None & ~17_None
+434	-0.1608491837978363	16_Norm | 17_None & ~16_None | 17_None & ~18_Up | 17_Norm & ~16_None | 17_Norm & ~18_Up
+435	-0.0045123412273824215	18_No & 19_No | 18_Up & 19_No | 18_No & ~17_Norm | 18_Up & ~17_Norm | 18_Up & ~20_No | 19_No & ~17_Norm | 19_No & ~20_No | 18_No & ~19_Steady & ~19_Up & ~20_No
+436	0.02961842156946659	19_Steady | 20_No & ~19_No | 20_No & ~21_Steady | 20_Steady & ~19_No | 20_Steady & ~21_Steady
+437	-0.016680758446455002	20_Up | 21_Steady & ~20_Steady | 21_Steady & ~22_Up | 21_Up & ~20_Steady | 21_Up & ~22_Up
+438	0.03437509015202522	22_No & 23_Steady | 22_Up & 23_Steady | 22_No & ~21_Up | 22_Up & ~21_Up | 22_Up & ~24_Up | 23_Steady & ~21_Up | 23_Steady & ~24_Up | 22_No & ~24_No & ~24_Steady & ~24_Up
+439	-0.0650797039270401	24_No & 25_No | 24_Up & 25_No | 24_No & ~23_Steady | 24_Up & ~23_Steady | 24_Up & ~26_Steady | 25_No & ~23_Steady | 25_No & ~26_Steady | 24_No & ~25_Steady & ~25_Up & ~26_Steady
+440	-0.01913302019238472	25_Steady | 26_Steady & 27_No | 26_Steady & ~25_No | 26_Steady & ~28_No | 27_No & ~25_No | 27_No & ~28_No
+441	-0.056857578456401825	27_Steady | 28_No & ~27_No | 28_No & ~29_Steady | 28_Steady & ~27_No | 28_Steady & ~29_Steady
+442	-0.02008812129497528	28_Up | 29_Steady & ~28_Steady | 29_Steady & ~30_Up | 29_Up & ~28_Steady | 29_Up & ~30_Up
+443	0.07804902642965317	30_No & 31_Steady | 30_Up & 31_Steady | 30_No & ~29_Up | 30_Up & ~29_Up | 30_Up & ~35_No | 31_Steady & ~29_Up | 31_Steady & ~35_No | 30_No & ~32_Steady & ~32_Up & ~35_No
+444	0.056435007601976395	32_Steady & 35_No | 32_Steady & 35_Steady | 32_Steady & ~31_Steady | 35_No & ~31_Steady | 35_No & ~36_Steady | 35_Steady & ~31_Steady | 35_Steady & ~36_Steady | 32_Steady & ~35_Up & ~36_No & ~36_Steady
+445	0.01453246921300888	35_Up & ~37_Steady | 35_Up & ~38_Steady | 35_Up & ~39_Steady | 36_Steady & ~35_Steady | 36_Steady & ~39_Steady | 36_Up & ~35_Steady | 36_Up & ~39_Steady
+446	-0.007166941184550524	37_Steady & 39_Steady | 37_Steady & 40_Steady | 39_Steady & 40_Steady | 39_Steady & ~36_Up | 39_Steady & ~time_in_hospital_ST_ | 40_Steady & ~36_Up | 40_Steady & ~time_in_hospital_ST_ | 37_Steady & ~36_Up & ~41_No | 37_Steady & ~36_Up & ~42_Yes | 37_Steady & ~36_Up & ~time_in_hospital_ST_ | 37_Steady & ~41_No & ~42_Yes & ~time_in_hospital_ST_
+447	-0.011826175265014172	41_No & time_in_hospital_ST_ | 41_No & num_lab_procedures_ST_ | time_in_hospital_ST_ & num_lab_procedures_ST_ | 41_No & ~40_Steady | time_in_hospital_ST_ & ~40_Steady | time_in_hospital_ST_ & ~number_diagnoses_ST_ | num_lab_procedures_ST_ & ~40_Steady | num_lab_procedures_ST_ & ~number_diagnoses_ST_ | 41_No & ~num_procedures_ST_ & ~num_medications_ST_ & ~number_diagnoses_ST_
+448	0.0871811956167221	num_procedures_ST_ | number_diagnoses_ST_ | time_in_hospital_ST_17.48
+449	0.11989130824804306	num_lab_procedures_ST_129.36 | num_medications_ST_51.66 & ~time_in_hospital_ST_17.48 | num_medications_ST_51.66 & ~num_procedures_ST_-0.5 | number_diagnoses_ST_15.9 & ~time_in_hospital_ST_17.48 | number_diagnoses_ST_15.9 & ~num_procedures_ST_-0.5
+450	-0.03287007287144661	0_AfricanAmerican | 0_Asian | 0_Hispanic | 0_Other | 0_Caucasian & 1_UnknownInvalid | 0_Caucasian & 2_10-20
+451	-0.12217313796281815	0_Other | 1_Male | 2_10-20 | 2_20-30 | 1_UnknownInvalid & 2_40-50 | 1_UnknownInvalid & 2_50-60
+452	-0.025133175775408745	2_20-30 | 2_30-40 | 2_50-60 | 2_60-70
+453	0.0796617791056633	2_60-70 | 2_70-80 | 2_90-100 | 3_NoInfo | 2_80-90 & 3_[100-125) | 2_80-90 & 3_[125-150)
+454	0.09387095272541046	3_NoInfo | 3_[0-25) | 3_[125-150) | 3_[150-175)
+455	-0.005251489579677582	3_[150-175) | 3_[175-200) | 3_[50-75) | 3_[75-100) | 3_[25-50) & 4_3 | 3_[25-50) & 4_4
+456	-0.004906706977635622	3_[75-100) | 4_2 | 4_4 | 4_5
+457	-0.02178153395652771	4_5 | 4_6 | 4_8 | 5_2 | 4_7 & 5_4 | 4_7 & 5_5
+458	0.0632554143667221	5_2 | 5_3 | 5_5 | 5_6
+459	0.011917594820261002	5_6 | 5_7 | 5_9 | 5_10
+460	0.44904568791389465	5_10 | 5_11 | 5_13 | 5_14
+461	0.09988574683666229	5_14 | 5_15 | 5_17 | 5_18
+462	0.09108785539865494	5_18 | 5_19 | 5_22 | 5_23
+463	-0.050045426934957504	5_23 | 5_24 | 5_27 | 5_28 | 5_25 & 6_3 | 5_25 & 6_4
+464	0.0070401448756456375	5_28 | 6_2 | 6_4 | 6_5
+465	-0.03965631499886513	6_5 | 6_6 | 6_8 | 6_9
+466	0.12802860140800476	6_9 | 6_10 | 6_13 | 6_14
+467	-0.02014015056192875	6_14 | 6_17 | 6_22 | 6_25 | 6_20 & 8_Anesthesiology | 6_20 & 8_Anesthesiology-Pediatric
+468	0.01565347984433174	6_25 | 8_AllergyandImmunology | 8_Anesthesiology-Pediatric | 8_Cardiology
+469	-0.037114668637514114	8_Cardiology | 8_Cardiology-Pediatric | 8_Dentistry | 8_Dermatology
+470	0.010433558374643326	8_Dermatology | 8_EmergencyTrauma | 8_Endocrinology-Metabolism | 8_FamilyGeneralPractice
+471	-0.04332054778933525	8_FamilyGeneralPractice | 8_Gastroenterology | 8_Hematology | 8_HematologyOncology
+472	-0.01699063368141651	8_HematologyOncology | 8_Hospitalist | 8_InternalMedicine | 8_Nephrology
+473	0.005612465087324381	8_Nephrology | 8_Neurology | 8_Obsterics&Gynecology-GynecologicOnco | 8_Obstetrics
+474	0.016177143901586533	8_Obstetrics | 8_ObstetricsandGynecology | 8_Ophthalmology | 8_Orthopedics
+475	-0.017350833863019943	8_Orthopedics | 8_Orthopedics-Reconstructive | 8_Otolaryngology | 8_OutreachServices
+476	-0.03123042918741703	8_OutreachServices | 8_Pathology | 8_Pediatrics-AllergyandImmunology | 8_Pediatrics-CriticalCare
+477	0.04520957171916962	8_Pediatrics-CriticalCare | 8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Hematology-Oncology | 8_Pediatrics-InfectiousDiseases
+478	-0.014171168208122253	8_Pediatrics-InfectiousDiseases | 8_Pediatrics-Neurology | 8_Perinatology | 8_PhysicalMedicineandRehabilitation
+479	-0.0017230630619451404	8_PhysicalMedicineandRehabilitation | 8_PhysicianNotFound | 8_Proctology | 8_Psychiatry
+480	0.0351661778986454	8_Psychiatry | 8_Psychiatry-Addictive | 8_Psychology | 8_Pulmonology
+481	-0.036907944828271866	8_Pulmonology | 8_Radiologist | 8_Resident | 8_Rheumatology
+482	0.05338435620069504	8_Rheumatology | 8_Speech | 8_Surgeon | 8_Surgery-Cardiovascular
+483	0.03479229658842087	8_Surgery-Cardiovascular | 8_Surgery-CardiovascularThoracic | 8_Surgery-General | 8_Surgery-Maxillofacial
+484	0.05450752004981041	8_Surgery-Maxillofacial | 8_Surgery-Neuro | 8_Surgery-Plastic | 8_Surgery-PlasticwithinHeadandNeck
+485	-0.047617677599191666	8_Surgery-PlasticwithinHeadandNeck | 8_Surgery-Thoracic | 8_SurgicalSpecialty | 8_Urology | 8_Surgery-Vascular & 12_2 | 8_Surgery-Vascular & 12_3
+486	0.022697366774082184	8_Urology | 12_1 | 12_3 | 12_4
+487	0.0028280194383114576	12_4 | 12_5 | 12_7 | 12_8
+488	0.028674086555838585	12_8 | 12_9 | 12_11 | 12_12
+489	-0.09830543398857117	12_12 | 12_13 | 12_15 | 12_16
+490	0.006445832550525665	12_16 | 12_17 | 12_19 | 12_20
+491	-0.04060807079076767	12_20 | 12_21 | 12_23 | 12_24
+492	-0.034973688423633575	12_24 | 12_25 | 12_27 | 12_28
+493	0.001604957738891244	12_28 | 12_29 | 12_34 | 12_35
+494	0.006876326631754637	12_35 | 12_36 | 12_38 | 12_39 | 12_37 & 13_1
+495	-0.022005334496498108	12_39 | 12_40 | 13_1 | 13_2 | 12_42 & 13_4 | 12_42 & 13_5
+496	-0.09487088024616241	13_2 | 13_3 | 13_5 | 13_6
+497	-0.160503551363945	13_6 | 13_7 | 13_9 | 13_10
+498	-0.10152515023946762	13_10 | 13_11 | 13_13 | 13_14
+499	-0.0551765114068985	13_14 | 13_15 | 13_18 | 13_19
+500	-0.049747008830308914	13_19 | 13_20 | 13_22 | 13_24
+501	0.02807949110865593	13_24 | 13_25 | 13_29 | 13_37
+502	0.0038781138136982918	13_37 | 13_42 | 13_54 | 13_63 | 13_46 & 14_1
+503	-0.03851022198796272	13_63 | 13_64 | 14_1 | 14_2 | 13_76 & 14_4 | 13_76 & 14_5
+504	-0.0878593698143959	14_2 | 14_3 | 14_5 | 14_6
+505	-0.21194705367088318	14_6 | 14_7 | 14_9 | 14_10
+506	-0.2327406108379364	14_10 | 14_11 | 14_13 | 14_14
+507	-0.0781996101140976	14_14 | 14_15 | 14_17 | 14_18 | 14_16 & 16_>300
+508	-0.0006672444869764149	14_18 | 14_19 | 16_>300 | 16_None | 14_21 & 17_None | 14_21 & 17_>8 & ~16_Norm
+509	0.08096448332071304	16_None | 16_Norm | 17_None | 17_Norm | 17_>8 & 18_Steady | 17_>8 & 18_Up
+510	0.03166797757148743	17_Norm | 18_No | 18_Up | 19_No | 18_Steady & 19_Up | 18_Steady & 20_No
+511	4.7104032319111866e-07	19_No | 19_Steady | 20_No | 20_Steady | 19_Up & 21_Steady | 19_Up & 21_No & ~20_Up
+512	0.021521277725696564	20_Steady | 20_Up | 21_Steady | 21_Up | 21_No & 22_Steady | 21_No & 22_Up
+513	0.0385344997048378	21_Up | 22_No | 22_Up | 23_Steady | 22_Steady & 24_Steady | 22_Steady & 24_Up
+514	-0.04432227462530136	23_Steady | 24_No | 24_Up | 25_No | 24_Steady & 25_Up | 24_Steady & 26_Steady
+515	-0.05086257681250572	25_No | 25_Steady | 26_Steady | 27_No | 25_Up & 27_Up | 25_Up & 28_No
+516	-0.0062294467352330685	27_No | 27_Steady | 28_No | 28_Steady | 27_Up & 29_Steady | 27_Up & 29_No & ~28_Up
+517	0.005628801882266998	28_Steady | 28_Up | 29_Steady | 29_Up | 29_No & 30_Steady | 29_No & 30_Up
+518	-0.02281065471470356	29_Up | 30_No | 30_Up | 31_Steady | 30_Steady & 32_Up | 30_Steady & 35_No
+519	0.004677209537476301	31_Steady | 32_Steady | 35_No | 35_Steady | 32_Up & 36_Steady | 32_Up & 36_No & ~35_Up
+520	-0.04837995767593384	35_Steady | 35_Up | 36_Steady | 36_Up | 36_No & 39_Steady | 36_No & 38_Steady & ~37_Steady
+521	0.028115930035710335	36_Up | 37_Steady | 39_Steady | 40_Steady | 38_Steady & time_in_hospital_ST_ | 38_Steady & 42_Yes & ~41_No
+522	-0.04514722526073456	40_Steady | 41_No | time_in_hospital_ST_ | num_lab_procedures_ST_ | 42_Yes & num_medications_ST_ | 42_Yes & number_diagnoses_ST_
+523	0.06621966511011124	num_lab_procedures_ST_ | num_procedures_ST_ | number_diagnoses_ST_ | time_in_hospital_ST_17.48 | num_medications_ST_ & num_procedures_ST_8.82 | num_medications_ST_ & num_medications_ST_51.66
+524	-0.09296772629022598	time_in_hospital_ST_17.48 | num_lab_procedures_ST_129.36 | num_medications_ST_51.66 | number_diagnoses_ST_15.9 | num_procedures_ST_8.82 & num_procedures_ST_-0.5
+525	0.020743127912282944	0_Asian | 0_Caucasian | 1_UnknownInvalid & 2_10-20 & ~0_Hispanic
+526	0.029861072078347206	1_Male | 1_UnknownInvalid & ~0_Other & ~2_10-20 | 1_UnknownInvalid & ~2_10-20 & ~2_20-30
+527	0.03981378301978111	2_30-40 | 2_40-50
+528	0.009603187441825867	2_70-80 | 2_80-90
+529	-0.08668066561222076	3_[0-25) | 3_[100-125)
+530	0.03957495093345642	3_[175-200) | 3_[25-50)
+531	-0.021043898537755013	4_2 | 4_3
+532	-0.07609494775533676	4_6 | 4_7
+533	-0.020455271005630493	5_3 | 5_4
+534	-0.07952691614627838	5_7 | 5_8
+535	0.33799880743026733	5_11 | 5_12
+536	-0.06720498949289322	5_15 | 5_16
+537	-0.0008788308477960527	5_19 | 5_20
+538	0.005724642891436815	5_24 | 5_25
+539	0.00548518355935812	6_2 | 6_3
+540	0.001823319704271853	6_6 | 6_7
+541	-0.005837630480527878	6_10 | 6_11
+542	-0.05847574397921562	6_17 | 6_20
+543	-0.019340436905622482	8_AllergyandImmunology | 8_Anesthesiology
+544	-0.025800349190831184	8_Cardiology-Pediatric | 8_DCPTEAM
+545	0.07733145356178284	8_EmergencyTrauma | 8_Endocrinology
+546	0.044952355325222015	8_Gastroenterology | 8_Gynecology
+547	-0.031531110405921936	8_Hospitalist | 8_InfectiousDiseases
+548	0.03133732080459595	8_Neurology | 8_Neurophysiology
+549	0.022919902577996254	8_ObstetricsandGynecology | 8_Oncology
+550	0.05220511555671692	8_Orthopedics-Reconstructive | 8_Osteopath
+551	-0.03329453617334366	8_Pathology | 8_Pediatrics
+552	0.17624613642692566	8_Pediatrics-EmergencyMedicine | 8_Pediatrics-Endocrinology
+553	-0.07773658633232117	8_Pediatrics-Neurology | 8_Pediatrics-Pulmonology
+554	-0.020322130993008614	8_PhysicianNotFound | 8_Podiatry
+555	0.023113293573260307	8_Psychiatry-Addictive | 8_Psychiatry-ChildAdolescent
+556	-0.016850681975483894	8_Radiologist | 8_Radiology
+557	-0.015772471204400063	8_Speech | 8_SportsMedicine
+558	0.01702590100467205	8_Surgery-CardiovascularThoracic | 8_Surgery-Colon&Rectal
+559	0.040156058967113495	8_Surgery-Neuro | 8_Surgery-Pediatric
+560	0.010964092798531055	8_Surgery-Thoracic | 8_Surgery-Vascular
+561	-0.14038898050785065	12_1 | 12_2
+562	0.011714741587638855	12_5 | 12_6
+563	-0.040543001145124435	12_9 | 12_10
+564	-0.022015677765011787	12_13 | 12_14
+565	0.014725537970662117	12_17 | 12_18
+566	-0.02837042324244976	12_21 | 12_22
+567	-0.015785114839673042	12_25 | 12_26
+568	0.005705530289560556	12_29 | 12_33
+569	-0.03180530294775963	12_36 | 12_37 | 12_42 & 13_1
+570	0.036275915801525116	12_40 | 12_42 & ~13_1
+571	-0.07521387189626694	13_3 | 13_4
+572	-0.026158614084124565	13_7 | 13_8
+573	-0.0006516960565932095	13_11 | 13_12
+574	-0.046537626534700394	13_15 | 13_16
+575	-0.026901699602603912	13_20 | 13_21
+576	0.007178057916462421	13_25 | 13_28
+577	-0.027853060513734818	13_42 | 13_46 | 13_76 & 14_1
+578	0.04104162007570267	13_64 | 13_76 & ~14_1
+579	-0.02007625252008438	14_3 | 14_4
+580	-0.17748524248600006	14_7 | 14_8
+581	-0.17179688811302185	14_11 | 14_12
+582	-0.03135908022522926	14_15 | 14_16 | 14_21 & 16_>300
+583	-0.0015212720027193427	14_19 | 14_21 & ~16_>300
+584	-0.007515144534409046	16_Norm | 17_>8
+585	0.008309629745781422	18_No | 18_Steady & 20_No | 18_Steady & ~17_Norm | 18_Steady & ~19_No | 19_Up & 20_No & ~18_Up
+586	-0.21351440250873566	19_Steady | 19_Up & ~20_No
+587	-0.03487975150346756	20_Up | 21_No
+588	-0.031099088490009308	22_No | 22_Steady & 24_Steady | 22_Steady & 24_Up | 22_Steady & ~23_Steady | 22_Steady & ~21_Up & ~24_No
+589	0.08837947994470596	24_No | 24_Steady & 26_Steady | 24_Steady & ~23_Steady | 24_Steady & ~25_No | 25_Up & 26_Steady & ~24_Up
+590	0.012554764747619629	25_Steady | 25_Up & ~26_Steady | 27_Up & 28_No & ~26_Steady
+591	0.029917893931269646	27_Steady | 27_Up & ~28_No
+592	0.0348360650241375	28_Up | 29_No
+593	0.022345945239067078	30_No | 30_Steady & 32_Up | 30_Steady & 35_No | 30_Steady & ~31_Steady | 30_Steady & ~29_Up & ~32_Steady | 32_Up & 35_No & ~29_Up & ~30_Up | 32_Up & 35_No & ~30_Up & ~31_Steady
+594	0.04753084480762482	32_Steady | 32_Up & 36_No & ~35_No | 32_Up & 36_Steady & ~35_No | 32_Up & ~31_Steady & ~35_No | 32_Up & ~35_No & ~35_Steady
+595	-0.014505208469927311	35_Up | 36_No | 38_Steady & 39_Steady & ~35_Steady & ~36_Steady & ~36_Up | 38_Steady & 39_Steady & ~35_Steady & ~36_Steady & ~37_Steady | 38_Steady & 39_Steady & ~36_Steady & ~36_Up & ~37_Steady
+596	0.014988582581281662	37_Steady | 38_Steady & 42_Yes & ~39_Steady | 38_Steady & time_in_hospital_ST_ & ~39_Steady | 38_Steady & ~39_Steady & ~40_Steady | 38_Steady & ~36_Up & ~39_Steady & ~41_No | 42_Yes & time_in_hospital_ST_ & ~36_Up & ~39_Steady & ~40_Steady | 42_Yes & time_in_hospital_ST_ & ~36_Up & ~39_Steady & ~41_No | 42_Yes & time_in_hospital_ST_ & ~39_Steady & ~40_Steady & ~41_No
+597	4.7104032319111866e-07	41_No | 42_Yes & number_diagnoses_ST_ & ~time_in_hospital_ST_ | num_medications_ST_ & number_diagnoses_ST_ & ~time_in_hospital_ST_ | 42_Yes & ~40_Steady & ~time_in_hospital_ST_ | 42_Yes & ~time_in_hospital_ST_ & ~num_lab_procedures_ST_
+598	0.07192488759756088	num_procedures_ST_ | num_medications_ST_ | num_procedures_ST_8.82 & num_medications_ST_51.66 & ~number_diagnoses_ST_
+599	0.018938226625323296	num_lab_procedures_ST_129.36 | num_procedures_ST_8.82 | num_lab_procedures_ST_21.86 & num_procedures_ST_-0.5
+
+
+

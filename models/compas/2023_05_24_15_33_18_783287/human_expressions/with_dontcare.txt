@@ -1,0 +1,180 @@
+Class 0:
+
+Position	Weight	Rule
+0	0.040473390370607376	2_Male | 7_3 | 3_Caucasian & ~7_2
+1	-0.009091238491237164	7_2 | 7_3 | 7_6
+2	-0.01851557195186615	7_5 | 7_6 | 7_8 & 9_Low | 8_M & ~7_10
+3	-0.01445767842233181	7_10 | 9_Low & diff_custody_ST_ | 8_M & ~9_Medium | age_ST_ & ~9_Medium
+4	-0.05165701359510422	9_Medium | priors_count_ST_ | diff_custody_ST_ & diff_jail_ST_ | diff_custody_ST_ & age_ST_33.65 | age_ST_ & ~diff_jail_ST_
+5	0.0017588995397090912	diff_jail_ST_ | diff_jail_ST_1066107.43 | age_ST_33.65 & diff_custody_ST_2221943.16 | age_ST_33.65 & priors_count_ST_3.13 | priors_count_ST_ & ~diff_custody_ST_2221943.16
+6	0.05550123006105423	diff_custody_ST_2221943.16 | diff_jail_ST_1066107.43 | priors_count_ST_3.13 & diff_jail_ST_1492079.05 | diff_custody_ST_3761754.9 & ~age_ST_34.85
+7	0.015587854199111462	~7_3 & ~7_4 | 2_Male & ~3_Caucasian & ~7_4
+8	-0.041922975331544876	~7_6 & ~7_8
+9	0.08067512512207031	7_5 & ~9_Low | 7_10 & ~9_Low | ~8_M & ~9_Low
+10	-0.020188944414258003	9_Medium & ~diff_custody_ST_ | ~age_ST_ & ~diff_custody_ST_ | 7_10 & ~8_M & ~9_Low & ~diff_custody_ST_
+11	-0.015784433111548424	~diff_custody_ST_ & ~priors_count_ST_ & ~age_ST_33.65 | ~diff_jail_ST_ & ~priors_count_ST_ & ~age_ST_33.65 | 9_Medium & ~age_ST_ & ~diff_custody_ST_ & ~age_ST_33.65
+12	-0.057790908962488174	diff_jail_ST_ & ~priors_count_ST_3.13 | ~age_ST_33.65 & ~diff_jail_ST_1066107.43 & ~priors_count_ST_3.13 | ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43 & ~priors_count_ST_3.13
+13	-0.015231453813612461	diff_custody_ST_2221943.16 & ~diff_jail_ST_1492079.05 | age_ST_34.85 & ~diff_jail_ST_1492079.05 | ~diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05
+14	0.006062536966055632	3_Caucasian & 7_3 | 2_Male & 3_Caucasian & ~7_1 | ~7_1 & ~7_2 & ~7_3
+15	-0.04254399985074997	~7_4 & ~7_5 & ~7_6
+16	-0.0792529508471489	7_6 | 9_Low & ~8_M | 9_Low & ~7_8 & ~7_10 | ~7_8 & ~7_10 & ~8_M
+17	0.03488096594810486	diff_custody_ST_ & ~age_ST_ | 7_10 & diff_custody_ST_ & ~9_Low | 8_M & ~9_Low & ~9_Medium | diff_custody_ST_ & ~9_Low & ~9_Medium | ~9_Low & ~9_Medium & ~age_ST_ | 7_10 & 8_M & ~9_Low & ~age_ST_
+18	-0.06255792081356049	9_Medium & age_ST_ | diff_custody_ST_ & diff_jail_ST_ | age_ST_ & ~diff_jail_ST_ | age_ST_33.65 & ~diff_custody_ST_ | age_ST_33.65 & ~priors_count_ST_ | ~diff_custody_ST_ & ~diff_jail_ST_ & ~priors_count_ST_
+19	0.05035416781902313	age_ST_33.65 & diff_custody_ST_2221943.16 | priors_count_ST_ & ~diff_custody_ST_2221943.16 | priors_count_ST_3.13 & ~age_ST_33.65 | priors_count_ST_3.13 & ~diff_jail_ST_1066107.43 | ~age_ST_33.65 & ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43
+20	-0.01979350671172142	diff_jail_ST_1066107.43 | diff_jail_ST_1492079.05 & ~diff_custody_ST_3761754.9 | diff_jail_ST_1492079.05 & ~priors_count_ST_3.13 & ~age_ST_34.85 | ~priors_count_ST_3.13 & ~age_ST_34.85 & ~diff_custody_ST_3761754.9
+21	-0.03370882198214531	7_3 | 3_Caucasian & 7_1 | 3_Caucasian & 7_2 | 7_1 & ~2_Male | 2_Male & 3_Caucasian & 7_4 | 3_Caucasian & ~2_Male & ~7_4
+22	-0.0384838730096817	7_3 | 7_4 | 7_6
+23	0.015852242708206177	7_8 | 7_6 & ~9_Low | 8_M & ~9_Low
+24	-0.01667262427508831	8_M & 9_Low | 8_M & 9_Medium | 9_Low & diff_custody_ST_ | 9_Low & ~7_10 | age_ST_ & ~diff_custody_ST_ | 7_10 & 8_M & diff_custody_ST_ | 7_10 & 9_Medium & age_ST_ | 8_M & ~7_10 & ~diff_custody_ST_
+25	0.005891295615583658	age_ST_ & diff_jail_ST_ | diff_custody_ST_ & diff_jail_ST_ | diff_custody_ST_ & age_ST_33.65 | diff_custody_ST_ & ~9_Medium | priors_count_ST_ & ~age_ST_33.65 | 9_Medium & age_ST_ & age_ST_33.65 | age_ST_ & ~9_Medium & ~age_ST_33.65
+26	0.0022286439780145884	age_ST_33.65 | priors_count_ST_ & diff_custody_ST_2221943.16 | priors_count_ST_ & ~priors_count_ST_3.13 | diff_jail_ST_1066107.43 & ~priors_count_ST_3.13
+27	0.035446640104055405	priors_count_ST_3.13 | diff_jail_ST_1066107.43 & ~diff_jail_ST_1492079.05 | diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05
+28	-0.008567070588469505	7_3 | 2_Male & 7_4 | 3_Caucasian & ~7_1 | ~2_Male & ~7_1 & ~7_4
+29	0.007807785179466009	~7_2 & ~7_4 & ~7_8
+30	0.00815025344491005	7_6 | 7_5 & 9_Low & ~8_M | 8_M & ~7_8 & ~7_10 & ~9_Low | ~7_5 & ~7_8 & ~8_M & ~9_Low
+31	-0.0025891619734466076	7_10 & 8_M & ~9_Low | 8_M & age_ST_ & ~diff_custody_ST_ | 8_M & diff_custody_ST_ & ~9_Medium | 8_M & diff_custody_ST_ & ~age_ST_ | age_ST_ & ~9_Low & ~9_Medium & ~diff_custody_ST_ | ~7_10 & ~9_Low & ~age_ST_ & ~diff_custody_ST_ | 7_10 & diff_custody_ST_ & ~9_Low & ~9_Medium & ~age_ST_
+32	-0.023187248036265373	age_ST_ | diff_custody_ST_ & diff_jail_ST_ | priors_count_ST_ & ~diff_custody_ST_ & ~age_ST_33.65 | ~9_Medium & ~diff_custody_ST_ & ~age_ST_33.65 | 9_Medium & age_ST_33.65 & ~diff_custody_ST_ & ~diff_jail_ST_ & ~priors_count_ST_
+33	0.07429517805576324	priors_count_ST_ | age_ST_33.65 & diff_custody_ST_2221943.16 | diff_jail_ST_1066107.43 & ~age_ST_33.65 & ~priors_count_ST_3.13 | ~diff_jail_ST_ & ~age_ST_33.65 & ~priors_count_ST_3.13 | diff_jail_ST_ & priors_count_ST_3.13 & ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43
+34	-0.03746304661035538	diff_jail_ST_1066107.43 | diff_custody_ST_2221943.16 & diff_jail_ST_1492079.05 & ~diff_custody_ST_3761754.9 | diff_custody_ST_3761754.9 & ~priors_count_ST_3.13 & ~age_ST_34.85 & ~diff_jail_ST_1492079.05 | ~diff_custody_ST_2221943.16 & ~priors_count_ST_3.13 & ~diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05
+35	0.01515121664851904	7_2 & ~3_Caucasian | ~7_1 & ~7_2 & ~7_3
+36	0.03032543696463108	~7_4 & ~7_6
+37	-0.002307402202859521	9_Low & ~7_8 | ~7_8 & ~8_M
+38	0.045575615018606186	diff_custody_ST_ & ~8_M & ~9_Low | ~8_M & ~9_Low & ~age_ST_ | ~9_Low & ~9_Medium & ~age_ST_ | diff_custody_ST_ & ~7_10 & ~9_Low & ~9_Medium
+39	-0.04233454912900925	age_ST_33.65 & ~age_ST_ & ~diff_custody_ST_ | ~age_ST_ & ~diff_custody_ST_ & ~priors_count_ST_ | ~diff_custody_ST_ & ~diff_jail_ST_ & ~priors_count_ST_ | age_ST_33.65 & ~9_Medium & ~diff_custody_ST_ & ~diff_jail_ST_
+40	-0.023121565580368042	priors_count_ST_3.13 & ~age_ST_33.65 & ~diff_custody_ST_2221943.16 | ~priors_count_ST_ & ~age_ST_33.65 & ~diff_jail_ST_1066107.43 | ~age_ST_33.65 & ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43
+41	-0.06385968625545502	diff_jail_ST_1492079.05 & ~priors_count_ST_3.13 | ~priors_count_ST_3.13 & ~diff_custody_ST_3761754.9
+42	-0.012040690518915653	7_1 | 7_3 & ~2_Male | 2_Male & ~3_Caucasian & ~7_4
+43	0.02773730829358101	7_2 | 7_4 | 7_6
+44	0.028375767171382904	7_8 | 7_5 & ~9_Low | 8_M & ~9_Low
+45	-0.02340915985405445	9_Low & ~8_M | 9_Low & ~diff_custody_ST_ | 7_10 & 9_Low & ~age_ST_ | 9_Medium & age_ST_ & ~diff_custody_ST_ | 7_10 & ~8_M & ~diff_custody_ST_ | age_ST_ & ~7_10 & ~diff_custody_ST_ | 7_10 & 9_Medium & age_ST_ & ~8_M
+46	0.02065242826938629	diff_custody_ST_ & ~diff_jail_ST_ | 9_Medium & ~age_ST_ & ~age_ST_33.65 | priors_count_ST_ & ~9_Medium & ~age_ST_33.65
+47	-0.0722319707274437	diff_jail_ST_ & ~priors_count_ST_3.13 | age_ST_33.65 & ~diff_custody_ST_2221943.16 | diff_jail_ST_1066107.43 & ~priors_count_ST_3.13
+48	0.066606804728508	priors_count_ST_3.13 | diff_custody_ST_2221943.16 & ~diff_jail_ST_1492079.05 | diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05
+49	-0.07799557596445084	3_Caucasian & 7_1 | 7_2 & ~2_Male | 7_3 & ~2_Male | ~2_Male & ~3_Caucasian & ~7_4
+50	0.0001930471189552918	~7_2 & ~7_3 & ~7_8
+51	0.05403914302587509	7_8 | 7_6 & 8_M | 7_10 & 8_M | ~7_5 & ~7_6 & ~9_Low
+52	-0.006027990486472845	9_Low & ~7_10 | 8_M & 9_Low & age_ST_ | 8_M & 9_Low & ~diff_custody_ST_ | 8_M & age_ST_ & ~7_10 | 9_Medium & age_ST_ & ~7_10 | 8_M & 9_Medium & age_ST_ & diff_custody_ST_ | 9_Medium & ~7_10 & ~diff_custody_ST_ | ~7_10 & ~8_M & ~diff_custody_ST_
+53	0.09194271266460419	age_ST_ & priors_count_ST_ & ~9_Medium | diff_custody_ST_ & ~9_Medium & ~diff_jail_ST_ | diff_jail_ST_ & ~9_Medium & ~age_ST_33.65 | ~9_Medium & ~age_ST_ & ~age_ST_33.65
+54	-0.01973622292280197	priors_count_ST_ & diff_jail_ST_1066107.43 | age_ST_33.65 & ~diff_custody_ST_2221943.16 | diff_custody_ST_2221943.16 & ~diff_jail_ST_ & ~priors_count_ST_3.13 | ~diff_jail_ST_ & ~priors_count_ST_ & ~priors_count_ST_3.13
+55	-0.003440926782786846	priors_count_ST_3.13 | diff_jail_ST_1066107.43 & diff_custody_ST_3761754.9 | age_ST_34.85 & diff_custody_ST_3761754.9 | ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43 & ~diff_jail_ST_1492079.05
+56	0.047512236982584	7_1 | 7_3 & ~3_Caucasian | 2_Male & ~3_Caucasian & ~7_4
+57	-0.06798882782459259	7_2 | 7_4 | 7_6
+58	0.03059801459312439	7_5 & ~9_Low | 7_8 & ~8_M | 8_M & ~7_6 & ~9_Low
+59	-0.04572996869683266	7_10 & 9_Low | 9_Low & ~age_ST_ | 9_Low & ~diff_custody_ST_ | 7_10 & 9_Medium & ~8_M | 7_10 & ~8_M & ~diff_custody_ST_ | age_ST_ & ~8_M & ~diff_custody_ST_ | 7_10 & 9_Medium & age_ST_ & ~diff_custody_ST_
+60	0.01323472335934639	9_Medium & diff_custody_ST_ | diff_custody_ST_ & ~age_ST_33.65 | 9_Medium & diff_jail_ST_ & ~age_ST_ | 9_Medium & ~age_ST_ & ~age_ST_33.65 | diff_custody_ST_ & ~diff_jail_ST_ & ~priors_count_ST_ | priors_count_ST_ & ~age_ST_ & ~age_ST_33.65
+61	-0.0635199099779129	diff_jail_ST_ & diff_custody_ST_2221943.16 | diff_jail_ST_ & ~priors_count_ST_3.13 | age_ST_33.65 & ~priors_count_ST_3.13 | age_ST_33.65 & ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43 | diff_jail_ST_1066107.43 & ~priors_count_ST_ & ~priors_count_ST_3.13
+62	0.06951572000980377	diff_custody_ST_2221943.16 & ~diff_jail_ST_1492079.05 | priors_count_ST_3.13 & ~diff_custody_ST_3761754.9 | diff_custody_ST_3761754.9 & ~diff_jail_ST_1066107.43 & ~diff_jail_ST_1492079.05
+63	-0.05256947502493858	~2_Male & ~7_4
+64	-0.021517783403396606	~7_2 & ~7_8
+65	0.05693406984210014	7_10 & ~8_M | ~7_5 & ~7_8 & ~9_Low | ~7_5 & ~8_M & ~9_Low
+66	-0.009267495945096016	8_M & 9_Medium & ~7_10 | 8_M & ~7_10 & ~diff_custody_ST_ | 9_Medium & ~7_10 & ~age_ST_ | ~7_10 & ~9_Low & ~diff_custody_ST_ | ~7_10 & ~age_ST_ & ~diff_custody_ST_
+67	0.038494598120450974	diff_jail_ST_ & ~9_Medium & ~diff_custody_ST_ | ~9_Medium & ~diff_custody_ST_ & ~age_ST_33.65 | ~9_Medium & ~priors_count_ST_ & ~age_ST_33.65
+68	-0.022144248709082603	diff_custody_ST_2221943.16 & ~diff_jail_ST_ & ~age_ST_33.65 | ~diff_jail_ST_ & ~age_ST_33.65 & ~priors_count_ST_3.13 | ~diff_jail_ST_ & ~diff_jail_ST_1066107.43 & ~priors_count_ST_3.13
+69	-0.051240433007478714	age_ST_34.85 & ~diff_custody_ST_3761754.9 | ~diff_custody_ST_2221943.16 & ~priors_count_ST_3.13 & ~diff_jail_ST_1492079.05 | ~diff_custody_ST_2221943.16 & ~diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05
+70	-0.012053955346345901	7_1 | 7_2 | 3_Caucasian & 7_3 | 2_Male & 3_Caucasian & ~7_4 | ~2_Male & ~3_Caucasian & ~7_3 & ~7_4
+71	0.002775096334517002	~7_2 & ~7_3 & ~7_6 & ~7_8
+72	0.04378437250852585	7_10 | 7_8 & ~9_Low | 7_6 & 8_M & ~9_Low | ~7_5 & ~7_6 & ~8_M & ~9_Low
+73	-0.04376450553536415	9_Low & ~diff_custody_ST_ | 9_Medium & ~7_10 | 9_Medium & ~diff_custody_ST_ | 7_10 & 8_M & ~diff_custody_ST_ | 8_M & age_ST_ & ~diff_custody_ST_ | ~7_10 & ~8_M & ~age_ST_ & ~diff_custody_ST_
+74	-0.00047532934695482254	9_Medium & age_ST_ & ~age_ST_33.65 | age_ST_ & priors_count_ST_ & ~age_ST_33.65 | diff_custody_ST_ & ~diff_jail_ST_ & ~age_ST_33.65 | diff_jail_ST_ & ~9_Medium & ~diff_custody_ST_ | diff_jail_ST_ & ~diff_custody_ST_ & ~age_ST_33.65 | ~9_Medium & ~age_ST_ & ~diff_custody_ST_ & ~priors_count_ST_ & ~age_ST_33.65
+75	-0.03924186900258064	priors_count_ST_ & diff_jail_ST_1066107.43 & ~priors_count_ST_3.13 | age_ST_33.65 & ~diff_custody_ST_2221943.16 & ~priors_count_ST_3.13 | diff_custody_ST_2221943.16 & ~diff_jail_ST_ & ~age_ST_33.65 | diff_custody_ST_2221943.16 & ~age_ST_33.65 & ~priors_count_ST_3.13 | ~diff_jail_ST_ & ~priors_count_ST_ & ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43 & ~priors_count_ST_3.13
+76	0.005252374801784754	age_ST_34.85 | priors_count_ST_3.13 & ~diff_jail_ST_1492079.05 | diff_jail_ST_1066107.43 & diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05 | ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43 & ~diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05
+77	-0.004224385134875774	3_Caucasian & 7_3 | 2_Male & 3_Caucasian & ~7_1 | ~7_1 & ~7_2 & ~7_3
+78	-0.036257144063711166	~7_4 & ~7_5 & ~7_6
+79	-0.02656330168247223	7_6 | 9_Low & ~7_8 & ~7_10 | 9_Low & ~7_8 & ~8_M | ~7_8 & ~7_10 & ~8_M
+80	0.02734498679637909	8_M & diff_custody_ST_ & ~9_Low | 8_M & ~9_Low & ~9_Medium | diff_custody_ST_ & ~9_Low & ~9_Medium | ~9_Low & ~9_Medium & ~age_ST_ | 7_10 & 8_M & ~9_Low & ~age_ST_ | diff_custody_ST_ & ~7_10 & ~9_Low & ~age_ST_
+81	-0.04992644861340523	9_Medium & age_ST_ | age_ST_ & ~diff_jail_ST_ | diff_jail_ST_ & age_ST_33.65 & ~9_Medium | age_ST_33.65 & ~diff_custody_ST_ & ~diff_jail_ST_ | ~diff_custody_ST_ & ~diff_jail_ST_ & ~priors_count_ST_
+82	0.028902539983391762	priors_count_ST_ & ~diff_custody_ST_2221943.16 | diff_custody_ST_2221943.16 & priors_count_ST_3.13 & ~diff_jail_ST_ | priors_count_ST_3.13 & ~age_ST_33.65 & ~diff_custody_ST_2221943.16 | ~age_ST_33.65 & ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43
+83	-0.00587906688451767	diff_jail_ST_1066107.43 | diff_jail_ST_1492079.05 & ~priors_count_ST_3.13 & ~age_ST_34.85 | diff_jail_ST_1492079.05 & ~priors_count_ST_3.13 & ~diff_custody_ST_3761754.9 | ~priors_count_ST_3.13 & ~age_ST_34.85 & ~diff_custody_ST_3761754.9
+
+
+
+Class 1:
+
+Position	Weight	Rule
+0	-0.0627271831035614	2_Male | 7_3 | 3_Caucasian & ~7_2
+1	0.008114095777273178	7_2 | 7_3 | 7_6
+2	0.019152110442519188	7_5 | 7_6 | 7_8 & 9_Low | 8_M & ~7_10
+3	0.014990207739174366	7_10 | 9_Low & diff_custody_ST_ | 8_M & ~9_Medium | age_ST_ & ~9_Medium
+4	0.04710419848561287	9_Medium | priors_count_ST_ | diff_custody_ST_ & diff_jail_ST_ | diff_custody_ST_ & age_ST_33.65 | age_ST_ & ~diff_jail_ST_
+5	-0.0017620676662772894	diff_jail_ST_ | diff_jail_ST_1066107.43 | age_ST_33.65 & diff_custody_ST_2221943.16 | age_ST_33.65 & priors_count_ST_3.13 | priors_count_ST_ & ~diff_custody_ST_2221943.16
+6	-0.06769627332687378	diff_custody_ST_2221943.16 | diff_jail_ST_1066107.43 | priors_count_ST_3.13 & diff_jail_ST_1492079.05 | diff_custody_ST_3761754.9 & ~age_ST_34.85
+7	-0.009896446019411087	~7_3 & ~7_4 | 2_Male & ~3_Caucasian & ~7_4
+8	0.05326087772846222	~7_6 & ~7_8
+9	-0.10159797221422195	7_5 & ~9_Low | 7_10 & ~9_Low | ~8_M & ~9_Low
+10	0.024311523884534836	9_Medium & ~diff_custody_ST_ | ~age_ST_ & ~diff_custody_ST_ | 7_10 & ~8_M & ~9_Low & ~diff_custody_ST_
+11	0.025807924568653107	~diff_custody_ST_ & ~priors_count_ST_ & ~age_ST_33.65 | ~diff_jail_ST_ & ~priors_count_ST_ & ~age_ST_33.65 | 9_Medium & ~age_ST_ & ~diff_custody_ST_ & ~age_ST_33.65
+12	0.06664854288101196	diff_jail_ST_ & ~priors_count_ST_3.13 | ~age_ST_33.65 & ~diff_jail_ST_1066107.43 & ~priors_count_ST_3.13 | ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43 & ~priors_count_ST_3.13
+13	0.03399462625384331	diff_custody_ST_2221943.16 & ~diff_jail_ST_1492079.05 | age_ST_34.85 & ~diff_jail_ST_1492079.05 | ~diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05
+14	-0.0045530591160058975	3_Caucasian & 7_3 | 2_Male & 3_Caucasian & ~7_1 | ~7_1 & ~7_2 & ~7_3
+15	0.056735407561063766	~7_4 & ~7_5 & ~7_6
+16	0.09332003444433212	7_6 | 9_Low & ~8_M | 9_Low & ~7_8 & ~7_10 | ~7_8 & ~7_10 & ~8_M
+17	-0.04207780212163925	diff_custody_ST_ & ~age_ST_ | 7_10 & diff_custody_ST_ & ~9_Low | 8_M & ~9_Low & ~9_Medium | diff_custody_ST_ & ~9_Low & ~9_Medium | ~9_Low & ~9_Medium & ~age_ST_ | 7_10 & 8_M & ~9_Low & ~age_ST_
+18	0.06152778118848801	9_Medium & age_ST_ | diff_custody_ST_ & diff_jail_ST_ | age_ST_ & ~diff_jail_ST_ | age_ST_33.65 & ~diff_custody_ST_ | age_ST_33.65 & ~priors_count_ST_ | ~diff_custody_ST_ & ~diff_jail_ST_ & ~priors_count_ST_
+19	-0.04735903441905975	age_ST_33.65 & diff_custody_ST_2221943.16 | priors_count_ST_ & ~diff_custody_ST_2221943.16 | priors_count_ST_3.13 & ~age_ST_33.65 | priors_count_ST_3.13 & ~diff_jail_ST_1066107.43 | ~age_ST_33.65 & ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43
+20	0.010105771943926811	diff_jail_ST_1066107.43 | diff_jail_ST_1492079.05 & ~diff_custody_ST_3761754.9 | diff_jail_ST_1492079.05 & ~priors_count_ST_3.13 & ~age_ST_34.85 | ~priors_count_ST_3.13 & ~age_ST_34.85 & ~diff_custody_ST_3761754.9
+21	0.034257449209690094	7_3 | 3_Caucasian & 7_1 | 3_Caucasian & 7_2 | 7_1 & ~2_Male | 2_Male & 3_Caucasian & 7_4 | 3_Caucasian & ~2_Male & ~7_4
+22	0.047316811978816986	7_3 | 7_4 | 7_6
+23	-0.025348614901304245	7_8 | 7_6 & ~9_Low | 8_M & ~9_Low
+24	0.017052480950951576	8_M & 9_Low | 8_M & 9_Medium | 9_Low & diff_custody_ST_ | 9_Low & ~7_10 | age_ST_ & ~diff_custody_ST_ | 7_10 & 8_M & diff_custody_ST_ | 7_10 & 9_Medium & age_ST_ | 8_M & ~7_10 & ~diff_custody_ST_
+25	-0.01951567456126213	age_ST_ & diff_jail_ST_ | diff_custody_ST_ & diff_jail_ST_ | diff_custody_ST_ & age_ST_33.65 | diff_custody_ST_ & ~9_Medium | priors_count_ST_ & ~age_ST_33.65 | 9_Medium & age_ST_ & age_ST_33.65 | age_ST_ & ~9_Medium & ~age_ST_33.65
+26	-0.008376889862120152	age_ST_33.65 | priors_count_ST_ & diff_custody_ST_2221943.16 | priors_count_ST_ & ~priors_count_ST_3.13 | diff_jail_ST_1066107.43 & ~priors_count_ST_3.13
+27	-0.0401717908680439	priors_count_ST_3.13 | diff_jail_ST_1066107.43 & ~diff_jail_ST_1492079.05 | diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05
+28	-0.0007710247882641852	7_3 | 2_Male & 7_4 | 3_Caucasian & ~7_1 | ~2_Male & ~7_1 & ~7_4
+29	-0.0072649032808840275	~7_2 & ~7_4 & ~7_8
+30	-0.006621658802032471	7_6 | 7_5 & 9_Low & ~8_M | 8_M & ~7_8 & ~7_10 & ~9_Low | ~7_5 & ~7_8 & ~8_M & ~9_Low
+31	0.011446758173406124	7_10 & 8_M & ~9_Low | 8_M & age_ST_ & ~diff_custody_ST_ | 8_M & diff_custody_ST_ & ~9_Medium | 8_M & diff_custody_ST_ & ~age_ST_ | age_ST_ & ~9_Low & ~9_Medium & ~diff_custody_ST_ | ~7_10 & ~9_Low & ~age_ST_ & ~diff_custody_ST_ | 7_10 & diff_custody_ST_ & ~9_Low & ~9_Medium & ~age_ST_
+32	0.02249705046415329	age_ST_ | diff_custody_ST_ & diff_jail_ST_ | priors_count_ST_ & ~diff_custody_ST_ & ~age_ST_33.65 | ~9_Medium & ~diff_custody_ST_ & ~age_ST_33.65 | 9_Medium & age_ST_33.65 & ~diff_custody_ST_ & ~diff_jail_ST_ & ~priors_count_ST_
+33	-0.07111207395792007	priors_count_ST_ | age_ST_33.65 & diff_custody_ST_2221943.16 | diff_jail_ST_1066107.43 & ~age_ST_33.65 & ~priors_count_ST_3.13 | ~diff_jail_ST_ & ~age_ST_33.65 & ~priors_count_ST_3.13 | diff_jail_ST_ & priors_count_ST_3.13 & ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43
+34	0.03827224299311638	diff_jail_ST_1066107.43 | diff_custody_ST_2221943.16 & diff_jail_ST_1492079.05 & ~diff_custody_ST_3761754.9 | diff_custody_ST_3761754.9 & ~priors_count_ST_3.13 & ~age_ST_34.85 & ~diff_jail_ST_1492079.05 | ~diff_custody_ST_2221943.16 & ~priors_count_ST_3.13 & ~diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05
+35	-0.011810583993792534	7_2 & ~3_Caucasian | ~7_1 & ~7_2 & ~7_3
+36	-0.03497646376490593	~7_4 & ~7_6
+37	0.01087137870490551	9_Low & ~7_8 | ~7_8 & ~8_M
+38	-0.0526791587471962	diff_custody_ST_ & ~8_M & ~9_Low | ~8_M & ~9_Low & ~age_ST_ | ~9_Low & ~9_Medium & ~age_ST_ | diff_custody_ST_ & ~7_10 & ~9_Low & ~9_Medium
+39	0.050537075847387314	age_ST_33.65 & ~age_ST_ & ~diff_custody_ST_ | ~age_ST_ & ~diff_custody_ST_ & ~priors_count_ST_ | ~diff_custody_ST_ & ~diff_jail_ST_ & ~priors_count_ST_ | age_ST_33.65 & ~9_Medium & ~diff_custody_ST_ & ~diff_jail_ST_
+40	0.008449537679553032	priors_count_ST_3.13 & ~age_ST_33.65 & ~diff_custody_ST_2221943.16 | ~priors_count_ST_ & ~age_ST_33.65 & ~diff_jail_ST_1066107.43 | ~age_ST_33.65 & ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43
+41	0.0788956955075264	diff_jail_ST_1492079.05 & ~priors_count_ST_3.13 | ~priors_count_ST_3.13 & ~diff_custody_ST_3761754.9
+42	0.009086386300623417	7_1 | 7_3 & ~2_Male | 2_Male & ~3_Caucasian & ~7_4
+43	-0.034737031906843185	7_2 | 7_4 | 7_6
+44	-0.033017598092556	7_8 | 7_5 & ~9_Low | 8_M & ~9_Low
+45	0.017001649364829063	9_Low & ~8_M | 9_Low & ~diff_custody_ST_ | 7_10 & 9_Low & ~age_ST_ | 9_Medium & age_ST_ & ~diff_custody_ST_ | 7_10 & ~8_M & ~diff_custody_ST_ | age_ST_ & ~7_10 & ~diff_custody_ST_ | 7_10 & 9_Medium & age_ST_ & ~8_M
+46	-0.016098622232675552	diff_custody_ST_ & ~diff_jail_ST_ | 9_Medium & ~age_ST_ & ~age_ST_33.65 | priors_count_ST_ & ~9_Medium & ~age_ST_33.65
+47	0.08131345361471176	diff_jail_ST_ & ~priors_count_ST_3.13 | age_ST_33.65 & ~diff_custody_ST_2221943.16 | diff_jail_ST_1066107.43 & ~priors_count_ST_3.13
+48	-0.08150612562894821	priors_count_ST_3.13 | diff_custody_ST_2221943.16 & ~diff_jail_ST_1492079.05 | diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05
+49	0.09765882790088654	3_Caucasian & 7_1 | 7_2 & ~2_Male | 7_3 & ~2_Male | ~2_Male & ~3_Caucasian & ~7_4
+50	0.0017173660453408957	~7_2 & ~7_3 & ~7_8
+51	-0.07256127148866653	7_8 | 7_6 & 8_M | 7_10 & 8_M | ~7_5 & ~7_6 & ~9_Low
+52	0.002531420672312379	9_Low & ~7_10 | 8_M & 9_Low & age_ST_ | 8_M & 9_Low & ~diff_custody_ST_ | 8_M & age_ST_ & ~7_10 | 9_Medium & age_ST_ & ~7_10 | 8_M & 9_Medium & age_ST_ & diff_custody_ST_ | 9_Medium & ~7_10 & ~diff_custody_ST_ | ~7_10 & ~8_M & ~diff_custody_ST_
+53	-0.10664010792970657	age_ST_ & priors_count_ST_ & ~9_Medium | diff_custody_ST_ & ~9_Medium & ~diff_jail_ST_ | diff_jail_ST_ & ~9_Medium & ~age_ST_33.65 | ~9_Medium & ~age_ST_ & ~age_ST_33.65
+54	0.015317942015826702	priors_count_ST_ & diff_jail_ST_1066107.43 | age_ST_33.65 & ~diff_custody_ST_2221943.16 | diff_custody_ST_2221943.16 & ~diff_jail_ST_ & ~priors_count_ST_3.13 | ~diff_jail_ST_ & ~priors_count_ST_ & ~priors_count_ST_3.13
+55	0.010699266567826271	priors_count_ST_3.13 | diff_jail_ST_1066107.43 & diff_custody_ST_3761754.9 | age_ST_34.85 & diff_custody_ST_3761754.9 | ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43 & ~diff_jail_ST_1492079.05
+56	-0.060108304023742676	7_1 | 7_3 & ~3_Caucasian | 2_Male & ~3_Caucasian & ~7_4
+57	0.07996758818626404	7_2 | 7_4 | 7_6
+58	-0.033184316009283066	7_5 & ~9_Low | 7_8 & ~8_M | 8_M & ~7_6 & ~9_Low
+59	0.06321825087070465	7_10 & 9_Low | 9_Low & ~age_ST_ | 9_Low & ~diff_custody_ST_ | 7_10 & 9_Medium & ~8_M | 7_10 & ~8_M & ~diff_custody_ST_ | age_ST_ & ~8_M & ~diff_custody_ST_ | 7_10 & 9_Medium & age_ST_ & ~diff_custody_ST_
+60	-0.019938329234719276	9_Medium & diff_custody_ST_ | diff_custody_ST_ & ~age_ST_33.65 | 9_Medium & diff_jail_ST_ & ~age_ST_ | 9_Medium & ~age_ST_ & ~age_ST_33.65 | diff_custody_ST_ & ~diff_jail_ST_ & ~priors_count_ST_ | priors_count_ST_ & ~age_ST_ & ~age_ST_33.65
+61	0.07646423578262329	diff_jail_ST_ & diff_custody_ST_2221943.16 | diff_jail_ST_ & ~priors_count_ST_3.13 | age_ST_33.65 & ~priors_count_ST_3.13 | age_ST_33.65 & ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43 | diff_jail_ST_1066107.43 & ~priors_count_ST_ & ~priors_count_ST_3.13
+62	-0.08093780279159546	diff_custody_ST_2221943.16 & ~diff_jail_ST_1492079.05 | priors_count_ST_3.13 & ~diff_custody_ST_3761754.9 | diff_custody_ST_3761754.9 & ~diff_jail_ST_1066107.43 & ~diff_jail_ST_1492079.05
+63	0.05611489713191986	~2_Male & ~7_4
+64	0.02675696834921837	~7_2 & ~7_8
+65	-0.06697581708431244	7_10 & ~8_M | ~7_5 & ~7_8 & ~9_Low | ~7_5 & ~8_M & ~9_Low
+66	0.013589994981884956	8_M & 9_Medium & ~7_10 | 8_M & ~7_10 & ~diff_custody_ST_ | 9_Medium & ~7_10 & ~age_ST_ | ~7_10 & ~9_Low & ~diff_custody_ST_ | ~7_10 & ~age_ST_ & ~diff_custody_ST_
+67	-0.046133916825056076	diff_jail_ST_ & ~9_Medium & ~diff_custody_ST_ | ~9_Medium & ~diff_custody_ST_ & ~age_ST_33.65 | ~9_Medium & ~priors_count_ST_ & ~age_ST_33.65
+68	0.027905650436878204	diff_custody_ST_2221943.16 & ~diff_jail_ST_ & ~age_ST_33.65 | ~diff_jail_ST_ & ~age_ST_33.65 & ~priors_count_ST_3.13 | ~diff_jail_ST_ & ~diff_jail_ST_1066107.43 & ~priors_count_ST_3.13
+69	0.058003976941108704	age_ST_34.85 & ~diff_custody_ST_3761754.9 | ~diff_custody_ST_2221943.16 & ~priors_count_ST_3.13 & ~diff_jail_ST_1492079.05 | ~diff_custody_ST_2221943.16 & ~diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05
+70	0.022946052253246307	7_1 | 7_2 | 3_Caucasian & 7_3 | 2_Male & 3_Caucasian & ~7_4 | ~2_Male & ~3_Caucasian & ~7_3 & ~7_4
+71	-0.002473972039297223	~7_2 & ~7_3 & ~7_6 & ~7_8
+72	-0.05693480372428894	7_10 | 7_8 & ~9_Low | 7_6 & 8_M & ~9_Low | ~7_5 & ~7_6 & ~8_M & ~9_Low
+73	0.06125861778855324	9_Low & ~diff_custody_ST_ | 9_Medium & ~7_10 | 9_Medium & ~diff_custody_ST_ | 7_10 & 8_M & ~diff_custody_ST_ | 8_M & age_ST_ & ~diff_custody_ST_ | ~7_10 & ~8_M & ~age_ST_ & ~diff_custody_ST_
+74	-0.00010942201333818957	9_Medium & age_ST_ & ~age_ST_33.65 | age_ST_ & priors_count_ST_ & ~age_ST_33.65 | diff_custody_ST_ & ~diff_jail_ST_ & ~age_ST_33.65 | diff_jail_ST_ & ~9_Medium & ~diff_custody_ST_ | diff_jail_ST_ & ~diff_custody_ST_ & ~age_ST_33.65 | ~9_Medium & ~age_ST_ & ~diff_custody_ST_ & ~priors_count_ST_ & ~age_ST_33.65
+75	0.04238729178905487	priors_count_ST_ & diff_jail_ST_1066107.43 & ~priors_count_ST_3.13 | age_ST_33.65 & ~diff_custody_ST_2221943.16 & ~priors_count_ST_3.13 | diff_custody_ST_2221943.16 & ~diff_jail_ST_ & ~age_ST_33.65 | diff_custody_ST_2221943.16 & ~age_ST_33.65 & ~priors_count_ST_3.13 | ~diff_jail_ST_ & ~priors_count_ST_ & ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43 & ~priors_count_ST_3.13
+76	-0.0125647634267807	age_ST_34.85 | priors_count_ST_3.13 & ~diff_jail_ST_1492079.05 | diff_jail_ST_1066107.43 & diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05 | ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43 & ~diff_custody_ST_3761754.9 & ~diff_jail_ST_1492079.05
+77	0.009707077406346798	3_Caucasian & 7_3 | 2_Male & 3_Caucasian & ~7_1 | ~7_1 & ~7_2 & ~7_3
+78	0.04777945578098297	~7_4 & ~7_5 & ~7_6
+79	0.031168581917881966	7_6 | 9_Low & ~7_8 & ~7_10 | 9_Low & ~7_8 & ~8_M | ~7_8 & ~7_10 & ~8_M
+80	-0.034761156886816025	8_M & diff_custody_ST_ & ~9_Low | 8_M & ~9_Low & ~9_Medium | diff_custody_ST_ & ~9_Low & ~9_Medium | ~9_Low & ~9_Medium & ~age_ST_ | 7_10 & 8_M & ~9_Low & ~age_ST_ | diff_custody_ST_ & ~7_10 & ~9_Low & ~age_ST_
+81	0.05961327627301216	9_Medium & age_ST_ | age_ST_ & ~diff_jail_ST_ | diff_jail_ST_ & age_ST_33.65 & ~9_Medium | age_ST_33.65 & ~diff_custody_ST_ & ~diff_jail_ST_ | ~diff_custody_ST_ & ~diff_jail_ST_ & ~priors_count_ST_
+82	-0.03219982981681824	priors_count_ST_ & ~diff_custody_ST_2221943.16 | diff_custody_ST_2221943.16 & priors_count_ST_3.13 & ~diff_jail_ST_ | priors_count_ST_3.13 & ~age_ST_33.65 & ~diff_custody_ST_2221943.16 | ~age_ST_33.65 & ~diff_custody_ST_2221943.16 & ~diff_jail_ST_1066107.43
+83	0.0033884558361023664	diff_jail_ST_1066107.43 | diff_jail_ST_1492079.05 & ~priors_count_ST_3.13 & ~age_ST_34.85 | diff_jail_ST_1492079.05 & ~priors_count_ST_3.13 & ~diff_custody_ST_3761754.9 | ~priors_count_ST_3.13 & ~age_ST_34.85 & ~diff_custody_ST_3761754.9
+
+
+
