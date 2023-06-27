@@ -317,9 +317,7 @@ with torch.no_grad():
 
         in_classifier = np.concatenate(all_filters, axis=-1).transpose(0,2,1)
         out2 = in_classifier.reshape((in_classifier.shape[0], W.shape[1]))
-        print(out2[:, 0])
-        print(out2.shape)
-        ok
+
         if thrs['poly_act']:
             out2 = out2@w1.transpose()+b1
             out2 = alpha + beta * out2 + gamma * out2 ** 2

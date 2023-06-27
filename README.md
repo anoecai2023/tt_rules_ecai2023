@@ -1,6 +1,11 @@
 # Neural Network-Based Rule Models With Truth Tables
 
-This is the github for the submitted paper at ECAI 2023.
+This is the github for the submitted paper at ECAI 2023. The packages used to evaluate with a venv are under `./requirements.txt`
+file.
+
+```bash
+pip3 install -r requirements.txt
+```
 
 You will find there a python file for evaluating an example model on the following datasets:
 
